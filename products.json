@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": 1,
     "name": "R50i Original",
@@ -202,7 +202,7 @@
   {
     "id": 12,
     "name": "M10 TWS Bluetooth 5.1 Earphone",
-    "price": 199.99,
+    "price": 250.00,
     "description": "\nBrand Name\tEESOME\nColor\tblack\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tTrue Wireless\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tM10\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tWireless Charging Case\n",
     "image": "images/product-12-primary.webp",
     "images": {
@@ -215,8 +215,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 199.99,
     "stock": 10,
     "isNew": true
   },
