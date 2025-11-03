@@ -4,14 +4,14 @@
     "name": "R50i Original",
     "price": 850.00,
     "description": "Anker Soundcore R50i Black True Wireless Earbuds with 10mm Drivers, Big Bass, Bluetooth 5.3, 30H Playtime, IPX5 Water Resistant, AI Clear Calls, 2 Mics, 18 Months Warranty",
-    "image": "images/product-1-primary.webp",
+    "image": "images/product-1-primary.jpg",
     "images": {
-      "primary": "images/product-1-primary.webp",
+      "primary": "images/product-1-primary.jpg",
       "gallery": [
-        "images/product-1-gallery-0.webp",
-        "images/product-1-gallery-1.webp",
-        "images/product-1-gallery-2.webp",
-        "images/product-1-gallery-3.webp"
+        "images/product-1-gallery-0.jpg",
+        "images/product-1-gallery-1.jpg",
+        "images/product-1-gallery-2.jpg",
+        "images/product-1-gallery-3.jpg"
       ]
     },
     "category": "Airpods",
@@ -25,12 +25,12 @@
     "name": "R50i Semi Original",
     "price": 500.00,
     "description": "ROVSKI New A.n.k.e.r Soundcore R50i True Wireless Earbuds, 10mm Driver, AI-Enhanced Calls via 2 Built-In Microphone, 22 Presets EQS, 10H Playtime, Customize Controls, IPX5 Waterproof, ",
-    "image": "images/product-2-primary.webp",
+    "image": "images/product-2-primary.jpg",
     "images": {
-      "primary": "images/product-2-primary.webp",
+      "primary": "images/product-2-primary.jpg",
       "gallery": [
-        "images/product-2-gallery-0.webp",
-        "images/product-2-gallery-1.webp"
+        "images/product-2-gallery-0.jpg",
+        "images/product-2-gallery-1.jpg"
       ]
     },
     "category": "Airpods",
@@ -43,14 +43,14 @@
     "id": 3,
     "name": "START TWS01F ",
     "price": 550.00,
-    "description": "Quick Connect Technology â€“ Stable Bluetooth connection for smooth pairing with your smartphone or tablet.\nPure Bass Sound â€“ High-quality drivers deliver deep bass and clear audio for music and calls.\nSmart Touch Control â€“ Control music playback, calls, and voice assistants with a simple touch.\nLong Battery Life â€“ Up to 4 hours of continuous playback on a single charge; the charging case extends usage 3â€“4 times.\nCompact Charging Case â€“ 250mAh case capacity keeps your earbuds powered on the go.\nComfortable In-Ear Fit â€“ Lightweight ergonomic design for secure and comfortable wear all day.\nUniversal Compatibility â€“ Works with iOS, Android, and other Bluetooth-enabled devices.",
-    "image": "images/product-3-primary.webp",
+    "description": "Quick Connect Technology – Stable Bluetooth connection for smooth pairing with your smartphone or tablet.\nPure Bass Sound – High-quality drivers deliver deep bass and clear audio for music and calls.\nSmart Touch Control – Control music playback, calls, and voice assistants with a simple touch.\nLong Battery Life – Up to 4 hours of continuous playback on a single charge; the charging case extends usage 3–4 times.\nCompact Charging Case – 250mAh case capacity keeps your earbuds powered on the go.\nComfortable In-Ear Fit – Lightweight ergonomic design for secure and comfortable wear all day.\nUniversal Compatibility – Works with iOS, Android, and other Bluetooth-enabled devices.",
+    "image": "images/product-3-primary.jpg",
     "images": {
-      "primary": "images/product-3-primary.webp",
+      "primary": "images/product-3-primary.jpg",
       "gallery": [
-        "images/product-3-gallery-0.webp",
-        "images/product-3-gallery-1.webp",
-        "images/product-3-gallery-2.webp"
+        "images/product-3-gallery-0.jpg",
+        "images/product-3-gallery-1.jpg",
+        "images/product-3-gallery-2.jpg"
       ]
     },
     "category": "Airpods",
@@ -63,13 +63,13 @@
     "id": 4,
     "name": "START TWS02F",
     "price": 725.00,
-    "description": "Quick Connect Technology â€“ Stable Bluetooth connection for smooth pairing with your smartphone or tablet.\nPure Bass Sound â€“ High-quality drivers deliver deep bass and clear audio for music and calls.\nSmart Touch Control â€“ Control music playback, calls, and voice assistants with a simple touch.\nLong Battery Life â€“ Up to 4 hours of continuous playback on a single charge; the charging case extends usage 3â€“4 times.\nCompact Charging Case â€“ 250mAh case capacity keeps your earbuds powered on the go.\nComfortable In-Ear Fit â€“ Lightweight ergonomic design for secure and comfortable wear all day.\nUniversal Compatibility â€“ Works with iOS, Android, and other Bluetooth-enabled devices.",
-    "image": "images/product-4-primary.webp",
+    "description": "Quick Connect Technology – Stable Bluetooth connection for smooth pairing with your smartphone or tablet.\nPure Bass Sound – High-quality drivers deliver deep bass and clear audio for music and calls.\nSmart Touch Control – Control music playback, calls, and voice assistants with a simple touch.\nLong Battery Life – Up to 4 hours of continuous playback on a single charge; the charging case extends usage 3–4 times.\nCompact Charging Case – 250mAh case capacity keeps your earbuds powered on the go.\nComfortable In-Ear Fit – Lightweight ergonomic design for secure and comfortable wear all day.\nUniversal Compatibility – Works with iOS, Android, and other Bluetooth-enabled devices.",
+    "image": "images/product-4-primary.jpg",
     "images": {
-      "primary": "images/product-4-primary.webp",
+      "primary": "images/product-4-primary.jpg",
       "gallery": [
-        "images/product-4-gallery-0.webp",
-        "images/product-4-gallery-1.webp"
+        "images/product-4-gallery-0.jpg",
+        "images/product-4-gallery-1.jpg"
       ]
     },
     "category": "Airpods",
@@ -83,12 +83,12 @@
     "name": "START TWS03F",
     "price": 650.00,
     "description": "Charging Type\tLightning Port\nColour Name\twhite\nConnection Type\tBluetooth\nModel Number\tTWS03f\nBattery Size\t300 mAh\nDepartment\tUnisex\nEarplug Type\tEarbuds\nModel Name\tTWS03f",
-    "image": "images/product-5-primary.webp",
+    "image": "images/product-5-primary.jpg",
     "images": {
-      "primary": "images/product-5-primary.webp",
+      "primary": "images/product-5-primary.jpg",
       "gallery": [
-        "images/product-5-gallery-0.webp",
-        "images/product-5-gallery-1.webp"
+        "images/product-5-gallery-0.jpg",
+        "images/product-5-gallery-1.jpg"
       ]
     },
     "category": "Airpods",
@@ -102,13 +102,13 @@
     "name": "Oraimo Airpods OR6",
     "price": 299.97,
     "description": "Color: black\nBrand Name\tGeneric\nColor\tblack\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t10 Ohm\nNoise Control\tNone\nHeadphones Jack\tUSB\nModel Name\tEarbuds OR6\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
-    "image": "images/product-6-primary.webp",
+    "image": "images/product-6-primary.jpg",
     "images": {
-      "primary": "images/product-6-primary.webp",
+      "primary": "images/product-6-primary.jpg",
       "gallery": [
-        "images/product-6-gallery-0.webp",
-        "images/product-6-gallery-1.webp",
-        "images/product-6-gallery-2.webp"
+        "images/product-6-gallery-0.jpg",
+        "images/product-6-gallery-1.jpg",
+        "images/product-6-gallery-2.jpg"
       ]
     },
     "category": "Airpods",
@@ -121,14 +121,14 @@
     "id": 7,
     "name": " Air F9 Pro Plus",
     "price": 299.99,
-    "description": "\nBrand Name\tGeneric\nColor\tblue\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tØ¨Ù„ÙˆØªÙˆØ«\nModel Name\tAir F9 Pro Plus\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tCable, Charging Station",
-    "image": "images/product-7-primary.webp",
+    "description": "\nBrand Name\tGeneric\nColor\tblue\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tبلوتوث\nModel Name\tAir F9 Pro Plus\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tCable, Charging Station",
+    "image": "images/product-7-primary.jpg",
     "images": {
-      "primary": "images/product-7-primary.webp",
+      "primary": "images/product-7-primary.jpg",
       "gallery": [
-        "images/product-7-gallery-0.webp",
-        "images/product-7-gallery-1.webp",
-        "images/product-7-gallery-2.webp"
+        "images/product-7-gallery-0.jpg",
+        "images/product-7-gallery-1.jpg",
+        "images/product-7-gallery-2.jpg"
       ]
     },
     "category": "Airpods",
@@ -142,14 +142,14 @@
     "name": "Air Pods Air 3 Semi original",
     "price": 349.99,
     "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tTrue Wireless\nImpedance\t32 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nFrequency Response\t20 Hz\nSensitivity\t98 dB\nModel Name\tAir Puds 3\nConnectivity Technology\tBluetooth 5.0, Wireless",
-    "image": "images/product-9-primary.webp",
+    "image": "images/product-9-primary.jpg",
     "images": {
-      "primary": "images/product-9-primary.webp",
+      "primary": "images/product-9-primary.jpg",
       "gallery": [
-        "images/product-9-gallery-0.webp",
-        "images/product-9-gallery-1.webp",
-        "images/product-9-gallery-2.webp",
-        "images/product-9-gallery-3.webp"
+        "images/product-9-gallery-0.jpg",
+        "images/product-9-gallery-1.jpg",
+        "images/product-9-gallery-2.jpg",
+        "images/product-9-gallery-3.jpg"
       ]
     },
     "category": "Airpods",
@@ -163,14 +163,14 @@
     "name": "AirPods Pro 3 Wireless Semi Original",
     "price": 400.00,
     "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t140 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tAirpods Wireless Earbuds PRO 2nd ge\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
-    "image": "images/product-10-primary.webp",
+    "image": "images/product-10-primary.jpg",
     "images": {
-      "primary": "images/product-10-primary.webp",
+      "primary": "images/product-10-primary.jpg",
       "gallery": [
-        "images/product-10-gallery-0.webp",
-        "images/product-10-gallery-1.webp",
-        "images/product-10-gallery-2.webp",
-        "images/product-10-gallery-3.webp"
+        "images/product-10-gallery-0.jpg",
+        "images/product-10-gallery-1.jpg",
+        "images/product-10-gallery-2.jpg",
+        "images/product-10-gallery-3.jpg"
       ]
     },
     "category": "Airpods",
@@ -184,13 +184,13 @@
     "name": "Airpods pro 2 Semi Original",
     "price": 449.99,
     "description": "\nBrand Name\tGeneric\nColor\tBlack or White\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tEarbuds 2nd Pro\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth\nAge Range Description\tAdult",
-    "image": "images/product-11-primary.webp",
+    "image": "images/product-11-primary.jpg",
     "images": {
-      "primary": "images/product-11-primary.webp",
+      "primary": "images/product-11-primary.jpg",
       "gallery": [
-        "images/product-11-gallery-0.webp",
-        "images/product-11-gallery-1.webp",
-        "images/product-11-gallery-2.webp"
+        "images/product-11-gallery-0.jpg",
+        "images/product-11-gallery-1.jpg",
+        "images/product-11-gallery-2.jpg"
       ]
     },
     "category": "Airpods",
@@ -202,21 +202,21 @@
   {
     "id": 12,
     "name": "M10 TWS Bluetooth 5.1 Earphone",
-    "price": 250.00,
+    "price": 199.99,
     "description": "\nBrand Name\tEESOME\nColor\tblack\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tTrue Wireless\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tM10\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tWireless Charging Case\n",
-    "image": "images/product-12-primary.webp",
+    "image": "images/product-12-primary.jpg",
     "images": {
-      "primary": "images/product-12-primary.webp",
+      "primary": "images/product-12-primary.jpg",
       "gallery": [
-        "images/product-12-gallery-0.webp",
-        "images/product-12-gallery-1.webp",
-        "images/product-12-gallery-2.webp",
-        "images/product-12-gallery-3.webp"
+        "images/product-12-gallery-0.jpg",
+        "images/product-12-gallery-1.jpg",
+        "images/product-12-gallery-2.jpg",
+        "images/product-12-gallery-3.jpg"
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 199.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -225,12 +225,12 @@
     "name": "CELEBRAT T400 Airpods",
     "price": 650.00,
     "description": "Bluetooth 5.1 chip, faster and more stable data transmission, ultra-low latency\n\nSupports master/slave switching, Siri voice assistant can be activated by prolonged pressing of headphones left/right for 2 seconds\n\nWith 13 mm drive unit, supports dual channel function. Combined with the built-in power amplifier chip to create a striking stereo effect, low frequency thick and powerful, high frequency clear and bright.\n\nPrecise touch and convenient operation available\n\nAfter the first successful pairing, subsequent intelligent detection, it is only necessary to open the lid and connect it immediately.",
-    "image": "images/product-13-primary.webp",
+    "image": "images/product-13-primary.jpg",
     "images": {
-      "primary": "images/product-13-primary.webp",
+      "primary": "images/product-13-primary.jpg",
       "gallery": [
-        "images/product-13-gallery-1.webp",
-        "images/product-13-gallery-2.webp"
+        "images/product-13-gallery-1.jpg",
+        "images/product-13-gallery-2.jpg"
       ]
     },
     "category": "Airpods",
@@ -244,12 +244,12 @@
     "name": "Celebrat True Wireless Headset T500 Pro",
     "price": 749.99,
     "description": "Block out noise with advanced technology\nRich, dynamic sound for music, calls, and media\nHD mic clarity for smooth, hands-free conversations\nQuick charge & wireless charging supported\nLatest Bluetooth 5.3 for instant, stable pairing",
-    "image": "images/product-14-primary.webp",
+    "image": "images/product-14-primary.jpg",
     "images": {
-      "primary": "images/product-14-primary.webp",
+      "primary": "images/product-14-primary.jpg",
       "gallery": [
-        "images/product-14-gallery-0.webp",
-        "images/product-14-gallery-1.webp"
+        "images/product-14-gallery-0.jpg",
+        "images/product-14-gallery-1.jpg"
       ]
     },
     "category": "Airpods",
@@ -263,12 +263,12 @@
     "name": "Ai Pods 4 Semi Original",
     "price": 489.99,
     "description": "Color: White\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nModel Name\tMulti\nConnectivity Technology\tBluetooth, Wireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tCable, User Manual, Wireless Charging Case\nSpecific Uses For Product\tMusic, Phone Calling, Exercising, Commuting",
-    "image": "images/product-15-primary.webp",
+    "image": "images/product-15-primary.jpg",
     "images": {
-      "primary": "images/product-15-primary.webp",
+      "primary": "images/product-15-primary.jpg",
       "gallery": [
-        "images/product-15-gallery-0.webp",
-        "images/product-15-gallery-1.webp"
+        "images/product-15-gallery-0.jpg",
+        "images/product-15-gallery-1.jpg"
       ]
     },
     "category": "Airpods",
@@ -282,13 +282,13 @@
     "name": " P47 wireless headphones.",
     "price": 229.99,
     "description": "The headphones connect via Bluetooth 5.0+EDR and have a range of up to 10 meters. \nThey are foldable and have a built-in microphone for calls. \nThe headphones support multiple modes, including FM radio and TF card playback. \nThey can be used in both wired and wireless modes, with a 3.5mm audio port for a direct connection. \nThe headphones have a rechargeable battery that can last for several hours of use. ",
-    "image": "images/product-16-primary.webp",
+    "image": "images/product-16-primary.jpg",
     "images": {
-      "primary": "images/product-16-primary.webp",
+      "primary": "images/product-16-primary.jpg",
       "gallery": [
-        "images/product-16-gallery-0.webp",
-        "images/product-16-gallery-1.webp",
-        "images/product-16-gallery-2.webp"
+        "images/product-16-gallery-0.jpg",
+        "images/product-16-gallery-1.jpg",
+        "images/product-16-gallery-2.jpg"
       ]
     },
     "category": "headphones",
@@ -302,12 +302,12 @@
     "name": "P9 Wireless Bluetooth Headset",
     "price": 230.00,
     "description": "Brand Name\tYear\nColor\tBlack\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tOver Ear\nNoise Control\tActive Noise Cancellation (ANC)\nSensitivity\t105 dB\nHeadphones Jack\tNo Jack\nModel Name\tYear\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
-    "image": "images/product-17-primary.webp",
+    "image": "images/product-17-primary.jpg",
     "images": {
-      "primary": "images/product-17-primary.webp",
+      "primary": "images/product-17-primary.jpg",
       "gallery": [
-        "images/product-17-gallery-0.webp",
-        "images/product-17-gallery-1.webp"
+        "images/product-17-gallery-0.jpg",
+        "images/product-17-gallery-1.jpg"
       ]
     },
     "category": "headphones",
@@ -321,12 +321,12 @@
     "name": "sodo 1006 Bluetooth Headphone",
     "price": 459.99,
     "description": "\nBrand Name\tsodo\nColor\tgrey\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tOver Ear\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\t3.5 mm Jack\nModel Name\tsodo 1006 Bluetooth Headphone\nConnectivity Technology\tWired, Wireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tEar Cushions, Headband",
-    "image": "images/product-18-primary.webp",
+    "image": "images/product-18-primary.jpg",
     "images": {
-      "primary": "images/product-18-primary.webp",
+      "primary": "images/product-18-primary.jpg",
       "gallery": [
-        "images/product-18-gallery-0.webp",
-        "images/product-18-gallery-1.webp"
+        "images/product-18-gallery-0.jpg",
+        "images/product-18-gallery-1.jpg"
       ]
     },
     "category": "headphones",
@@ -340,12 +340,12 @@
     "name": "SODO SD-1004 Wireless",
     "price": 399.99,
     "description": "Color: Grey\nBrand Name\tGeneric\nColor\tGrey\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tOver Ear\nImpedance\t4 Ohm\nNoise Control\tPassive Sound Isolation\nHeadphones Jack\t3.5 mm Jack\nModel Name\tSD-1004\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
-    "image": "images/product-19-primary.webp",
+    "image": "images/product-19-primary.jpg",
     "images": {
-      "primary": "images/product-19-primary.webp",
+      "primary": "images/product-19-primary.jpg",
       "gallery": [
-        "images/product-19-gallery-0.webp",
-        "images/product-19-gallery-1.webp"
+        "images/product-19-gallery-0.jpg",
+        "images/product-19-gallery-1.jpg"
       ]
     },
     "category": "headphones",
@@ -359,12 +359,12 @@
     "name": "Oraimo Wireless Headphone, Rechargeable, SD Card Slot, Multi-Color, OR-52",
     "price": 369.99,
     "description": "Wireless Rechargeable  Headphone With Excellent quality and clear, loud sound\nSD CARD slot\nComfortable sponge\nUp to 8 hours of music playback\nWireless Headphone , White Color\nRechargeable With Type C  Cable\nBattery 200 mah\nSupport SD Card\nCharge Time  two hours\nEasy control\n",
-    "image": "images/product-20-primary.webp",
+    "image": "images/product-20-primary.jpg",
     "images": {
-      "primary": "images/product-20-primary.webp",
+      "primary": "images/product-20-primary.jpg",
       "gallery": [
-        "images/product-20-gallery-0.webp",
-        "images/product-20-gallery-1.webp"
+        "images/product-20-gallery-0.jpg",
+        "images/product-20-gallery-1.jpg"
       ]
     },
     "category": "headphones",
@@ -378,13 +378,13 @@
     "name": " Joyroom JR-120 earphones. ",
     "price": 299.99,
     "description": "Model: JR-120\nBrand: Joyroom\nStyle: Ear Hook\nStandby Time: 120 hours or longer\nTalking Time: Up to 3.5 hours",
-    "image": "images/product-21-primary.webp",
+    "image": "images/product-21-primary.jpg",
     "images": {
-      "primary": "images/product-21-primary.webp",
+      "primary": "images/product-21-primary.jpg",
       "gallery": [
-        "images/product-21-gallery-0.webp",
-        "images/product-21-gallery-1.webp",
-        "images/product-21-gallery-2.webp"
+        "images/product-21-gallery-0.jpg",
+        "images/product-21-gallery-1.jpg",
+        "images/product-21-gallery-2.jpg"
       ]
     },
     "category": "headphones",
@@ -398,11 +398,11 @@
     "name": "Earldom Music Wireless Headphones Model BH75",
     "price": 359.99,
     "description": "Connectivity: Bluetooth 5.0 \nBattery Life: Up to 10 hours of music playback and 6 hours of call time \nCharging Time: Approximately 1-2 hours for a full charge \nFeatures: Neckband design, magnetic earbuds, built-in microphone for hands-free calls, and Hi-Fi sound \n",
-    "image": "images/product-22-primary.webp",
+    "image": "images/product-22-primary.jpg",
     "images": {
-      "primary": "images/product-22-primary.webp",
+      "primary": "images/product-22-primary.jpg",
       "gallery": [
-        "images/product-22-gallery-0.webp"
+        "images/product-22-gallery-0.jpg"
       ]
     },
     "category": "headphones",
@@ -416,11 +416,11 @@
     "name": "BH87 Magnetic Bluetooth Earphones",
     "price": 359.99,
     "description": "\nBrand Name\tGeneric\nColor\tBlack\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t0.01 Ohm\nNoise Control\tPassive Sound Isolation\nHeadphones Jack\tNo Jack (Wireless with Micro USB)\nModel Name\tBH87\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
-    "image": "images/product-23-primary.webp",
+    "image": "images/product-23-primary.jpg",
     "images": {
-      "primary": "images/product-23-primary.webp",
+      "primary": "images/product-23-primary.jpg",
       "gallery": [
-        "images/product-23-gallery-0.webp"
+        "images/product-23-gallery-0.jpg"
       ]
     },
     "category": "headphones",
@@ -434,13 +434,13 @@
     "name": "Sound core",
     "price": 325.00,
     "description": "Color: Black\nBrand Name\tGeneric\nColor\tBlack\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t32 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tEarphones Life U60I\nConnectivity Technology\tBluetooth, Wireless\nWireless Communication Technology\tBluetooth",
-    "image": "images/product-24-primary.webp",
+    "image": "images/product-24-primary.jpg",
     "images": {
-      "primary": "images/product-24-primary.webp",
+      "primary": "images/product-24-primary.jpg",
       "gallery": [
-        "images/product-24-gallery-1.webp",
-        "images/product-24-gallery-2.webp",
-        "images/product-24-gallery-2.webp"
+        "images/product-24-gallery-1.jpg",
+        "images/product-24-gallery-2.jpg",
+        "images/product-24-gallery-2.jpg"
       ]
     },
     "category": "headphones",
@@ -454,9 +454,9 @@
     "name": "Sound core bluetooth headphones ",
     "price": 350.00,
     "description": "Color: Black\nBrand Name\tGeneric\nColor\tBlack\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t32 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tEarphones Life U60I\nConnectivity Technology\tBluetooth, Wireless\nWireless Communication Technology\tBluetooth",
-    "image": "images/product-25-primary.webp",
+    "image": "images/product-25-primary.jpg",
     "images": {
-      "primary": "images/product-25-primary.webp",
+      "primary": "images/product-25-primary.jpg",
       "gallery": []
     },
     "category": "headphones",
@@ -470,13 +470,13 @@
     "name": "Lenovo HE05X Waterproof Magnetic Bluetooth Wireless",
     "price": 345.00,
     "description": "\nBrand Name\tLenovo\nColor\tBlack\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tNone\nSensitivity\t92 dB\nHeadphones Jack\t3.5 mm Jack\nModel Name\tHE05X\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
-    "image": "images/product-26-primary.webp",
+    "image": "images/product-26-primary.jpg",
     "images": {
-      "primary": "images/product-26-primary.webp",
+      "primary": "images/product-26-primary.jpg",
       "gallery": [
-        "images/product-26-gallery-0.webp",
-        "images/product-26-gallery-1.webp",
-        "images/product-26-gallery-2.webp"
+        "images/product-26-gallery-0.jpg",
+        "images/product-26-gallery-1.jpg",
+        "images/product-26-gallery-2.jpg"
       ]
     },
     "category": "headphones",
