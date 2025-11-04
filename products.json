@@ -484,5 +484,25 @@
     "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
+  },
+  {
+    "id": 27,
+    "name": "sar",
+    "price": 9999.00,
+    "description": "this is sar hahabem",
+    "image": "images/product-27-primary.webp",
+    "images": {
+      "primary": "images/product-27-primary.webp",
+      "gallery": [
+        "images/product-27-gallery-0.webp",
+        "images/product-27-gallery-1.webp",
+        "images/product-27-gallery-2.webp"
+      ]
+    },
+    "category": "sar",
+    "discount": true,
+    "discountedPrice": 9899.99,
+    "stock": 1,
+    "isNew": true
   }
 ]
