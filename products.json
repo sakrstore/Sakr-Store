@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "R50i Original",
-    "price": 900,
+    "price": 900.00,
     "description": "Anker Soundcore R50i Black True Wireless Earbuds with 10mm Drivers, Big Bass, Bluetooth 5.3, 30H Playtime, IPX5 Water Resistant, AI Clear Calls, 2 Mics, 18 Months Warranty",
     "image": "images/product-1-primary.webp",
     "images": {
@@ -16,14 +16,14 @@
     },
     "category": "Airpods",
     "discount": true,
-    "discountedPrice": 850,
+    "discountedPrice": 850.00,
     "stock": 10,
     "isNew": true
   },
   {
     "id": 2,
     "name": "R50i Semi Original",
-    "price": 600,
+    "price": 600.00,
     "description": "ROVSKI New A.n.k.e.r Soundcore R50i True Wireless Earbuds, 10mm Driver, AI-Enhanced Calls via 2 Built-In Microphone, 22 Presets EQS, 10H Playtime, Customize Controls, IPX5 Waterproof, ",
     "image": "images/product-2-primary.webp",
     "images": {
@@ -42,7 +42,7 @@
   {
     "id": 3,
     "name": "START TWS01F ",
-    "price": 600,
+    "price": 600.00,
     "description": "Quick Connect Technology – Stable Bluetooth connection for smooth pairing with your smartphone or tablet.\nPure Bass Sound – High-quality drivers deliver deep bass and clear audio for music and calls.\nSmart Touch Control – Control music playback, calls, and voice assistants with a simple touch.\nLong Battery Life – Up to 4 hours of continuous playback on a single charge; the charging case extends usage 3–4 times.\nCompact Charging Case – 250mAh case capacity keeps your earbuds powered on the go.\nComfortable In-Ear Fit – Lightweight ergonomic design for secure and comfortable wear all day.\nUniversal Compatibility – Works with iOS, Android, and other Bluetooth-enabled devices.",
     "image": "images/product-3-primary.webp",
     "images": {
@@ -55,14 +55,14 @@
     },
     "category": "Airpods",
     "discount": true,
-    "discountedPrice": 550,
+    "discountedPrice": 549.99,
     "stock": 10,
     "isNew": false
   },
   {
     "id": 4,
     "name": "START TWS02F",
-    "price": 725,
+    "price": 725.00,
     "description": "Quick Connect Technology – Stable Bluetooth connection for smooth pairing with your smartphone or tablet.\nPure Bass Sound – High-quality drivers deliver deep bass and clear audio for music and calls.\nSmart Touch Control – Control music playback, calls, and voice assistants with a simple touch.\nLong Battery Life – Up to 4 hours of continuous playback on a single charge; the charging case extends usage 3–4 times.\nCompact Charging Case – 250mAh case capacity keeps your earbuds powered on the go.\nComfortable In-Ear Fit – Lightweight ergonomic design for secure and comfortable wear all day.\nUniversal Compatibility – Works with iOS, Android, and other Bluetooth-enabled devices.",
     "image": "images/product-4-primary.webp",
     "images": {
@@ -74,14 +74,14 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
   {
     "id": 5,
     "name": "START TWS03F",
-    "price": 650,
+    "price": 650.00,
     "description": "Charging Type\tLightning Port\nColour Name\twhite\nConnection Type\tBluetooth\nModel Number\tTWS03f\nBattery Size\t300 mAh\nDepartment\tUnisex\nEarplug Type\tEarbuds\nModel Name\tTWS03f",
     "image": "images/product-5-primary.webp",
     "images": {
@@ -93,7 +93,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -113,7 +113,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -133,7 +133,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -154,14 +154,14 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
   {
     "id": 10,
     "name": "AirPods Pro 3 Wireless Semi Original",
-    "price": 400,
+    "price": 400.00,
     "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t140 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tAirpods Wireless Earbuds PRO 2nd ge\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-10-primary.webp",
     "images": {
@@ -175,7 +175,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -195,14 +195,14 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
   {
     "id": 12,
     "name": "M10 TWS Bluetooth 5.1 Earphone",
-    "price": 250,
+    "price": 250.00,
     "description": "\nBrand Name\tEESOME\nColor\tblack\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tTrue Wireless\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tM10\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tWireless Charging Case\n",
     "image": "images/product-12-primary.webp",
     "images": {
@@ -216,14 +216,14 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
   {
     "id": 13,
     "name": "CELEBRAT T400 Airpods",
-    "price": 650,
+    "price": 650.00,
     "description": "Bluetooth 5.1 chip, faster and more stable data transmission, ultra-low latency\n\nSupports master/slave switching, Siri voice assistant can be activated by prolonged pressing of headphones left/right for 2 seconds\n\nWith 13 mm drive unit, supports dual channel function. Combined with the built-in power amplifier chip to create a striking stereo effect, low frequency thick and powerful, high frequency clear and bright.\n\nPrecise touch and convenient operation available\n\nAfter the first successful pairing, subsequent intelligent detection, it is only necessary to open the lid and connect it immediately.",
     "image": "images/product-13-primary.webp",
     "images": {
@@ -235,7 +235,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -254,7 +254,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -273,7 +273,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -293,14 +293,14 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
   {
     "id": 17,
     "name": "P9 Wireless Bluetooth Headset",
-    "price": 230,
+    "price": 230.00,
     "description": "Brand Name\tYear\nColor\tBlack\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tOver Ear\nNoise Control\tActive Noise Cancellation (ANC)\nSensitivity\t105 dB\nHeadphones Jack\tNo Jack\nModel Name\tYear\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-17-primary.webp",
     "images": {
@@ -312,7 +312,7 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -331,7 +331,7 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -350,7 +350,7 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -369,7 +369,7 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -389,7 +389,7 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -407,7 +407,7 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -425,14 +425,14 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
   {
     "id": 24,
     "name": "Sound core",
-    "price": 325,
+    "price": 325.00,
     "description": "Color: Black\nBrand Name\tGeneric\nColor\tBlack\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t32 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tEarphones Life U60I\nConnectivity Technology\tBluetooth, Wireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-24-primary.webp",
     "images": {
@@ -445,14 +445,14 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
   {
     "id": 25,
     "name": "Sound core bluetooth headphones ",
-    "price": 350,
+    "price": 350.00,
     "description": "Color: Black\nBrand Name\tGeneric\nColor\tBlack\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t32 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tEarphones Life U60I\nConnectivity Technology\tBluetooth, Wireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-25-primary.webp",
     "images": {
@@ -461,14 +461,14 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
   {
     "id": 26,
     "name": "Lenovo HE05X Waterproof Magnetic Bluetooth Wireless",
-    "price": 340,
+    "price": 340.00,
     "description": "\nBrand Name\tLenovo\nColor\tBlack\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tNone\nSensitivity\t92 dB\nHeadphones Jack\t3.5 mm Jack\nModel Name\tHE05X\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-26-primary.webp",
     "images": {
@@ -481,7 +481,7 @@
     },
     "category": "headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   }
