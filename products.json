@@ -42,7 +42,7 @@
   {
     "id": 3,
     "name": "START TWS01F ",
-    "price": 550.00,
+    "price": 600.00,
     "description": "Quick Connect Technology – Stable Bluetooth connection for smooth pairing with your smartphone or tablet.\nPure Bass Sound – High-quality drivers deliver deep bass and clear audio for music and calls.\nSmart Touch Control – Control music playback, calls, and voice assistants with a simple touch.\nLong Battery Life – Up to 4 hours of continuous playback on a single charge; the charging case extends usage 3–4 times.\nCompact Charging Case – 250mAh case capacity keeps your earbuds powered on the go.\nComfortable In-Ear Fit – Lightweight ergonomic design for secure and comfortable wear all day.\nUniversal Compatibility – Works with iOS, Android, and other Bluetooth-enabled devices.",
     "image": "images/product-3-primary.webp",
     "images": {
@@ -54,8 +54,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 550.00,
     "stock": 10,
     "isNew": true
   },
