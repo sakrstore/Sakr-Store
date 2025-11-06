@@ -2,7 +2,7 @@
 
 // --- Configuration ---
 const config = {
-  whatsappNumber: '201024496178',
+  whatsappNumber: '201108563748',
 };
 
 // --- Image Helper Functions ---
@@ -1457,3 +1457,4 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initial sync
   updateSort(currentSortOrder);
 });
+
