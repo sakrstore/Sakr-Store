@@ -484,5 +484,25 @@
     "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
+  },
+  {
+    "id": 27,
+    "name": "Air pods A9 Pro Touch Screen ",
+    "price": 580.00,
+    "description": "\nBrand Name\tANC/ENC\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t42 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nFrequency Response\t20.2 Hz\nSensitivity\t88 dB\nHeadphones Jack\t3.5 mm Jack\nModel Name\tA9 Pro",
+    "image": "images/product-27-primary.webp",
+    "images": {
+      "primary": "images/product-27-primary.webp",
+      "gallery": [
+        "images/product-27-gallery-0.webp",
+        "images/product-27-gallery-1.webp",
+        "images/product-27-gallery-2.webp"
+      ]
+    },
+    "category": "Airpods",
+    "discount": false,
+    "discountedPrice": 580.00,
+    "stock": 10,
+    "isNew": true
   }
 ]
