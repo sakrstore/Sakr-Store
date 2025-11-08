@@ -924,21 +924,5 @@
     "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
-  },
-  {
-    "id": 53,
-    "name": "Everest 45W Super Fast Adapter",
-    "price": 289.99,
-    "description": "It is a QC3.0 + PD charger, meaning it supports Quick Charge 3.0 and Power Delivery fast-charging standards. \nThe charger has a maximum power output of 45W, which is suitable for charging various devices, including laptops, tablets, and smartphones. \nIt is designed to provide fast and efficient charging, with some chargers of this type claiming to charge devices up to three times faster than a standard 5W charger. \nThe charger is a wall adapter and appears to have a single USB port. \n",
-    "image": "images/product-53-primary.webp",
-    "images": {
-      "primary": "images/product-53-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers_Cables_Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 3,
-    "isNew": true
   }
 ]
