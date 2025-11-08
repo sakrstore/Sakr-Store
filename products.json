@@ -1148,5 +1148,69 @@
     "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
+  },
+  {
+    "id": 67,
+    "name": " Hi-Class Super Fast Charging Data Cable.",
+    "price": 99.99,
+    "description": "This is a USB-C to USB-C cable that supports super-fast charging with a copper core. \nIt has a power output of 60W. \nThe cable is designed for both charging and data transfer. \nThe product is available from various online retailers and stores",
+    "image": "images/product-67-primary.webp",
+    "images": {
+      "primary": "images/product-67-primary.webp",
+      "gallery": []
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 68,
+    "name": " Hi-Class VOOC Super Fast Charger",
+    "price": 219.98,
+    "description": "OOC (Voltage Open Loop Multi-step Constant-Current Charging) is a fast-charging technology developed by OPPO. \nIt is compatible with various smartphones, including OPPO, Realme, and OnePlus. \nThe charger has a 30W output and supports fast-charging protocols like Super VOOC, SuperDart, Warp Charge, and Dash Charge. ",
+    "image": "images/product-68-primary.webp",
+    "images": {
+      "primary": "images/product-68-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 69,
+    "name": " Hi-Class brand wall charger with a Type-C cable. ",
+    "price": 179.99,
+    "description": "Brand: Hi-Class\nProduct Type: Wall Charger with Type-C cable\nFeatures: The packaging indicates \"Multiple Protection\" and \"3.1A\" output, suggesting it is a fast charger.\nAvailability: Similar Hi-Class products are available from various online retailers",
+    "image": "images/product-69-primary.webp",
+    "images": {
+      "primary": "images/product-69-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 70,
+    "name": "Hi-Class Dual USB Charger.",
+    "price": 119.99,
+    "description": "It is a wall charger with two USB ports.\nThe charger has an output of 2.1A.\nThe package includes a 1000mm (1-meter) Type-C charging cable.\nThe model number is Hi-201.",
+    "image": "images/product-70-primary.webp",
+    "images": {
+      "primary": "images/product-70-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
   }
 ]
