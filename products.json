@@ -759,7 +759,7 @@
       "primary": "images/product-42-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -775,7 +775,7 @@
       "primary": "images/product-43-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Cables",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -791,7 +791,7 @@
       "primary": "images/product-44-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -807,7 +807,7 @@
       "primary": "images/product-45-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Chargers",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 2,
@@ -823,7 +823,7 @@
       "primary": "images/product-46-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -839,7 +839,7 @@
       "primary": "images/product-47-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Chargers",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
@@ -855,7 +855,7 @@
       "primary": "images/product-48-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -871,7 +871,7 @@
       "primary": "images/product-49-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -887,7 +887,7 @@
       "primary": "images/product-50-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -903,7 +903,7 @@
       "primary": "images/product-51-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 2,
@@ -919,7 +919,7 @@
       "primary": "images/product-52-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
@@ -935,7 +935,7 @@
       "primary": "images/product-53-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 2,
@@ -951,7 +951,7 @@
       "primary": "images/product-54-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Chargers",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
@@ -967,7 +967,7 @@
       "primary": "images/product-55-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Chargers",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
@@ -983,7 +983,7 @@
       "primary": "images/product-56-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Chargers",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 2,
@@ -999,7 +999,7 @@
       "primary": "images/product-57-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Chargers",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 1,
@@ -1015,7 +1015,7 @@
       "primary": "images/product-58-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
@@ -1031,7 +1031,7 @@
       "primary": "images/product-59-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Chargers",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
@@ -1047,7 +1047,7 @@
       "primary": "images/product-60-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Chargers",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
@@ -1063,7 +1063,7 @@
       "primary": "images/product-61-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Chargers",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
@@ -1079,10 +1079,74 @@
       "primary": "images/product-62-primary.webp",
       "gallery": []
     },
-    "category": "Chargers_Cables_Adapter",
+    "category": "Chargers",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 63,
+    "name": "V-600 Dual USB Charger with a micro USB cable. ",
+    "price": 159.99,
+    "description": "Product Name: Everest EV-600 Dual USB Charger\nFeatures: Dotted design, dual USB ports, includes a micro-USB cable.\nFunctionality: Wall charger for charging two devices simultaneously.",
+    "image": "images/product-63-primary.webp",
+    "images": {
+      "primary": "images/product-63-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "name": "STEEL 65W fast charger adapter (Copy)",
+    "price": 199.99,
+    "description": "Power: It has a maximum output of 65W.\nTechnology: It utilizes GaN technology, which allows for a smaller, more efficient charger. \nCompatibility: It is compatible with various devices, including laptops, smartphones, and tablets from brands like Apple, Samsung, and others. ",
+    "image": "images/product-46-primary.webp",
+    "images": {
+      "primary": "images/product-46-primary.webp",
+      "gallery": []
+    },
+    "category": "Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true,
+    "id": 64
+  },
+  {
+    "name": " Everest brand Adapter with a power output of 45W.  (Copy)",
+    "price": 299.99,
+    "description": "It is an Everest brand charger with a power output of 45W. \nThe charger supports QC3.0 and PD (Power Delivery) technologies. \nIt is a wall charger with a European-style plug. \nThe charger is designed for fast and efficient charging of various devices, including smartphones, tablets, and laptops. ",
+    "image": "images/product-53-primary.webp",
+    "images": {
+      "primary": "images/product-53-primary.webp",
+      "gallery": []
+    },
+    "category": "Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 2,
+    "isNew": true,
+    "id": 65
+  },
+  {
+    "id": 66,
+    "name": "Hi-CLASS Super Fast Charging Data Cable",
+    "price": 119.99,
+    "description": "The cable has a copper core and supports up to 60W output.\nThe model number appears to be \"Hi-10\" and \"TC-IPX\".\nIt is a charging and data transfer cable.\nThe cable is available in both a white and a black braided version.",
+    "image": "images/product-66-primary.webp",
+    "images": {
+      "primary": "images/product-66-primary.webp",
+      "gallery": []
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
     "isNew": true
   }
 ]
