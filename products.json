@@ -716,5 +716,37 @@
     "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
+  },
+  {
+    "id": 40,
+    "name": "Microdigit 16GB Memory Card",
+    "price": 179.99,
+    "description": "This microSD card is designed to be reliable, making it ideal for filming in HD and shooting high-resolution photos on your Android™ smartphone. This card is tested to be durable, so you can take it anywhere with the confidence that your photos, videos and other data will be protected. Compact and easy to use As the smallest SD flash memory card, the microSDHC/microSDXC Class 10 uhs-i is a standard salable storage option that is suitable for use in a wide range of tablet computers, smartphones, and cameras. It can also be used in conjunction with another SD flash memory card adapter to match the standard SDHC/SDXC host equipment. Shockproof, anti-x ray, high and low temperature, can safely pass the airport X-ray machine, widely adapt to various working environment. Keep your files protected in harsh environments.This microSD card is designed to be reliable, making it ideal for filming in HD and shooting high-resolution photos on your Android™ ",
+    "image": "images/product-40-primary.webp",
+    "images": {
+      "primary": "images/product-40-primary.webp",
+      "gallery": []
+    },
+    "category": " Card Reader_OTG_Flash",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 41,
+    "name": "Microdigit 32GB Memory Card",
+    "price": 229.99,
+    "description": "This microSD card is designed to be reliable, making it ideal for filming in HD and shooting high-resolution photos on your Android™ smartphone. This card is tested to be durable, so you can take it anywhere with the confidence that your photos, videos and other data will be protected. \nCompact and easy to use ",
+    "image": "images/product-41-primary.webp",
+    "images": {
+      "primary": "images/product-41-primary.webp",
+      "gallery": []
+    },
+    "category": " Card Reader_OTG_Flash",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
   }
 ]
