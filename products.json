@@ -924,5 +924,165 @@
     "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
+  },
+  {
+    "id": 53,
+    "name": " Everest brand Adapter with a power output of 45W. ",
+    "price": 299.99,
+    "description": "It is an Everest brand charger with a power output of 45W. \nThe charger supports QC3.0 and PD (Power Delivery) technologies. \nIt is a wall charger with a European-style plug. \nThe charger is designed for fast and efficient charging of various devices, including smartphones, tablets, and laptops. ",
+    "image": "images/product-53-primary.webp",
+    "images": {
+      "primary": "images/product-53-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers_Cables_Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 2,
+    "isNew": true
+  },
+  {
+    "id": 54,
+    "name": "Everest CH-17 PD Charger.",
+    "price": 229.99,
+    "description": "The product is a \"SUPER FAST\" PD (Power Delivery) charger.\nIt has a power output of 25W.\nThe charger is designed to be a wall adapter.\nIt is labeled with \"QUALITY PRODUCT\".",
+    "image": "images/product-54-primary.webp",
+    "images": {
+      "primary": "images/product-54-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers_Cables_Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 55,
+    "name": "Everest EV-072 Super Fast Charger with a 35W power adapter",
+    "price": 269.99,
+    "description": "The product shown is an Everest Super Fast Charger, Model EV-072. It is a 35W power adapter with Qualcomm Quick Charge 3.0 technology. \nProduct: Everest Super Fast Charger\nModel: EV-072\nFeatures: Super Fast Charger, Qualcomm Quick Charge 3.0, 35W Power Adapter\nType: Wall charger\nCompatibility: Multi-device compatible (based on similar products)",
+    "image": "images/product-55-primary.webp",
+    "images": {
+      "primary": "images/product-55-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers_Cables_Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 56,
+    "name": "Everest Super Fast Charger",
+    "price": 199.99,
+    "description": "Brand: Everest\nModel: EV-071\nType: Wall Charger\nFeatures: Super Fast Charger, 25W, Adaptive Fast Charging\nPotential availability: The charger and other Everest products are available from various online retailers.",
+    "image": "images/product-56-primary.webp",
+    "images": {
+      "primary": "images/product-56-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers_Cables_Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 2,
+    "isNew": true
+  },
+  {
+    "id": 57,
+    "name": "Everest SuperVOOC fast charger",
+    "price": 239.99,
+    "description": "It is a wall charger with a European plug. \nThe charger supports SuperVOOC, Fast-Charge, and Turbo-Charge technologies for fast charging. \nIt is designed for use with mobile phones and tablets. \nThe charger has a built-in intelligent control chip that protects against overvoltage, overcurrent, and overheating. \n",
+    "image": "images/product-57-primary.webp",
+    "images": {
+      "primary": "images/product-57-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers_Cables_Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 1,
+    "isNew": true
+  },
+  {
+    "id": 58,
+    "name": "Everest QC3.0 fast Adapter",
+    "price": 199.99,
+    "description": "Brand: Everest\nModel: EV-074\nFeatures: QC3.0 Fast Adapter with a USB port and a European (EU) plug.\nType: Wall charge",
+    "image": "images/product-58-primary.webp",
+    "images": {
+      "primary": "images/product-58-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers_Cables_Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 59,
+    "name": "Samsung 25W PD Adapter with a USB-C to USB-C cable",
+    "price": 219.99,
+    "description": "The charger provides Super Fast Charging with USB-C PD 3.0 PPS at up to a maximum of 25W for compatible devices. \nIt is available in black and white. \nThe adapter uses Power Delivery (PD) to provide an efficient charge and can charge any PD device up to 25W. \nThe charger is designed to be safe from overcurrent, short circuits, and high temperatures. ",
+    "image": "images/product-59-primary.webp",
+    "images": {
+      "primary": "images/product-59-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers_Cables_Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 60,
+    "name": " EV-500. It is a super charger",
+    "price": 299.99,
+    "description": "The charger comes with a 1-meter cable.\nThe product is a wall charger compatible with mobile phones and tablets.\nThe charger has a USB-A port",
+    "image": "images/product-60-primary.webp",
+    "images": {
+      "primary": "images/product-60-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers_Cables_Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 61,
+    "name": "Everest High-Speed Charger (model EV-400).",
+    "price": 249.99,
+    "description": "It is a QC3.0 Super Charger with a Type-C cable.\nThe cable length is 1000mm.\nThe charger is capable of 100% Super VOOC fast charging.\nIt features advanced protection for safe charging.",
+    "image": "images/product-61-primary.webp",
+    "images": {
+      "primary": "images/product-61-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers_Cables_Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 62,
+    "name": "EV-300 Super VOOC Charger. ",
+    "price": 239.99,
+    "description": "t is a wall charger with a Type-C port.\nThe package mentions مwhich translates to \"High-quality product\" in Arabic.\nIt supports fast charging technologies like Power Delivery (PD) and Quick Charge (QC).\nThe charger has dual ports, allowing you to charge two devices at once.\nIt is a compact and portable charger, making it suitable for travel.",
+    "image": "images/product-62-primary.webp",
+    "images": {
+      "primary": "images/product-62-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers_Cables_Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
   }
 ]
