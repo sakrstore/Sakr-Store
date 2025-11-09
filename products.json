@@ -1461,5 +1461,97 @@
     "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
+  },
+  {
+    "id": 85,
+    "name": "MJ-06 magnetic fill light. It is a mini RGB LED light",
+    "price": 379.99,
+    "description": "It features RGB lighting and adjustable brightness. \nThe light has a magnetic mounting system and can also be attached with a clip. \nIt is rechargeable and has a built-in battery. \nThe light is suitable for content creation, such as video shooting and vlogging. ",
+    "image": "images/product-85-primary.webp",
+    "images": {
+      "primary": "images/product-85-primary.webp",
+      "gallery": [
+        "images/product-85-gallery-0.webp",
+        "images/product-85-gallery-1.webp",
+        "images/product-85-gallery-2.webp"
+      ]
+    },
+    "category": "Diverse",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 86,
+    "name": "K03 Clip Fill Light, a portable LED light",
+    "price": 299.99,
+    "description": "The K03 Clip Fill Light is a clip-on light for mobile phones that features adjustable brightness and dimming control. \nIt is designed for use in various scenarios, including selfies, video calls, live streaming, and makeup application. \nThe product is available for purchase in Egypt from various retailers, with prices starting from approximately EGP 380. \nThe light has a CCT (Correlated Color Temperature) feature, which allows for adjusting the color temperature between white and warm light. \n",
+    "image": "images/product-86-primary.webp",
+    "images": {
+      "primary": "images/product-86-primary.webp",
+      "gallery": [
+        "images/product-86-gallery-0.webp"
+      ]
+    },
+    "category": "Diverse",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 87,
+    "name": " K02 heart-shaped mobile phone camera fill light",
+    "price": 299.99,
+    "description": "Design: Heart-shaped with a clip-on feature for easy attachment to a mobile phone.\nFeatures: It has adjustable brightness and three light modes. \nPower: It is rechargeable for convenience on the go. \nUse: It provides additional illumination to reduce shadows and enhance the clarity of photos and videos. ",
+    "image": "images/product-87-primary.webp",
+    "images": {
+      "primary": "images/product-87-primary.webp",
+      "gallery": [
+        "images/product-87-gallery-0.webp",
+        "images/product-87-gallery-1.webp"
+      ]
+    },
+    "category": "Diverse",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 88,
+    "name": "K01 Mobile Phone Camera Fill Light.",
+    "price": 299.99,
+    "description": "It has 3 adjustable brightness levels.\nIt features a long-lasting rechargeable battery.\nIt is suitable for mobile, camera, and high-quality video shooting.",
+    "image": "images/product-88-primary.webp",
+    "images": {
+      "primary": "images/product-88-primary.webp",
+      "gallery": []
+    },
+    "category": "Diverse",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 89,
+    "name": " AY-49 Video Making Kit. It is a vlogging kit designed for content creators to use with their smartphones",
+    "price": 299.99,
+    "description": "The kit typically includes a microphone, an LED light, a mini tripod, and a phone holder. \nIt is compatible with most smartphones and is suitable for various uses like vlogging, live streaming, and photography. \nThe LED light has adjustable brightness, and the microphone is designed for clear audio capture. \nThe tripod is versatile and can be used as a handheld grip or a stand. \nThe kit is available for purchase from various online retailers. ",
+    "image": "images/product-89-primary.webp",
+    "images": {
+      "primary": "images/product-89-primary.webp",
+      "gallery": [
+        "images/product-89-gallery-0.webp",
+        "images/product-89-gallery-1.webp"
+      ]
+    },
+    "category": "Diverse",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
   }
 ]
