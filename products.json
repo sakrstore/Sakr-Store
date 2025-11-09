@@ -1212,5 +1212,120 @@
     "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
+  },
+  {
+    "id": 71,
+    "name": "Blue Spectrum F-7 Stereo Earphone. ",
+    "price": 54.99,
+    "description": "Model: F-7\nType: Wired Stereo Earphone\nFeatures: In-ear design, built-in microphone, surround music, and a 3.5mm jack for universal compatibility with most devices.\nConnectivity: Wired.",
+    "image": "images/product-71-primary.webp",
+    "images": {
+      "primary": "images/product-71-primary.webp",
+      "gallery": []
+    },
+    "category": "Earphone",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 72,
+    "name": " Blue Spectrum F-31 earphones",
+    "price": 54.99,
+    "description": "Product Name: Blue Spectrum EARPHONE F-31\nFeatures: Includes a 3.5mm audio jack and a microphone.\nColor: White\nType: Wired earphones",
+    "image": "images/product-72-primary.webp",
+    "images": {
+      "primary": "images/product-72-primary.webp",
+      "gallery": []
+    },
+    "category": "Earphone",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 2,
+    "isNew": true
+  },
+  {
+    "id": 73,
+    "name": "Blue Spectrum R-9 Earphone. ",
+    "price": 54.99,
+    "description": "It is a wired earphone with a 3.5mm AUX connector.\nIt features a built-in microphone and in-line controls.\nThe earphones have a 1.2m flexible cable.\nIt is designed for use with mobile phones and computers.",
+    "image": "images/product-73-primary.webp",
+    "images": {
+      "primary": "images/product-73-primary.webp",
+      "gallery": []
+    },
+    "category": "Earphone",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 74,
+    "name": "Blue Spectrum BS-03 Stereo Universal Earphone.",
+    "price": 69.99,
+    "description": "It is a wired earphone with a 3.5mm audio jack. \nIt features a built-in microphone and in-line controls for managing music and calls. \nThe earphones have an ergonomic in-ear design with a 10mm headphone diameter. \nThe cord length is 135cm. ",
+    "image": "images/product-74-primary.webp",
+    "images": {
+      "primary": "images/product-74-primary.webp",
+      "gallery": [
+        "images/product-74-gallery-0.webp",
+        "images/product-74-gallery-1.webp"
+      ]
+    },
+    "category": "Earphone",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 75,
+    "name": " Blue Spectrum R-3 Stereo in-ear headphones",
+    "price": 69.99,
+    "description": "Feature \tDetail\nBrand\tBlue Spectrum\nModel\tR-3\nType\tWired, In-ear headphones\nConnectivity\t3.5mm AUX jack (compatible with most phones)\nSound\tStereo sound, extra bass feature\nMicrophone\tYes, built-in for calls\nControls\tIn-line control button for music (pause/play) and calling (answer/end)\nFrequency Response\t20Hz-20KHz\nCable Length\tApproximately 1.35m to 1.4m",
+    "image": "images/product-75-primary.webp",
+    "images": {
+      "primary": "images/product-75-primary.webp",
+      "gallery": []
+    },
+    "category": "Earphone",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 76,
+    "name": " Blue Spectrum earphones, specifically the F-2 model",
+    "price": 79.98,
+    "description": "Brand: Blue Spectrum\nModel: F-2\nFeatures: The packaging highlights \"Super Bass\" and \"Premium Quality Handfree\". \nConnectivity: The earphones are wired and use a 3.5mm audio jack, making them compatible with various devices. ",
+    "image": "images/product-76-primary.webp",
+    "images": {
+      "primary": "images/product-76-primary.webp",
+      "gallery": []
+    },
+    "category": "Earphone",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
+  },
+  {
+    "id": 77,
+    "name": "Blue Spectrum M-16 Stereo Earphone",
+    "price": 79.99,
+    "description": "It is a wired, in-ear earphone with a built-in microphone for hands-free calling. \nThe earphones are compatible with devices that have a 3.5mm audio jack. \nIt has a speaker diameter of 10 mm and a frequency range of 20Hz-20kHz. \nThe wire length is 135 cm. ",
+    "image": "images/product-77-primary.webp",
+    "images": {
+      "primary": "images/product-77-primary.webp",
+      "gallery": []
+    },
+    "category": "Earphone",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
   }
 ]
