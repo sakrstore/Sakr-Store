@@ -1424,5 +1424,42 @@
     "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
+  },
+  {
+    "id": 83,
+    "name": "JSYES M70 Max Ultra 2 smartwatch.",
+    "price": 949.99,
+    "description": "It is a smartwatch that supports calls, Chat GPT, and NFC. \nIt comes with seven interchangeable straps. \nThe watch has a large, clear touchscreen display. \nIt includes advanced health and fitness tracking features like heart rate monitoring, blood pressure, and sleep tracking. \nThe smartwatch is designed to be compatible with both iPhone and Android devices. ",
+    "image": "images/product-83-primary.webp",
+    "images": {
+      "primary": "images/product-83-primary.webp",
+      "gallery": [
+        "images/product-83-gallery-0.webp",
+        "images/product-83-gallery-1.webp"
+      ]
+    },
+    "category": "Smart Watch",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 84,
+    "name": "W&O Little Star X10 Ultra 3 smartwatch.",
+    "price": 999.99,
+    "description": "It features a curved screen and wireless charging. \nThe watch is compatible with both Android and iOS devices. \nIt includes health tracking features such as heart rate monitoring, sleep tracking, and step counting. \nThe watch has a built-in voice assistant and supports NFC for payments. ",
+    "image": "images/product-84-primary.webp",
+    "images": {
+      "primary": "images/product-84-primary.webp",
+      "gallery": [
+        "images/product-84-gallery-0.webp"
+      ]
+    },
+    "category": "Smart Watch",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
   }
 ]
