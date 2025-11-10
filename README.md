@@ -2,7 +2,7 @@
 
 A modern, high-performance e-commerce platform for electronics and accessories with comprehensive multilingual support and advanced optimization features.
 
-**Live Demo:** [https://aboayman-oss.github.io/Sakr-Store/](https://aboayman-oss.github.io/Sakr-Store/)
+**Live Demo:** [Sakr Store](https://sakrstore.github.io/Sakr-Store/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -483,3 +483,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ⭐ Star this repository if you find it helpful!
 
 </div>
+
