@@ -3,7 +3,7 @@
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sakr Store - Electronics & Accessories</title>
+  <title>Sakr Store</title>
   
   <!-- SEO Meta Tags -->
   <meta name="description" content="Shop the latest electronics and accessories at Sakr Store. Find smartphones, tablets, headphones, chargers, cables, and premium electronic gadgets. Fast shipping and excellent customer service.">
@@ -35,7 +35,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Tajawal:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header>
@@ -65,6 +66,7 @@
       </nav>
     </header>
     <div id="menu-overlay" class="menu-overlay"></div>
+    <div id="search-overlay" class="search-overlay"></div>
     <main>
       <!-- Breadcrumb navigation -->
       <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -84,7 +86,7 @@
       <div class="filter-pane" id="top-filter-pane">
         <div class="filter-inner">
           <div class="sort-block">
-            <h3 class="filter-title">Sort by</h3>
+            <h3 class="filter-title">Sort by Price</h3>
             <div class="sort-options" id="sort-options">
                   <!-- Custom radio buttons from asset.html -->
                   <div class="mydict">
@@ -95,11 +97,11 @@
                       </label>
                       <label>
                         <input type="radio" name="sort-radio" value="price-asc">
-                        <span>Price: Low to High</span>
+                        <span>Low to High</span>
                       </label>
                       <label>
                         <input type="radio" name="sort-radio" value="price-desc">
-                        <span>Price: High to Low</span>
+                        <span>High to Low</span>
                       </label>
                     </div>
                   </div>
@@ -107,8 +109,8 @@
             <!-- Mobile-friendly compact control (visible on small screens only) -->
             <select id="mobile-sort" aria-label="Sort products" class="mobile-sort-select">
               <option value="default">Default</option>
-              <option value="price-asc">Price: Low to High</option>
-              <option value="price-desc">Price: High to Low</option>
+              <option value="price-asc">Low to High</option>
+              <option value="price-desc">High to Low</option>
             </select>
           </div>
 
@@ -151,7 +153,7 @@
       <div class="filter-sheet-content">
         <!-- Sort Section -->
         <div class="filter-section">
-          <h3 class="filter-section-title">Sort by</h3>
+          <h3 class="filter-section-title">Sort by Price</h3>
           <div class="mobile-sort-options">
             <label class="mobile-sort-option">
               <input type="radio" name="mobile-sort-radio" value="default" checked>
@@ -159,11 +161,11 @@
             </label>
             <label class="mobile-sort-option">
               <input type="radio" name="mobile-sort-radio" value="price-asc">
-              <span>Price: Low to High</span>
+              <span>Low to High</span>
             </label>
             <label class="mobile-sort-option">
               <input type="radio" name="mobile-sort-radio" value="price-desc">
-              <span>Price: High to Low</span>
+              <span>High to Low</span>
             </label>
           </div>
         </div>

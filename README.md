@@ -342,7 +342,7 @@ Edit `js/app.js` to configure your WhatsApp number:
 
 ```javascript
 const config = {
-  whatsappNumber: '201024496178', // Your WhatsApp number with country code
+  whatsappNumber: '201108563748', // Your WhatsApp number with country code
 };
 ```
 
