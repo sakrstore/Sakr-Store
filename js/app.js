@@ -125,29 +125,68 @@ function initMobileMenu() {
   });
 }
 
-// --- Mobile Search Expansion ---
+// --- Mobile Search Expansion with Overlay ---
 function initMobileSearch() {
   const searchBar = document.getElementById('search-bar');
+  const searchOverlay = document.getElementById('search-overlay');
   if (!searchBar) return;
 
-  // Expand search on mobile when clicked
-  searchBar.addEventListener('click', function() {
+  // Function to expand search with overlay
+  function expandSearch() {
     if (window.innerWidth <= 768) {
-      this.classList.add('expanded');
+      searchBar.classList.add('expanded');
+      if (searchOverlay) {
+        searchOverlay.classList.add('active');
+      }
+      // Prevent body scroll when search is expanded
+      document.body.style.overflow = 'hidden';
     }
-  });
+  }
+
+  // Function to collapse search and remove overlay
+  function collapseSearch() {
+    searchBar.classList.remove('expanded');
+    if (searchOverlay) {
+      searchOverlay.classList.remove('active');
+    }
+    // Restore body scroll
+    document.body.style.overflow = '';
+  }
+
+  // Expand search on mobile when clicked
+  searchBar.addEventListener('click', expandSearch);
+
+  // Collapse when clicking overlay
+  if (searchOverlay) {
+    searchOverlay.addEventListener('click', function() {
+      if (window.innerWidth <= 768 && !searchBar.value) {
+        collapseSearch();
+      }
+    });
+  }
 
   // Collapse when clicking outside on mobile
   document.addEventListener('click', function(e) {
-    if (window.innerWidth <= 768 && searchBar && !searchBar.contains(e.target) && !searchBar.value) {
-      searchBar.classList.remove('expanded');
+    if (window.innerWidth <= 768 && searchBar && 
+        !searchBar.contains(e.target) && 
+        !searchBar.value &&
+        e.target !== searchOverlay) {
+      collapseSearch();
+    }
+  });
+
+  // Collapse on Escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && window.innerWidth <= 768 && searchBar.classList.contains('expanded')) {
+      collapseSearch();
+      searchBar.blur();
     }
   });
 
   // Remove expanded class when window is resized to desktop
   window.addEventListener('resize', () => {
     if (window.innerWidth > 768) {
-      searchBar.classList.remove('expanded');
+      collapseSearch();
     }
   });
 }

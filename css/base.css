@@ -96,6 +96,107 @@
   --radius-sm: 0.375rem;
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
+  
+  /* Hero Section Colors */
+  --hero-bg-start: #2563eb;
+  --hero-bg-mid: #1e40af;
+  --hero-bg-end: #1e3a8a;
+  --hero-overlay-light: rgba(96, 165, 250, 0.15);
+  --hero-overlay-lighter: rgba(147, 197, 253, 0.15);
+  --hero-text-gradient-start: #ffffff;
+  --hero-text-gradient-end: #e0e7ff;
+  
+  /* Gradient Presets */
+  --gradient-primary: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  --gradient-hero: linear-gradient(135deg, var(--hero-bg-start) 0%, var(--hero-bg-mid) 50%, var(--hero-bg-end) 100%);
+  --gradient-featured: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  --gradient-discount: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+  
+  /* Product Card Colors */
+  --product-bg-pattern: #f3f4f6;
+  --product-border-light: #e5e7eb;
+  
+  /* Featured Category Colors */
+  --featured-bg: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  --featured-text: #78350f;
+  --featured-border: #d97706;
+  --featured-shadow: rgba(251, 191, 36, 0.3);
+  --featured-hover: linear-gradient(135deg, #fcd34d 0%, #fbbf24 100%);
+  --featured-hover-shadow: rgba(251, 191, 36, 0.5);
+  --featured-active: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  --featured-active-shadow: rgba(217, 119, 6, 0.6);
+  
+  /* Discount Category Colors */
+  --discount-bg: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+  --discount-text: #ffffff;
+  --discount-border: #991b1b;
+  --discount-shadow: rgba(220, 38, 38, 0.3);
+  --discount-hover: linear-gradient(135deg, #ef4444 0%, #f87171 100%);
+  --discount-hover-shadow: rgba(239, 68, 68, 0.5);
+  --discount-active: linear-gradient(135deg, #991b1b 0%, #dc2626 100%);
+  --discount-active-shadow: rgba(153, 27, 27, 0.6);
+  --discount-border-dark: #7f1d1d;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark Mode Color Palette */
+    --bg-color: #0f172a;
+    --text-color: #f1f5f9;
+    --header-bg: linear-gradient(135deg, #1e3a8a 0%, #0f172a 50%, #020617 100%);
+    --header-text: #ffffff;
+    --card-bg: #1e293b;
+    --card-border: #334155;
+    --card-hover: #293548;
+    --sidebar-bg: #1e293b;
+    --sidebar-border: #334155;
+    
+    /* Action Colors - Adjusted for dark backgrounds */
+    --button-bg: #3b82f6;
+    --button-hover: #2563eb;
+    --primary-color: #3b82f6;
+    --primary-hover: #2563eb;
+    
+    /* Text Hierarchy - Dark Mode */
+    --secondary-text: #cbd5e1;
+    --muted-text: #94a3b8;
+    
+    /* Price Colors - Brighter for dark mode */
+    --price-regular: #10b981;
+    --price-discount: #10b981;
+    --price-original: #ef4444;
+    
+    /* Status Colors - Adjusted for dark backgrounds */
+    --success-color: #10b981;
+    --success-bg: #064e3b;
+    --error-color: #f87171;
+    --error-bg: #7f1d1d;
+    --warning-color: #fbbf24;
+    --warning-bg: #78350f;
+    --info-color: #60a5fa;
+    --info-bg: #1e3a8a;
+    
+    /* Cart Badge - Dark Mode */
+    --cart-badge-bg: #fbbf24;
+    --cart-badge-text: #78350f;
+    
+    /* Hero Section - Dark Mode */
+    --hero-bg-start: #1e40af;
+    --hero-bg-mid: #1e3a8a;
+    --hero-bg-end: #0f172a;
+    --hero-overlay-light: rgba(59, 130, 246, 0.1);
+    --hero-overlay-lighter: rgba(96, 165, 250, 0.1);
+    
+    /* Product Card - Dark Mode */
+    --product-bg-pattern: #1e293b;
+    --product-border-light: #334155;
+    
+    /* Shadows - Lighter for dark mode */
+    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.3), 0 1px 2px 0 rgb(0 0 0 / 0.2);
+    --shadow-md: 0 4px 8px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+    --shadow-lg: 0 10px 20px -3px rgb(0 0 0 / 0.5), 0 4px 8px -4px rgb(0 0 0 / 0.4);
+  }
 }
 
 /* Google Translate Compatibility Fixes */
@@ -585,6 +686,26 @@ nav a:hover {
   z-index: 998;
 }
 
+/* Search Overlay - Modern backdrop for expanded search on mobile */
+.search-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 99;
+  opacity: 0;
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+}
+
+.search-overlay.active {
+  display: block;
+  opacity: 1;
+  pointer-events: all;
+}
+
 /* New Badge Styling - Modern and Eye-catching */
 .new-badge {
   position: absolute;
@@ -672,7 +793,22 @@ nav a:hover {
   }
 }
 
-/* Modern Responsive Styles */
+/* Search expansion animation with subtle pop effect */
+@keyframes searchExpand {
+  0% {
+    transform: translateY(-50%) scale(1);
+  }
+  50% {
+    transform: translateY(-50%) scale(1.02);
+  }
+  100% {
+    transform: translateY(-50%) scale(1);
+  }
+}
+
+/* ========================================
+   TABLET & MOBILE STYLES (768px and down)
+   ======================================== */
 @media (max-width: 768px) {
   .hamburger-menu {
     display: flex;
@@ -700,7 +836,10 @@ nav a:hover {
     pointer-events: none;
   }
 
-  /* Hide full search bar on mobile, show icon only */
+  /* =========================
+     SEARCH BAR - MOBILE BEHAVIOR
+     ========================= */
+  /* Collapse search to icon only on mobile */
   .header-search-container {
     max-width: 40px;
     flex: 0;
@@ -710,19 +849,36 @@ nav a:hover {
   .header-search-container #search-bar {
     width: 40px;
     padding: 0.625rem;
+    font-size: 0.9375rem;
     background-position: center;
+    background-size: 18px;
     cursor: pointer;
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Staggered multi-property transitions for smooth animation */
+    transition: 
+      width 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+      border-radius 0.35s cubic-bezier(0.4, 0, 0.2, 1) 0.05s,
+      padding 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      background-position 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.1s,
+      box-shadow 0.3s ease,
+      transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
+    will-change: width, border-radius, transform;
   }
 
+  /* Placeholder fade animation */
+  .header-search-container #search-bar::placeholder {
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+
+  /* Expand search when focused or active */
   .header-search-container #search-bar:focus,
   .header-search-container #search-bar.expanded {
     position: fixed;
@@ -733,12 +889,22 @@ nav a:hover {
     text-indent: 0;
     padding: 0.75rem 0.75rem 0.75rem 2.5rem;
     background-position: 0.75rem center;
+    background-size: 18px;
     cursor: text;
     z-index: 100;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    transform: translateY(-50%);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 
+                0 4px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-50%) scale(1);
     top: 35px;
+    animation: searchExpand 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  /* Fade in placeholder after expansion */
+  .header-search-container #search-bar.expanded::placeholder,
+  .header-search-container #search-bar:focus::placeholder {
+    opacity: 1;
+    transition-delay: 0.25s;
   }
 
   /* Modern Off-canvas sidebar */
@@ -799,21 +965,32 @@ nav a:hover {
   padding: 1rem; /* Overall padding for the main content area */
 }
 
-/* Desktop-only sidebar layout: scope these rules to larger viewports so mobile
-   media rules are not accidentally overridden by cascade. */
+/* ========================================
+   DESKTOP LAYOUT (769px and up)
+   ======================================== */
 @media (min-width: 769px) {
-  /* Ensure search bar is fully visible on desktop */
+  /* =========================
+     SEARCH BAR - FULL WIDTH
+     ========================= */
+  /* Ensure search bar is always fully visible on desktop */
   .header-search-container {
     display: block;
   }
 
   .header-search-container #search-bar {
     width: 100%;
+    /* All other styles inherited from base desktop styles */
   }
 }
 
-/* Larger desktop screens - give more space to search */
+/* ========================================
+   LARGE DESKTOP (1200px and up)
+   ======================================== */
 @media (min-width: 1200px) {
+  /* =========================
+     SEARCH BAR - EXPANDED
+     ========================= */
+  /* Give more space to search on larger screens */
   .header-search-container {
     max-width: 600px;
   }
@@ -1623,21 +1800,33 @@ nav a:hover {
   }
 }
 
-/* Extra small devices */
+/* ========================================
+   EXTRA SMALL MOBILE (480px and down)
+   ======================================== */
 @media (max-width: 480px) {
-  /* Extra small screen adjustments for header search */
+  /* =========================
+     SEARCH BAR - COMPACT
+     ========================= */
   .header-search-container #search-bar {
     font-size: 0.8125rem;
+    background-size: 16px;
   }
 
+  /* Adjust expanded search for smaller screens */
   .header-search-container #search-bar:focus,
   .header-search-container #search-bar.expanded {
     width: calc(100vw - 220px);
     left: 65px;
     padding: 0.65rem 0.65rem 0.65rem 2.25rem;
     background-position: 0.65rem center;
-    transform: translateY(-50%);
+    background-size: 16px;
+    font-size: 0.875rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4), 
+                0 3px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-50%) scale(1);
     top: 50%;
+    animation: searchExpand 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
   }
   
   /* Ensure hamburger is always visible on very small screens */
