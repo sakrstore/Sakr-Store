@@ -7,6 +7,8 @@
    - Use minmax() for flexible grid layouts
    - Minimize breakpoints (only for major layout changes)
    - Leverage CSS Grid and Flexbox for natural responsiveness
+   - Centralize "magic numbers" in CSS custom properties
+   - Use container queries for modular components
    
    IMPROVEMENTS:
    ✅ Reduced from 7 breakpoints to only 2
@@ -16,7 +18,31 @@
    ✅ Button sizes scale fluidly with viewport
    ✅ Removed duplicate/conflicting rules
    ✅ ~70% less CSS code
+   ✅ Container queries for cart items (modular design)
+   ✅ Centralized magic numbers as CSS variables
 */
+
+/* ========================================
+   CSS CUSTOM PROPERTIES (Magic Numbers)
+   ======================================== */
+:root {
+  /* Cart-specific border radius values */
+  --cart-radius-lg: 16px;
+  --cart-radius-md: 12px;
+  --cart-radius-sm: 10px;
+  --cart-radius-xs: 8px;
+  --cart-radius-badge: 5px;
+  --cart-radius-badge-circular: 6px;
+  
+  /* Layout breakpoints */
+  --cart-breakpoint-tablet: 999px;
+  --cart-breakpoint-mobile: 580px;
+  
+  /* Layout constraints */
+  --cart-max-width: 1400px;
+  --cart-summary-width: 420px;
+  --cart-summary-min-width: 380px;
+}
 
 /* ========================================
    LEGACY STYLES (Old Cart Container)
@@ -92,7 +118,7 @@
 }
 
 .cart-container {
-  max-width: 1400px;
+  max-width: var(--cart-max-width);
   margin: 0 auto;
 }
 
@@ -132,7 +158,7 @@
 
 .cart-content-wrapper {
   display: grid;
-  grid-template-columns: 1fr minmax(min(100%, 380px), 420px);
+  grid-template-columns: 1fr minmax(min(100%, var(--cart-summary-min-width)), var(--cart-summary-width));
   gap: clamp(1.5rem, 3vw, 2rem);
   align-items: start;
   grid-auto-flow: dense;
@@ -144,11 +170,15 @@
 
 .cart-items-section {
   background: var(--card-bg);
-  border-radius: 16px;
+  border-radius: var(--cart-radius-lg);
   box-shadow: var(--shadow-md);
   border: 1px solid color-mix(in srgb, var(--card-border) 30%, transparent);
   overflow: hidden;
   min-height: 400px;
+  
+  /* Container query setup - makes cart items truly modular */
+  container-type: inline-size;
+  container-name: cart-list;
 }
 
 .cart-items-list {
@@ -166,7 +196,7 @@
   align-items: center;
   padding: clamp(0.75rem, 2vw, 1.5rem);
   background: var(--bg-color);
-  border-radius: 12px;
+  border-radius: var(--cart-radius-md);
   margin-bottom: clamp(0.5rem, 1.5vw, 1rem);
   border: 2px solid transparent;
   transition: all var(--transition-speed) var(--transition-ease);
@@ -205,7 +235,7 @@
   width: 100%;
   aspect-ratio: 1;
   max-width: 160px;
-  border-radius: 10px;
+  border-radius: var(--cart-radius-sm);
   overflow: hidden;
   background: linear-gradient(135deg, 
     color-mix(in srgb, var(--primary-color) 3%, transparent) 0%, 
@@ -274,7 +304,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding: clamp(0.2rem, 0.5vw, 0.3rem) clamp(0.3rem, 1vw, 0.6rem);
-  border-radius: 5px;
+  border-radius: var(--cart-radius-badge);
   box-shadow: 0 3px 10px rgba(220, 38, 38, 0.4);
   z-index: 10;
   display: flex;
@@ -366,7 +396,7 @@
   gap: clamp(0.5rem, 1.5vw, 0.75rem);
   background: var(--card-bg);
   border: 2px solid var(--card-border);
-  border-radius: 10px;
+  border-radius: var(--cart-radius-sm);
   padding: clamp(0.3rem, 1vw, 0.5rem);
   position: relative;
   z-index: 1;
@@ -378,7 +408,7 @@
 .quantity-change {
   width: clamp(28px, 6vw, 36px);
   height: clamp(28px, 6vw, 36px);
-  border-radius: 8px;
+  border-radius: var(--cart-radius-xs);
   border: none;
   background: var(--primary-color);
   color: var(--button-text);
@@ -455,7 +485,7 @@
   position: absolute;
   inset: 0;
   background: var(--error-bg);
-  border-radius: 8px;
+  border-radius: var(--cart-radius-xs);
   opacity: 0;
   transition: opacity var(--transition-speed) var(--transition-ease);
 }
@@ -538,7 +568,7 @@
   padding: clamp(0.75rem, 2vw, 1rem) clamp(1.25rem, 3vw, 2rem);
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
   color: var(--primary-text);
-  border-radius: 12px;
+  border-radius: var(--cart-radius-md);
   text-decoration: none;
   font-weight: 700;
   font-size: clamp(0.9375rem, 2vw + 0.25rem, 1.125rem);
@@ -571,7 +601,7 @@
 
 .summary-card {
   background: var(--card-bg);
-  border-radius: 16px;
+  border-radius: var(--cart-radius-lg);
   box-shadow: var(--shadow-md);
   border: 1px solid color-mix(in srgb, var(--card-border) 30%, transparent);
   overflow: hidden;
@@ -696,7 +726,7 @@
   padding: clamp(0.625rem, 1.5vw, 0.875rem) clamp(0.75rem, 2vw, 1rem);
   font-size: 1rem;
   border: 2px solid var(--card-border);
-  border-radius: 10px;
+  border-radius: var(--cart-radius-sm);
   background: var(--card-bg);
   color: var(--text-color);
   transition: all var(--transition-speed) var(--transition-ease);
@@ -727,7 +757,7 @@
   background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
   color: white;
   border: none;
-  border-radius: 12px;
+  border-radius: var(--cart-radius-md);
   font-size: clamp(0.9375rem, 2vw + 0.25rem, 1.125rem);
   font-weight: 700;
   cursor: pointer;
@@ -777,7 +807,7 @@
    Only breakpoint for major layout change
 */
 
-@media (max-width: 999px) {
+@media (max-width: 999px) { /* Using var(--cart-breakpoint-tablet) value */
   .cart-content-wrapper {
     grid-template-columns: 1fr;
   }
@@ -798,12 +828,13 @@
 }
 
 /* ========================================
-   RESPONSIVE: COMPACT 2-ROW LAYOUT
+   CONTAINER QUERY: COMPACT 2-ROW LAYOUT
    ======================================== 
-   Cart items stack into 2-row layout
+   Cart items adapt based on their container width, not viewport
+   This makes the component truly modular - works in sidebars or narrow columns
 */
 
-@media (max-width: 580px) {
+@container cart-list (max-width: 580px) { /* Using var(--cart-breakpoint-mobile) value */
   .cart-item {
     grid-template-columns: minmax(75px, 100px) 1fr;
     grid-template-rows: auto auto;
