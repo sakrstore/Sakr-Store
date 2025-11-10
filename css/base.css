@@ -15,7 +15,7 @@
   text-decoration: line-through;
   color: var(--price-original);
   font-size: 1rem;
-  margin-right: 0.5em;
+  margin-inline-end: 0.5em;
   opacity: 0.6;
 }
 .product-discounted-price {
@@ -431,7 +431,7 @@ body {
 *:lang(ar) {
   font-family: 'Cairo', 'Tajawal', sans-serif;
   direction: rtl;
-  text-align: right;
+  text-align: end;
 }
 
 /* Auto-detect Arabic text and apply proper styling */
@@ -678,10 +678,7 @@ nav a:hover {
 .menu-overlay {
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 998;
 }
@@ -710,7 +707,7 @@ nav a:hover {
 .new-badge {
   position: absolute;
   top: 12px;
-  right: 12px;
+  inset-inline-end: 12px;
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   color: #ffffff;
   font-size: 0.75rem;
@@ -742,7 +739,7 @@ nav a:hover {
 .sale-badge {
   position: absolute;
   top: 12px;
-  right: 12px;
+  inset-inline-end: 12px;
   background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
   color: #ffffff;
   font-size: 0.75rem;
@@ -865,7 +862,7 @@ nav a:hover {
       box-shadow 0.3s ease,
       transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
-    right: 0;
+    inset-inline-end: 0;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
@@ -884,10 +881,11 @@ nav a:hover {
     position: fixed;
     width: calc(100vw - 240px);
     max-width: none;
-    left: 60px;
-    right: auto;
+    inset-inline-start: 60px;
+    inset-inline-end: auto;
     text-indent: 0;
-    padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+    padding-inline: 0.75rem 2.5rem;
+    padding-block: 0.75rem;
     background-position: 0.75rem center;
     background-size: 18px;
     cursor: text;
@@ -911,7 +909,7 @@ nav a:hover {
   #category-sidebar {
     position: fixed;
     top: 0;
-    left: 0;
+    inset-inline-start: 0;
     height: 100vh;
     width: 300px;
     z-index: 1100;
@@ -919,7 +917,7 @@ nav a:hover {
     transition: transform 0.3s var(--transition-ease);
     background-color: var(--sidebar-bg);
     box-shadow: var(--shadow-lg);
-    border-right: 1px solid var(--card-border);
+    border-inline-end: 1px solid var(--card-border);
   }
 
   /* Inner scrollable area so the close button stays visible */
@@ -1017,7 +1015,7 @@ nav a:hover {
 
 .IconContainer {
   position: absolute;
-  left: -50px;
+  inset-inline-start: -50px;
   width: 30px;
   height: 30px;
   background-color: transparent;
@@ -1101,7 +1099,7 @@ nav a:hover {
   /* Layout */
   position: fixed;
   bottom: 1.5rem;
-  right: 1.5rem;
+  inset-inline-end: 1.5rem;
   z-index: 10000;
   
   /* Sizing */
@@ -1329,10 +1327,7 @@ nav a:hover {
 .notification-button::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 100%);
   opacity: 0;
   transition: opacity 0.2s var(--transition-ease);
@@ -1472,7 +1467,7 @@ nav a:hover {
     justify-content: center;
     position: fixed;
     bottom: 24px;
-    right: 24px;
+    inset-inline-end: 24px;
     width: 56px;
     height: 56px;
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
@@ -1502,7 +1497,7 @@ nav a:hover {
   .cart-fab .cart-count {
     position: absolute;
     top: -4px;
-    right: -4px;
+    inset-inline-end: -4px;
     background: var(--cart-badge-bg);
     color: var(--cart-badge-text);
     padding: 0.25rem 0.5rem;
@@ -1555,8 +1550,7 @@ nav a:hover {
 @media (max-width: 600px) {
   /* Notification Card - Mobile Optimized */
   .notification-card {
-    left: 1rem;
-    right: 1rem;
+    inset-inline: 1rem;
     bottom: 1rem;
     width: auto;
     max-width: none;
@@ -1649,7 +1643,7 @@ nav a:hover {
 
 .breadcrumb li:not(:last-child)::after {
   content: '›';
-  margin-left: var(--space-sm);
+  margin-inline-start: var(--space-sm);
   color: var(--secondary-text);
   font-weight: 600;
   font-size: 1.125rem;
@@ -1795,7 +1789,7 @@ nav a:hover {
   }
   
   .breadcrumb li:not(:last-child)::after {
-    margin-left: 0.25rem;
+    margin-inline-start: 0.25rem;
     font-size: 1rem;
   }
 }
@@ -1920,7 +1914,7 @@ button:lang(ar),
 /* Breadcrumbs - maintain LTR for navigation arrows */
 .breadcrumb {
   direction: ltr;
-  text-align: left;
+  text-align: start;
 }
 
 .breadcrumb a:lang(ar),
@@ -2029,7 +2023,7 @@ i, .icon, svg {
   border-radius: 12px;
   padding: 1.5rem;
   max-width: 500px;
-  text-align: left;
+  text-align: start;
 }
 
 .empty-state-suggestions h4 {

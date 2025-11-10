@@ -12,10 +12,7 @@
 .products-hero::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background: 
     radial-gradient(circle at 20% 50%, var(--hero-overlay-light) 0%, transparent 50%),
     radial-gradient(circle at 80% 80%, var(--hero-overlay-lighter) 0%, transparent 50%);
@@ -26,8 +23,7 @@
   content: '';
   position: absolute;
   bottom: 0;
-  left: 0;
-  right: 0;
+  inset-inline: 0;
   height: 1px;
   background: linear-gradient(90deg, 
     transparent 0%, 
@@ -264,10 +260,7 @@ label:last-child span {
 .add-to-cart::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, transparent 100%);
   opacity: 0;
   transition: opacity 0.25s var(--transition-ease);
@@ -339,7 +332,7 @@ label:last-child span {
   flex: 0 0 200px; /* Fixed width sidebar on desktop */
   background-color: var(--sidebar-bg);
   padding: 1rem;
-  border-right: 1px solid var(--sidebar-border);
+  border-inline-end: 1px solid var(--sidebar-border);
   border-radius: 6px;
 }
 
@@ -361,7 +354,7 @@ label:last-child span {
   display: none; /* visible only on mobile via media query */
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  inset-inline-end: 1rem;
   background: none;
   border: none;
   color: var(--text-color);
@@ -432,7 +425,7 @@ label:last-child span {
   background: transparent;
   border: none;
   padding: 0.75rem 1rem;
-  text-align: left;
+  text-align: start;
   width: 100%;
   cursor: pointer;
   font-size: 0.9375rem;
@@ -453,7 +446,7 @@ label:last-child span {
 #category-list button::before {
   content: '';
   position: absolute;
-  left: 0;
+  inset-inline-start: 0;
   top: 50%;
   transform: translateY(-50%);
   width: 3px;
@@ -467,7 +460,7 @@ label:last-child span {
   color: var(--primary-color);
   font-weight: 600;
   background: var(--card-hover);
-  padding-left: 1.25rem;
+  padding-inline-start: 1.25rem;
 }
 
 #category-list button.active::before,
@@ -491,8 +484,8 @@ label:last-child span {
   background: var(--featured-bg);
   color: var(--featured-text);
   font-weight: 700;
-  padding-left: 1rem;
-  border-left: 4px solid var(--featured-border);
+  padding-inline-start: 1rem;
+  border-inline-start: 4px solid var(--featured-border);
   box-shadow: 0 4px 12px var(--featured-shadow);
   position: relative;
   overflow: hidden;
@@ -503,7 +496,7 @@ label:last-child span {
   width: 100%;
   height: 100%;
   top: 0;
-  left: -100%;
+  inset-inline-start: -100%;
   transform: none;
   border-radius: 0;
   animation: shimmer 3s infinite;
@@ -511,17 +504,17 @@ label:last-child span {
 
 @keyframes shimmer {
   0% {
-    left: -100%;
+    inset-inline-start: -100%;
   }
   50%, 100% {
-    left: 100%;
+    inset-inline-start: 100%;
   }
 }
 
 #category-list button[data-category="Featured"]::after {
   content: '';
   position: absolute;
-  right: 1rem;
+  inset-inline-end: 1rem;
   top: 50%;
   transform: translateY(-50%);
   width: 20px;
@@ -566,8 +559,8 @@ label:last-child span {
   background: var(--discount-bg);
   color: var(--discount-text);
   font-weight: 700;
-  padding-left: 1rem;
-  border-left: 4px solid var(--discount-border);
+  padding-inline-start: 1rem;
+  border-inline-start: 4px solid var(--discount-border);
   box-shadow: 0 4px 12px var(--discount-shadow);
   position: relative;
   overflow: hidden;
@@ -584,7 +577,7 @@ label:last-child span {
   width: 200%;
   height: 200%;
   top: -50%;
-  left: -100%;
+  inset-inline-start: -100%;
   transform: none;
   border-radius: 0;
   animation: slide 8s linear infinite;

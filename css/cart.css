@@ -33,7 +33,7 @@
 
 #total-price-container {
   padding: clamp(0.5rem, 3vw, 1.5rem) clamp(0.5rem, 2vw, 1rem);
-  text-align: right;
+  text-align: end;
   font-size: clamp(1rem, 2.5vw, 1.5rem);
   font-weight: 700;
   color: var(--text-color);
@@ -233,7 +233,7 @@
 .cart-new-badge {
   position: absolute;
   top: clamp(3px, 0.8vw, 6px);
-  left: clamp(3px, 0.8vw, 6px);
+  inset-inline-start: clamp(3px, 0.8vw, 6px);
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   color: #ffffff;
   font-size: 0;
@@ -266,7 +266,7 @@
 .cart-discount-badge {
   position: absolute;
   bottom: clamp(3px, 0.8vw, 6px);
-  left: clamp(3px, 0.8vw, 6px);
+  inset-inline-start: clamp(3px, 0.8vw, 6px);
   background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%) !important;
   color: #ffffff !important;
   font-size: clamp(0.45rem, 1vw + 0.2rem, 0.65rem) !important;
@@ -857,14 +857,9 @@
   line-height: 1.6;
 }
 
-/* Fix overlap with delete button in RTL */
+/* Fix overlap with delete button on mobile - works in both LTR and RTL */
 @media (max-width: 768px) {
   .cart-item-info {
     padding-inline-end: 3rem !important;
-  }
-
-  [dir="rtl"] .cart-item-info {
-    padding-inline-start: 3rem !important;
-    padding-inline-end: 0 !important;
   }
 }

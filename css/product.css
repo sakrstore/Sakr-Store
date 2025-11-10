@@ -128,7 +128,7 @@
 .lightbox-close {
   position: absolute;
   top: clamp(12px, 3vw, 24px);
-  right: clamp(12px, 3vw, 24px);
+  inset-inline-end: clamp(12px, 3vw, 24px);
   width: clamp(40px, 8vw, 48px);
   height: clamp(40px, 8vw, 48px);
   border-radius: 50%;
@@ -187,8 +187,8 @@
   outline-offset: 2px;
 }
 
-.lightbox-nav.prev { left: clamp(12px, 3vw, 24px); }
-.lightbox-nav.next { right: clamp(12px, 3vw, 24px); }
+.lightbox-nav.prev { inset-inline-start: clamp(12px, 3vw, 24px); }
+.lightbox-nav.next { inset-inline-end: clamp(12px, 3vw, 24px); }
 
 /* Prevent background scroll when lightbox is open */
 body.lb-open { overflow: hidden; }
@@ -360,10 +360,7 @@ body.lb-open { overflow: hidden; }
 .product-actions .CartBtn::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, transparent 100%);
   opacity: 0;
   transition: opacity 0.25s var(--transition-ease);
@@ -490,7 +487,7 @@ body.lb-open { overflow: hidden; }
   .trust-badge {
     flex-direction: row;
     justify-content: flex-start;
-    text-align: left;
+    text-align: start;
   }
 }
 
@@ -575,7 +572,7 @@ body.lb-open { overflow: hidden; }
 
   .trust-badge {
     flex-direction: row;
-    text-align: left;
+    text-align: start;
     background: var(--card-bg);
     box-shadow: var(--shadow-sm);
   }
@@ -596,11 +593,11 @@ body.lb-open { overflow: hidden; }
   }
 
   .product-detail-new-badge {
-    right: 12px;
+    inset-inline-end: 12px;
   }
 
   .product-detail-sale-badge {
-    left: 12px;
+    inset-inline-start: 12px;
   }
 
   .product-detail-new-badge::before,
@@ -614,7 +611,7 @@ body.lb-open { overflow: hidden; }
 .product-detail-new-badge {
   position: absolute;
   top: clamp(12px, 2vw, 16px);
-  right: clamp(12px, 2vw, 16px);
+  inset-inline-end: clamp(12px, 2vw, 16px);
   display: inline-flex;
   align-items: center;
   gap: clamp(0.375rem, 1vw, 0.5rem);
@@ -645,7 +642,7 @@ body.lb-open { overflow: hidden; }
 .product-detail-sale-badge {
   position: absolute;
   top: clamp(12px, 2vw, 16px);
-  left: clamp(12px, 2vw, 16px);
+  inset-inline-start: clamp(12px, 2vw, 16px);
   display: inline-flex;
   align-items: center;
   gap: clamp(0.375rem, 1vw, 0.5rem);
@@ -733,7 +730,7 @@ body.lb-open { overflow: hidden; }
   font-weight: 700;
   color: var(--text-color);
   margin-bottom: clamp(1.5rem, 3vw, 2rem);
-  text-align: left;
+  text-align: start;
   letter-spacing: -0.01em;
 }
 
@@ -811,7 +808,7 @@ body.lb-open { overflow: hidden; }
   .trust-badge {
     flex-direction: row;
     justify-content: flex-start;
-    text-align: left;
+    text-align: start;
   }
 }
 
