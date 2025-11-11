@@ -1753,5 +1753,23 @@
     "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
+  },
+  {
+    "id": 101,
+    "name": " Earldom PB48 Power Bank. This portable charger has a 10000 mAh",
+    "price": 699.99,
+    "description": "Model: ET-PB48\nCapacity: 10000 mAh\nFeatures: Includes 3 built-in cables (Micro USB, Type-C, and Lightning 8-pin) and an LED display/emergency light.\nCompatibility: Works with a wide range of smartphones and tablets.",
+    "image": "images/product-101-primary.webp",
+    "images": {
+      "primary": "images/product-101-primary.webp",
+      "gallery": [
+        "images/product-101-gallery-0.webp"
+      ]
+    },
+    "category": "Power Bank",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
   }
 ]
