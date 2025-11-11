@@ -1621,5 +1621,138 @@
     "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
+  },
+  {
+    "id": 94,
+    "name": "K9 Wireless Microphone",
+    "price": 369.99,
+    "description": "t offers plug-and-play functionality with automatic pairing, requiring no additional apps or software. \nThe microphone is compatible with devices featuring Type-C and Lightning ports, including smartphones and tablets. \nIt features intelligent noise reduction chips for clear recording and superior audio quality. \nThe system allows for dual recording, capturing audio from two transmitters simultaneously. \nEach microphone provides up to 6 hours of continuous use on a full charge. ",
+    "image": "images/product-94-primary.webp",
+    "images": {
+      "primary": "images/product-94-primary.webp",
+      "gallery": [
+        "images/product-94-gallery-0.webp",
+        "images/product-94-gallery-1.webp",
+        "images/product-94-gallery-2.webp"
+      ]
+    },
+    "category": "Diverse",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 95,
+    "name": "13-inch LED Ring Light, model M-330. ",
+    "price": 349.99,
+    "description": "Provides soft, even, and shadow-free illumination, ideal for selfies, live streaming, and makeup tutorials. \nFeatures three color temperatures (cool, warm, and natural) and adjustable brightness levels. \nDesigned to enhance facial features, soften skin, and minimize imperfections. \nOften comes with a tripod stand and a flexible phone holder for versatile use. \nThe price can be around LKR 3,990.00 in some markets. ",
+    "image": "images/product-95-primary.webp",
+    "images": {
+      "primary": "images/product-95-primary.webp",
+      "gallery": [
+        "images/product-95-gallery-0.webp",
+        "images/product-95-gallery-1.webp",
+        "images/product-95-gallery-2.webp"
+      ]
+    },
+    "category": "Diverse",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 96,
+    "name": " ESR HaloLock Mini Kickstand Wireless Power Bank",
+    "price": 999.99,
+    "description": "Capacity: Typically available in 6,000 mAh or 10,000 mAh versions.\nCompatibility: Features HaloLock technology for secure, automatic magnetic alignment with MagSafe-compatible iPhones (iPhone 12 series and later).\nCharging Speeds: Offers up to 7.5 W wireless charging and supports 15W USB-C input and 12W USB-C output for wired charging.\nDesign: Includes a built-in, foldable kickstand that allows the phone to be propped up vertically or horizontally while charging.\nPortability: Designed to be compact and lightweight for easy carrying.",
+    "image": "images/product-96-primary.webp",
+    "images": {
+      "primary": "images/product-96-primary.webp",
+      "gallery": [
+        "images/product-96-gallery-0.webp",
+        "images/product-96-gallery-1.webp",
+        "images/product-96-gallery-2.webp"
+      ]
+    },
+    "category": "Power Bank",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 97,
+    "name": "DNIO AW003 32W Desktop Wireless Charger",
+    "price": 979.99,
+    "description": "Wireless Charging: Offers up to 15W wireless charging power. \nWired Charging: Includes four USB ports: one 30W PD port, one 18W QC3.0 port, and two USB-A ports, with a total power output of 32W. \nSafety Features: Made from fireproof material and includes overcharge, overcurrent, and overheating protection. \nDesign: Features a sleek, compact, and space-saving design suitable for home or office use. ",
+    "image": "images/product-97-primary.webp",
+    "images": {
+      "primary": "images/product-97-primary.webp",
+      "gallery": [
+        "images/product-97-gallery-0.webp",
+        "images/product-97-gallery-1.webp",
+        "images/product-97-gallery-2.webp"
+      ]
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 98,
+    "name": "Earldom portable power bank. ",
+    "price": 449.99,
+    "description": "The power banks have a capacity of 10000mAh. \nEarldom produces various models of 10000mAh power banks, such as the PB-41, PB56, and PB54. \nThese devices are designed for charging smartphones and tablets on the go. \nFeatures often include an LED or digital display to monitor battery status and multiple output ports for charging several devices simultaneously. ",
+    "image": "images/product-98-primary.webp",
+    "images": {
+      "primary": "images/product-98-primary.webp",
+      "gallery": [
+        "images/product-98-gallery-0.webp"
+      ]
+    },
+    "category": "Power Bank",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 99,
+    "name": "ES-30 power banks manufactured by Estart.",
+    "price": 1699.99,
+    "description": "Capacity: 30000 mAh\nFast Charging: Supports 22.5W fast charging, compatible with various fast charging protocols like PD and QC3.0.\nPorts: Includes both USB-C and USB-A output ports, as well as a micro-USB input/output port.\nDisplay: Features a smart digital display for real-time power monitoring.",
+    "image": "images/product-99-primary.webp",
+    "images": {
+      "primary": "images/product-99-primary.webp",
+      "gallery": []
+    },
+    "category": "Power Bank",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 4,
+    "isNew": true
+  },
+  {
+    "id": 100,
+    "name": "Inkax Fast Charging Power Bank PB-26 model. ",
+    "price": 450.99,
+    "description": "Brand: Inkax\nCapacity: 10,000 mAh\nOutput: 2.4A\nModel Number: PB-26\nFeatures: High capacity external battery, fastcharging capability, multiple ports (USB, Type-C, Micro USB depending on specific sub-model)",
+    "image": "images/product-100-primary.webp",
+    "images": {
+      "primary": "images/product-100-primary.webp",
+      "gallery": [
+        "images/product-100-gallery-0.webp"
+      ]
+    },
+    "category": "Power Bank",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
   }
 ]
+
