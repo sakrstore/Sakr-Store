@@ -291,7 +291,7 @@
         "images/product-16-gallery-2.webp"
       ]
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
     "discountedPrice": 183.99,
     "stock": 10,
@@ -310,7 +310,7 @@
         "images/product-17-gallery-1.webp"
       ]
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
     "discountedPrice": 183.99,
     "stock": 10,
@@ -319,7 +319,7 @@
   {
     "id": 18,
     "name": "sodo 1006 Bluetooth Headphone",
-    "price": 460.00,
+    "price": 500.00,
     "description": "\nBrand Name\tsodo\nColor\tgrey\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tOver Ear\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\t3.5 mm Jack\nModel Name\tsodo 1006 Bluetooth Headphone\nConnectivity Technology\tWired, Wireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tEar Cushions, Headband",
     "image": "images/product-18-primary.webp",
     "images": {
@@ -329,16 +329,16 @@
         "images/product-18-gallery-1.webp"
       ]
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
-    "discountedPrice": 367.99,
+    "discountedPrice": 395.00,
     "stock": 10,
     "isNew": true
   },
   {
     "id": 19,
     "name": "SODO SD-1004 Wireless",
-    "price": 400.00,
+    "price": 475.00,
     "description": "Color: Grey\nBrand Name\tGeneric\nColor\tGrey\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tOver Ear\nImpedance\t4 Ohm\nNoise Control\tPassive Sound Isolation\nHeadphones Jack\t3.5 mm Jack\nModel Name\tSD-1004\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-19-primary.webp",
     "images": {
@@ -348,16 +348,16 @@
         "images/product-19-gallery-1.webp"
       ]
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
-    "discountedPrice": 319.99,
+    "discountedPrice": 375.01,
     "stock": 10,
     "isNew": true
   },
   {
     "id": 20,
     "name": "Oraimo Wireless Headphone, Rechargeable, SD Card Slot, Multi-Color, OR-52",
-    "price": 370.00,
+    "price": 425.00,
     "description": "Wireless Rechargeable  Headphone With Excellent quality and clear, loud sound\nSD CARD slot\nComfortable sponge\nUp to 8 hours of music playback\nWireless Headphone , White Color\nRechargeable With Type C  Cable\nBattery 200 mah\nSupport SD Card\nCharge Time  two hours\nEasy control\n",
     "image": "images/product-20-primary.webp",
     "images": {
@@ -367,9 +367,9 @@
         "images/product-20-gallery-1.webp"
       ]
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
-    "discountedPrice": 295.99,
+    "discountedPrice": 345.01,
     "stock": 10,
     "isNew": true
   },
@@ -387,7 +387,7 @@
         "images/product-21-gallery-2.webp"
       ]
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
     "discountedPrice": 239.99,
     "stock": 10,
@@ -405,7 +405,7 @@
         "images/product-22-gallery-0.webp"
       ]
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
     "discountedPrice": 287.99,
     "stock": 10,
@@ -423,7 +423,7 @@
         "images/product-23-gallery-0.webp"
       ]
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
     "discountedPrice": 287.99,
     "stock": 10,
@@ -443,7 +443,7 @@
         "images/product-24-gallery-2.webp"
       ]
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
     "discountedPrice": 259.99,
     "stock": 10,
@@ -459,7 +459,7 @@
       "primary": "images/product-25-primary.webp",
       "gallery": []
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
     "discountedPrice": 279.99,
     "stock": 10,
@@ -479,7 +479,7 @@
         "images/product-26-gallery-2.webp"
       ]
     },
-    "category": "headphones",
+    "category": "Headphones",
     "discount": true,
     "discountedPrice": 271.99,
     "stock": 10,
@@ -1775,7 +1775,7 @@
   {
     "id": 102,
     "name": " ZM-0113H universal desktop stand for phones and tablets. ",
-    "price": 79.99,
+    "price": 80.00,
     "description": "Compatible with devices ranging from 4.7 to 13 inches.\nFeatures a fully foldable design for portability.\nMade from all-alloy material with a sleek black finish.\nEquipped with non-slip silicone pads for stability.",
     "image": "images/product-102-primary.webp",
     "images": {
