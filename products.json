@@ -557,7 +557,7 @@
         "images/product-30-gallery-2.webp"
       ]
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 6,
@@ -575,7 +575,7 @@
         "images/product-31-gallery-0.webp"
       ]
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
@@ -593,7 +593,7 @@
         "images/product-32-gallery-1.webp"
       ]
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -612,7 +612,7 @@
         "images/product-33-gallery-1.webp"
       ]
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -631,7 +631,7 @@
         "images/product-34-gallery-1.webp"
       ]
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -647,7 +647,7 @@
       "primary": "images/product-35-primary.webp",
       "gallery": []
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -663,7 +663,7 @@
       "primary": "images/product-36-primary.webp",
       "gallery": []
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -679,7 +679,7 @@
       "primary": "images/product-37-primary.webp",
       "gallery": []
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -695,7 +695,7 @@
       "primary": "images/product-38-primary.webp",
       "gallery": []
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
@@ -711,7 +711,7 @@
       "primary": "images/product-39-primary.webp",
       "gallery": []
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -727,7 +727,7 @@
       "primary": "images/product-40-primary.webp",
       "gallery": []
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
@@ -743,7 +743,7 @@
       "primary": "images/product-41-primary.webp",
       "gallery": []
     },
-    "category": " Card Reader_OTG_Flash",
+    "category": "Card Reader/OTG/Flash",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
