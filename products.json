@@ -15,8 +15,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 719.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -34,8 +34,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 479.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -54,8 +54,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 479.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -73,8 +73,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 579.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -92,8 +92,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 519.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -112,8 +112,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -132,8 +132,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -153,8 +153,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 279.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -174,8 +174,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 319.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -194,8 +194,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 359.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -215,8 +215,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 199.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -234,8 +234,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 519.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -253,8 +253,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 599.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -272,8 +272,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 391.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -292,8 +292,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 183.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -311,8 +311,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 183.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -330,8 +330,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 395.00,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -349,8 +349,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 375.01,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -368,8 +368,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 345.01,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -388,8 +388,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -406,8 +406,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 287.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -424,8 +424,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 287.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -444,8 +444,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 259.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -460,8 +460,8 @@
       "gallery": []
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 279.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -480,8 +480,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": true,
-    "discountedPrice": 271.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -500,8 +500,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 463.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -519,8 +519,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 447.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -539,8 +539,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 639.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -558,8 +558,8 @@
       ]
     },
     "category": "Card Reader",
-    "discount": true,
-    "discountedPrice": 19.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 6,
     "isNew": false
   },
@@ -576,8 +576,8 @@
       ]
     },
     "category": "OTG",
-    "discount": true,
-    "discountedPrice": 39.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": false
   },
@@ -594,8 +594,8 @@
       ]
     },
     "category": "OTG",
-    "discount": true,
-    "discountedPrice": 39.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -613,8 +613,8 @@
       ]
     },
     "category": "Card Reader",
-    "discount": true,
-    "discountedPrice": 15.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -632,8 +632,8 @@
       ]
     },
     "category": "Dongle",
-    "discount": true,
-    "discountedPrice": 71.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -648,8 +648,8 @@
       "gallery": []
     },
     "category": "Flash",
-    "discount": true,
-    "discountedPrice": 119.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -664,8 +664,8 @@
       "gallery": []
     },
     "category": "Flash",
-    "discount": true,
-    "discountedPrice": 151.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -680,8 +680,8 @@
       "gallery": []
     },
     "category": "Flash",
-    "discount": true,
-    "discountedPrice": 175.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -696,8 +696,8 @@
       "gallery": []
     },
     "category": "Flash",
-    "discount": true,
-    "discountedPrice": 199.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -712,8 +712,8 @@
       "gallery": []
     },
     "category": "Flash",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -728,8 +728,8 @@
       "gallery": []
     },
     "category": "Flash",
-    "discount": true,
-    "discountedPrice": 143.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -744,8 +744,8 @@
       "gallery": []
     },
     "category": "Flash",
-    "discount": true,
-    "discountedPrice": 183.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -760,8 +760,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 199.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -776,8 +776,8 @@
       "gallery": []
     },
     "category": "Cables",
-    "discount": true,
-    "discountedPrice": 55.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -792,8 +792,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 135.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -808,8 +808,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": false
   },
@@ -824,8 +824,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 159.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -840,8 +840,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 439.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -856,8 +856,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 279.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -872,8 +872,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 359.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -888,8 +888,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 379.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -904,8 +904,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 751.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": false
   },
@@ -920,8 +920,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 319.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -936,8 +936,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": false
   },
@@ -952,8 +952,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 183.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -968,8 +968,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 215.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -984,8 +984,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 159.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": false
   },
@@ -1000,8 +1000,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 191.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 1,
     "isNew": false
   },
@@ -1016,8 +1016,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 159.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1032,8 +1032,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 175.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1048,8 +1048,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1064,8 +1064,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 199.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1080,8 +1080,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 191.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1096,8 +1096,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 127.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1111,8 +1111,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 159.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false,
     "id": 64
@@ -1127,8 +1127,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": false,
     "id": 65
@@ -1144,8 +1144,8 @@
       "gallery": []
     },
     "category": "Cables",
-    "discount": true,
-    "discountedPrice": 95.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1160,8 +1160,8 @@
       "gallery": []
     },
     "category": "Cables",
-    "discount": true,
-    "discountedPrice": 79.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1176,8 +1176,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 175.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1192,8 +1192,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 143.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1208,8 +1208,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 95.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1224,8 +1224,8 @@
       "gallery": []
     },
     "category": "Earphone",
-    "discount": true,
-    "discountedPrice": 43.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1240,8 +1240,8 @@
       "gallery": []
     },
     "category": "Earphone",
-    "discount": true,
-    "discountedPrice": 43.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": true
   },
@@ -1256,8 +1256,8 @@
       "gallery": []
     },
     "category": "Earphone",
-    "discount": true,
-    "discountedPrice": 43.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1275,8 +1275,8 @@
       ]
     },
     "category": "Earphone",
-    "discount": true,
-    "discountedPrice": 55.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1291,8 +1291,8 @@
       "gallery": []
     },
     "category": "Earphone",
-    "discount": true,
-    "discountedPrice": 55.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1307,8 +1307,8 @@
       "gallery": []
     },
     "category": "Earphone",
-    "discount": true,
-    "discountedPrice": 63.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1323,8 +1323,8 @@
       "gallery": []
     },
     "category": "Earphone",
-    "discount": true,
-    "discountedPrice": 63.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1342,8 +1342,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": true,
-    "discountedPrice": 719.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1362,8 +1362,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": true,
-    "discountedPrice": 719.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1381,8 +1381,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": true,
-    "discountedPrice": 383.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1401,8 +1401,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": true,
-    "discountedPrice": 719.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1420,8 +1420,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": true,
-    "discountedPrice": 359.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1439,8 +1439,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": true,
-    "discountedPrice": 759.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1457,8 +1457,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": true,
-    "discountedPrice": 799.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1477,8 +1477,8 @@
       ]
     },
     "category": "Camera Accessories",
-    "discount": true,
-    "discountedPrice": 303.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1495,8 +1495,8 @@
       ]
     },
     "category": "Camera Accessories",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1514,8 +1514,8 @@
       ]
     },
     "category": "Camera Accessories",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1530,8 +1530,8 @@
       "gallery": []
     },
     "category": "Camera Accessories",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1549,8 +1549,8 @@
       ]
     },
     "category": "Camera Accessories",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1565,8 +1565,8 @@
       "gallery": []
     },
     "category": "Power Bank",
-    "discount": true,
-    "discountedPrice": 319.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1581,8 +1581,8 @@
       "gallery": []
     },
     "category": "Power Bank",
-    "discount": true,
-    "discountedPrice": 599.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1599,8 +1599,8 @@
       ]
     },
     "category": "Power Bank",
-    "discount": true,
-    "discountedPrice": 1039.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1617,8 +1617,8 @@
       ]
     },
     "category": "Power Bank",
-    "discount": true,
-    "discountedPrice": 439.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": false
   },
@@ -1637,8 +1637,8 @@
       ]
     },
     "category": "Camera Accessories",
-    "discount": true,
-    "discountedPrice": 295.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1657,8 +1657,8 @@
       ]
     },
     "category": "Camera Accessories",
-    "discount": true,
-    "discountedPrice": 279.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1677,8 +1677,8 @@
       ]
     },
     "category": "Power Bank",
-    "discount": true,
-    "discountedPrice": 799.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1697,8 +1697,8 @@
       ]
     },
     "category": "Chargers",
-    "discount": true,
-    "discountedPrice": 783.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1715,8 +1715,8 @@
       ]
     },
     "category": "Power Bank",
-    "discount": true,
-    "discountedPrice": 359.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1731,8 +1731,8 @@
       "gallery": []
     },
     "category": "Power Bank",
-    "discount": true,
-    "discountedPrice": 1359.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 4,
     "isNew": false
   },
@@ -1749,8 +1749,8 @@
       ]
     },
     "category": "Power Bank",
-    "discount": true,
-    "discountedPrice": 359.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1767,8 +1767,8 @@
       ]
     },
     "category": "Power Bank",
-    "discount": true,
-    "discountedPrice": 559.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": false
   },
@@ -1785,8 +1785,8 @@
       ]
     },
     "category": "Camera Accessories",
-    "discount": true,
-    "discountedPrice": 55.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": true
   }
