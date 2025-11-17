@@ -13,6 +13,13 @@
     <meta name="geo.region" content="EG">
     <meta name="geo.placename" content="Egypt">
     
+    <!-- Mobile Web App Meta Tags -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Sakr Store">
+    <meta name="theme-color" content="#1e3a8a">
+    
     <!-- Canonical URL -->
     <link rel="canonical" href="https://sakrstore.github.io/Sakr-Store/product.html">
     
@@ -46,6 +53,32 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/footer.css">
+    
+    <!-- Schema.org Product Data - Dynamically updated by JavaScript -->
+    <script type="application/ld+json" id="product-schema">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Product Name",
+      "image": "https://sakrstore.github.io/Sakr-Store/images/product-placeholder.jpg",
+      "description": "Product description",
+      "brand": {
+        "@type": "Brand",
+        "name": "Sakr Store"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://sakrstore.github.io/Sakr-Store/product.html",
+        "priceCurrency": "EGP",
+        "price": "0.00",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Sakr Store"
+        }
+      }
+    }
+    </script>
   </head>
   <body>
     <header>
@@ -351,6 +384,35 @@
               }
               if (product.name) {
                 breadcrumbProduct.textContent = product.name;
+              }
+
+              // Update Schema.org Product structured data
+              const productSchema = {
+                "@context": "https://schema.org",
+                "@type": "Product",
+                "name": product.name,
+                "image": allImages.map(img => `https://sakrstore.github.io/Sakr-Store/${img}`),
+                "description": product.description || '',
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Sakr Store"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "url": window.location.href,
+                  "priceCurrency": "EGP",
+                  "price": product.discount ? product.discountedPrice.toFixed(2) : product.price.toFixed(2),
+                  "availability": product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+                  "seller": {
+                    "@type": "Organization",
+                    "name": "Sakr Store"
+                  }
+                }
+              };
+              
+              const schemaScript = document.getElementById('product-schema');
+              if (schemaScript) {
+                schemaScript.textContent = JSON.stringify(productSchema, null, 2);
               }
 
               // Build thumbnails if more than one image
