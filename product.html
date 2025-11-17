@@ -80,6 +80,33 @@
       }
     }
     </script>
+    
+    <!-- Schema.org BreadcrumbList - Dynamically updated by JavaScript -->
+    <script type="application/ld+json" id="breadcrumb-schema">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sakrstore.github.io/Sakr-Store/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://sakrstore.github.io/Sakr-Store/product.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Product Details"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <header>
@@ -414,6 +441,36 @@
               const schemaScript = document.getElementById('product-schema');
               if (schemaScript) {
                 schemaScript.textContent = JSON.stringify(productSchema, null, 2);
+              }
+
+              // Update Schema.org Breadcrumb structured data
+              const breadcrumbSchema = {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://sakrstore.github.io/Sakr-Store/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": product.category || "Products",
+                    "item": "https://sakrstore.github.io/Sakr-Store/#" + (product.category || "products")
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": product.name
+                  }
+                ]
+              };
+              
+              const breadcrumbSchemaScript = document.getElementById('breadcrumb-schema');
+              if (breadcrumbSchemaScript) {
+                breadcrumbSchemaScript.textContent = JSON.stringify(breadcrumbSchema, null, 2);
               }
 
               // Build thumbnails if more than one image
