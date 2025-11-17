@@ -1,0 +1,119 @@
+2025-11-17 19:37:14 WARNING  [utils:47] STATIC_ANALYSIS_CONFIG environment variable is not set, using default VSCode Setup.
+2025-11-17 19:37:14 WARNING  [utils:47] STATIC_ANALYSIS_CONFIG environment variable is not set, using default VSCode Setup.
+2025-11-17 19:37:14 INFO     [static_analyzer.scanner:65] Found: ProgrammingLanguage(language=CSS, size=10085, percentage=64.98485727173143, suffixes=['.css'])
+2025-11-17 19:37:14 INFO     [static_analyzer.scanner:68] Added ProgrammingLanguage(language=CSS, size=10085, percentage=64.98485727173143, suffixes=['.css'])
+2025-11-17 19:37:14 INFO     [static_analyzer.scanner:65] Found: ProgrammingLanguage(language=HTML, size=2597, percentage=16.734325665313488, suffixes=['.html'])
+2025-11-17 19:37:14 INFO     [static_analyzer.scanner:68] Added ProgrammingLanguage(language=HTML, size=2597, percentage=16.734325665313488, suffixes=['.html'])
+2025-11-17 19:37:14 INFO     [static_analyzer.scanner:65] Found: ProgrammingLanguage(language=JSON, size=1808, percentage=11.650235195566724, suffixes=['.json'])
+2025-11-17 19:37:14 INFO     [static_analyzer.scanner:68] Added ProgrammingLanguage(language=JSON, size=1808, percentage=11.650235195566724, suffixes=['.json'])
+2025-11-17 19:37:14 INFO     [static_analyzer.scanner:65] Found: ProgrammingLanguage(language=JavaScript, size=1029, percentage=6.630581867388363, suffixes=['.js'])
+2025-11-17 19:37:14 INFO     [static_analyzer.scanner:68] Added ProgrammingLanguage(language=JavaScript, size=1029, percentage=6.630581867388363, suffixes=['.js'])
+2025-11-17 19:37:14 WARNING  [static_analyzer:19] Unsupported programming language: CSS. Skipping.
+2025-11-17 19:37:14 WARNING  [static_analyzer:19] Unsupported programming language: HTML. Skipping.
+2025-11-17 19:37:14 WARNING  [static_analyzer:19] Unsupported programming language: JSON. Skipping.
+2025-11-17 19:37:14 WARNING  [static_analyzer:19] Unsupported programming language: JavaScript. Skipping.
+2025-11-17 19:37:15 INFO     [agents.meta_agent:33] [MetaAgent] Analyzing metadata for project: Sakr-Store
+2025-11-17 19:37:16 INFO     [agents.tools.read_docs:89] [ReadDocs Tool] Reading file e:\Sakr Store\Sakr-Store\README.md around line 0
+2025-11-17 19:37:28 INFO     [agents.meta_agent:38] [MetaAgent] Completed metadata analysis for project: # 🎯 Project Metadata Analysis
+
+**Project Type:** Web Application / E-commerce Platform
+**Domain:** E-commerce / Retail
+**Technology Stack:** HTML5, CSS3, JavaScript (ES6+, no frameworks), RemixIcon, Google Fonts (Inter, Cairo, Tajawal)
+**Architectural Patterns:** Client-Side Monolith, Presentation-Abstraction-Control (PAC) / Client-Side MVC/MVVM, Modular Architecture
+**Expected Components:** UI Components: Navigation (header, footer, mobile menu), Product Listing (cards, detail pages), Shopping Cart (display, management), Search & Filtering (input, category/price filters), Theme Toggle, Notifications., Core E-commerce Logic Modules: Product Data Management (loading, parsing `products.json`), Cart Management (add, remove, update, persistence to `localStorage`), Search & Filter Logic, Multilingual/BiDi Text Handling, WhatsApp Order Integration., Data Storage: `products.json` (static product data), `localStorage` (for cart, theme preferences)., Utility/Helper Modules: Image Optimization Helpers (lazy loading, responsive image generation), Accessibility Utilities., Styling & Theming: CSS files for global styles, theme-specific styles (light/dark mode), responsive design rules.
+**Architectural Bias:** Client-Side Dominance: The project is heavily biased towards client-side execution. All core e-commerce functionality, data display, and user interaction logic reside within the browser's JavaScript. Static Content with Dynamic Interaction: The core product data is served statically via `products.json`, and JavaScript dynamically renders and manages the UI based on this data and user interactions. No Server-Side Application Logic: There is no traditional server-side application layer for business logic or database interaction. The "backend" for product data is a JSON file, and persistence is handled via `localStorage`. Focus on Performance and UX: Significant emphasis is placed on frontend performance optimizations (lazy loading, modern image formats, browser caching) and user experience (responsive design, multilingual support, theme system). Modular JavaScript for Organization: Components should be identified as distinct JavaScript modules responsible for specific features (e.g., a `cart.js` module, a `productDisplay.js` module).
+
+2025-11-17 19:37:29 WARNING  [agents.diff_analyzer:56] [DiffAnalyzingAgent] No version file found, cannot get diff data
+2025-11-17 19:37:30 INFO     [diagram_analysis.diagram_generator:127] Generating initial analysis
+2025-11-17 19:37:30 INFO     [agents.diff_analyzer:94] [DiffAnalyzingAgent] No existing analysis found, running full analysis
+2025-11-17 19:37:30 INFO     [agents.abstraction_agent:64] [AbstractionAgent] Analyzing CFG for project: Sakr-Store
+2025-11-17 19:37:30 WARNING  [agents.abstraction_agent:73] [AbstractionAgent] No programming languages detected for project: Sakr-Store
+2025-11-17 19:37:49 WARNING  [langchain_google_genai._function_utils:102] Key '$defs' is not supported in schema, ignoring
+2025-11-17 19:38:00 INFO     [agents.abstraction_agent:90] [AbstractionAgent] Analyzing Source for project: Sakr-Store
+2025-11-17 19:38:21 WARNING  [langchain_google_genai._function_utils:102] Key '$defs' is not supported in schema, ignoring
+2025-11-17 19:38:39 INFO     [agents.abstraction_agent:111] [AbstractionAgent] Generating final analysis for project: Sakr-Store
+2025-11-17 19:38:56 WARNING  [langchain_google_genai._function_utils:102] Key '$defs' is not supported in schema, ignoring
+2025-11-17 19:39:09 INFO     [static_analyzer.reference_resolve_mixin:26] Fixing source code reference lines for the analysis: # 📦 Abstract Components Overview
+**Component:** `Application Orchestrator`
+   - *Description*: The central control module responsible for initializing the application, managing global state, coordinating interactions between major modules, and handling overall page navigation and rendering. It acts as the main entry point for the client-side application.
+   - *Related Classes/Methods*: `QName:`js/main.js` FileRef: `js/main.js``
+**Component:** `Product Catalog Service`
+   - *Description*: Manages the loading, parsing, and provision of all product-related information from the static `products.json` file. It serves as the authoritative source for product data within the application.
+   - *Related Classes/Methods*: `QName:`js/products.js` FileRef: `js/products.js``
+**Component:** `Product Display Module`
+   - *Description*: Responsible for rendering product listings (e.g., product cards on a category page) and detailed product views. It handles user interactions directly related to product elements, such as "add to cart" buttons.
+   - *Related Classes/Methods*: `QName:`js/product.js` FileRef: `js/product.js``
+**Component:** `Shopping Cart Module`
+   - *Description*: Encapsulates all business logic and UI rendering related to the user's shopping cart. This includes adding, removing, updating items, calculating totals, and persisting cart data.
+   - *Related Classes/Methods*: `QName:`js/cart.js` FileRef: `js/cart.js``
+**Component:** `Search & Filter Module`
+   - *Description*: Provides the functionality for users to search for products and apply various filters (e.g., category, price range) to narrow down the product listings. It processes raw product data to return filtered results.
+   - *Related Classes/Methods*: `QName:`js/search.js` FileRef: `js/search.js``
+**Component:** `Theme Management Module`
+   - *Description*: Manages the application's visual theme (e.g., light/dark mode), applies the selected styles to the user interface, and persists the user's theme preference across sessions.
+   - *Related Classes/Methods*: `QName:`js/theme.js` FileRef: `js/theme.js``
+**Component:** `WhatsApp Integration Module`
+   - *Description*: Facilitates the generation of pre-filled WhatsApp messages for placing orders. It constructs the message content based on the current shopping cart details and initiates the WhatsApp interaction.
+   - *Related Classes/Methods*: `QName:`js/whatsapp.js` FileRef: `js/whatsapp.js``(Application Orchestrator, initiates loading of, Product Catalog Service)
+(Application Orchestrator, triggers rendering by, Product Display Module)
+(Application Orchestrator, initializes, Shopping Cart Module)
+(Application Orchestrator, initializes, Theme Management Module)
+(Product Catalog Service, provides product data to, Product Display Module)
+(Product Catalog Service, supplies the product catalog to, Search & Filter Module)
+(Product Display Module, triggers actions in, Shopping Cart Module)
+(Shopping Cart Module, notifies for UI updates, Application Orchestrator)
+(Shopping Cart Module, provides cart details to, WhatsApp Integration Module)
+(Search & Filter Module, delivers filtered product lists to, Product Display Module)
+(Theme Management Module, applies selected styles to, Application Orchestrator)
+2025-11-17 19:39:09 INFO     [agents.validator_agent:146] [ValidatorAgent] Running validation on the analysis.
+2025-11-17 19:39:33 INFO     [agents.validator_agent:165] [ValidatorAgent] Validation result: [Valid: False] with insights: **Feedback Information:**
+Component Application Orchestrator has js/main.js as an incorrect reference: 'QName:`js/main.js` FileRef: `js/main.js`'. js/main.js is INCORRECT reference, there is no such module or function/class/method in the project. Please reconsider by using `getSourceCode` tool to find the correct reference or validate with `readFile` tool if it is a file reference.
+Component Product Catalog Service has js/products.js as an incorrect reference: 'QName:`js/products.js` FileRef: `js/products.js`'. js/products.js is INCORRECT reference, there is no such module or function/class/method in the project. Please reconsider by using `getSourceCode` tool to find the correct reference or validate with `readFile` tool if it is a file reference.
+Component Product Display Module has js/product.js as an incorrect reference: 'QName:`js/product.js` FileRef: `js/product.js`'. js/product.js is INCORRECT reference, there is no such module or function/class/method in the project. Please reconsider by using `getSourceCode` tool to find the correct reference or validate with `readFile` tool if it is a file reference.
+Component Shopping Cart Module has js/cart.js as an incorrect reference: 'QName:`js/cart.js` FileRef: `js/cart.js`'. js/cart.js is INCORRECT reference, there is no such module or function/class/method in the project. Please reconsider by using `getSourceCode` tool to find the correct reference or validate with `readFile` tool if it is a file reference.
+Component Search & Filter Module has js/search.js as an incorrect reference: 'QName:`js/search.js` FileRef: `js/search.js`'. js/search.js is INCORRECT reference, there is no such module or function/class/method in the project. Please reconsider by using `getSourceCode` tool to find the correct reference or validate with `readFile` tool if it is a file reference.
+Component Theme Management Module has js/theme.js as an incorrect reference: 'QName:`js/theme.js` FileRef: `js/theme.js`'. js/theme.js is INCORRECT reference, there is no such module or function/class/method in the project. Please reconsider by using `getSourceCode` tool to find the correct reference or validate with `readFile` tool if it is a file reference.
+Component WhatsApp Integration Module has js/whatsapp.js as an incorrect reference: 'QName:`js/whatsapp.js` FileRef: `js/whatsapp.js`'. js/whatsapp.js is INCORRECT reference, there is no such module or function/class/method in the project. Please reconsider by using `getSourceCode` tool to find the correct reference or validate with `readFile` tool if it is a file reference.
+
+
+2025-11-17 19:39:33 INFO     [agents.abstraction_agent:130] [AbstractionAgent] Applying feedback to analysis for project: Sakr-Store
+2025-11-17 19:39:40 WARNING  [langchain_google_genai._function_utils:102] Key '$defs' is not supported in schema, ignoring
+2025-11-17 19:39:53 INFO     [static_analyzer.reference_resolve_mixin:26] Fixing source code reference lines for the analysis: # 📦 Abstract Components Overview
+**Component:** `Application Orchestrator`
+   - *Description*: The central control module responsible for initializing the application, managing global state, coordinating interactions between major modules, and handling overall page navigation and rendering. It acts as the main entry point for the client-side application.
+   - *Related Classes/Methods*: `QName:`main.js` FileRef: `main.js``
+**Component:** `Product Catalog Service`
+   - *Description*: Manages the loading, parsing, and provision of all product-related information from the static `products.json` file. It serves as the authoritative source for product data within the application.
+   - *Related Classes/Methods*: `QName:`products.js` FileRef: `products.js``
+**Component:** `Product Display Module`
+   - *Description*: Responsible for rendering product listings (e.g., product cards on a category page) and detailed product views. It handles user interactions directly related to product elements, such as "add to cart" buttons.
+   - *Related Classes/Methods*: `QName:`product.js` FileRef: `product.js``
+**Component:** `Shopping Cart Module`
+   - *Description*: Encapsulates all business logic and UI rendering related to the user's shopping cart. This includes adding, removing, updating items, calculating totals, and persisting cart data.
+   - *Related Classes/Methods*: `QName:`cart.js` FileRef: `cart.js``
+**Component:** `Search & Filter Module`
+   - *Description*: Provides the functionality for users to search for products and apply various filters (e.g., category, price range) to narrow down the product listings. It processes raw product data to return filtered results.
+   - *Related Classes/Methods*: `QName:`search.js` FileRef: `search.js``
+**Component:** `Theme Management Module`
+   - *Description*: Manages the application's visual theme (e.g., light/dark mode), applies the selected styles to the user interface, and persists the user's theme preference across sessions.
+   - *Related Classes/Methods*: `QName:`theme.js` FileRef: `theme.js``
+**Component:** `WhatsApp Integration Module`
+   - *Description*: Facilitates the generation of pre-filled WhatsApp messages for placing orders. It constructs the message content based on the current shopping cart details and initiates the WhatsApp interaction.
+   - *Related Classes/Methods*: `QName:`whatsapp.js` FileRef: `whatsapp.js``(Application Orchestrator, initiates loading of, Product Catalog Service)
+(Application Orchestrator, triggers rendering by, Product Display Module)
+(Application Orchestrator, initializes, Shopping Cart Module)
+(Application Orchestrator, initializes, Theme Management Module)
+(Product Catalog Service, provides product data to, Product Display Module)
+(Product Catalog Service, supplies the product catalog to, Search & Filter Module)
+(Product Display Module, triggers actions in, Shopping Cart Module)
+(Shopping Cart Module, notifies for UI updates, Application Orchestrator)
+(Shopping Cart Module, provides cart details to, WhatsApp Integration Module)
+(Search & Filter Module, delivers filtered product lists to, Product Display Module)
+(Theme Management Module, applies selected styles to, Application Orchestrator)
+2025-11-17 19:39:54 INFO     [agents.tools.read_file:51] [ReadFile Tool] Reading file main.js around line 1
+2025-11-17 19:39:54 ERROR    [agents.tools.read_file:66] [ReadFile Tool] File main.js not found in cached files.
+2025-11-17 19:40:28 INFO     [agents.tools.read_file:51] [ReadFile Tool] Reading file whatsapp.js around line 1
+2025-11-17 19:40:28 ERROR    [agents.tools.read_file:66] [ReadFile Tool] File whatsapp.js not found in cached files.
+2025-11-17 19:40:33 INFO     [diagram_analysis.diagram_generator:146] Found 2 components to analyze at level 0
+2025-11-17 19:40:33 INFO     [agents.abstraction_agent:143] [AbstractionAgent] Classifying files for project: Sakr-Store
+2025-11-17 19:40:33 INFO     [diagram_analysis.diagram_generator:192] Analysis complete. Generated 1 analysis files

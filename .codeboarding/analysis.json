@@ -1,0 +1,167 @@
+{
+  "description": "This e-commerce application is structured around a client-side orchestration pattern, where the `Application Orchestrator` acts as the central hub, managing the overall application flow, state, and interactions between various modules. It initializes core services like the `Product Catalog Service` and integrates with UI-focused components such as the `Product Display Module`, `Shopping Cart Module`, `Search & Filter Module`, and `Theme Management Module`. The `Product Catalog Service` is responsible for data provision, supplying product information to display and search functionalities. User interactions, such as adding items to the cart or applying filters, are handled by their respective modules, which then communicate updates back to the orchestrator or other relevant components. A dedicated `WhatsApp Integration Module` facilitates order placement by leveraging shopping cart data. This architecture emphasizes clear separation of concerns, with each module handling a specific domain, contributing to a modular and maintainable system.",
+  "components": [
+    {
+      "name": "Application Orchestrator",
+      "description": "The central control module responsible for initializing the application, managing global state, coordinating interactions between major modules, and handling overall page navigation and rendering. It acts as the main entry point for the client-side application.",
+      "referenced_source_code": [
+        {
+          "qualified_name": "main.js",
+          "reference_file": "main.js",
+          "reference_start_line": null,
+          "reference_end_line": null
+        }
+      ],
+      "assigned_files": [],
+      "can_expand": false
+    },
+    {
+      "name": "Product Catalog Service",
+      "description": "Manages the loading, parsing, and provision of all product-related information from the static `products.json` file. It serves as the authoritative source for product data within the application.",
+      "referenced_source_code": [
+        {
+          "qualified_name": "products.js",
+          "reference_file": "products.js",
+          "reference_start_line": null,
+          "reference_end_line": null
+        }
+      ],
+      "assigned_files": [],
+      "can_expand": false
+    },
+    {
+      "name": "Product Display Module",
+      "description": "Responsible for rendering product listings (e.g., product cards on a category page) and detailed product views. It handles user interactions directly related to product elements, such as \"add to cart\" buttons.",
+      "referenced_source_code": [
+        {
+          "qualified_name": "product.js",
+          "reference_file": "product.js",
+          "reference_start_line": null,
+          "reference_end_line": null
+        }
+      ],
+      "assigned_files": [],
+      "can_expand": true
+    },
+    {
+      "name": "Shopping Cart Module",
+      "description": "Encapsulates all business logic and UI rendering related to the user's shopping cart. This includes adding, removing, updating items, calculating totals, and persisting cart data.",
+      "referenced_source_code": [
+        {
+          "qualified_name": "cart.js",
+          "reference_file": "cart.js",
+          "reference_start_line": null,
+          "reference_end_line": null
+        }
+      ],
+      "assigned_files": [],
+      "can_expand": true
+    },
+    {
+      "name": "Search & Filter Module",
+      "description": "Provides the functionality for users to search for products and apply various filters (e.g., category, price range) to narrow down the product listings. It processes raw product data to return filtered results.",
+      "referenced_source_code": [
+        {
+          "qualified_name": "search.js",
+          "reference_file": "search.js",
+          "reference_start_line": null,
+          "reference_end_line": null
+        }
+      ],
+      "assigned_files": [],
+      "can_expand": false
+    },
+    {
+      "name": "Theme Management Module",
+      "description": "Manages the application's visual theme (e.g., light/dark mode), applies the selected styles to the user interface, and persists the user's theme preference across sessions.",
+      "referenced_source_code": [
+        {
+          "qualified_name": "theme.js",
+          "reference_file": "theme.js",
+          "reference_start_line": null,
+          "reference_end_line": null
+        }
+      ],
+      "assigned_files": [],
+      "can_expand": false
+    },
+    {
+      "name": "WhatsApp Integration Module",
+      "description": "Facilitates the generation of pre-filled WhatsApp messages for placing orders. It constructs the message content based on the current shopping cart details and initiates the WhatsApp interaction.",
+      "referenced_source_code": [
+        {
+          "qualified_name": "whatsapp.js",
+          "reference_file": "whatsapp.js",
+          "reference_start_line": null,
+          "reference_end_line": null
+        }
+      ],
+      "assigned_files": [],
+      "can_expand": false
+    },
+    {
+      "name": "Unclassified",
+      "description": "Component for all unclassified files and utility functions (Utility functions/External Libraries/Dependencies)",
+      "referenced_source_code": [],
+      "assigned_files": [],
+      "can_expand": false
+    }
+  ],
+  "components_relations": [
+    {
+      "relation": "initiates loading of",
+      "src_name": "Application Orchestrator",
+      "dst_name": "Product Catalog Service"
+    },
+    {
+      "relation": "triggers rendering by",
+      "src_name": "Application Orchestrator",
+      "dst_name": "Product Display Module"
+    },
+    {
+      "relation": "initializes",
+      "src_name": "Application Orchestrator",
+      "dst_name": "Shopping Cart Module"
+    },
+    {
+      "relation": "initializes",
+      "src_name": "Application Orchestrator",
+      "dst_name": "Theme Management Module"
+    },
+    {
+      "relation": "provides product data to",
+      "src_name": "Product Catalog Service",
+      "dst_name": "Product Display Module"
+    },
+    {
+      "relation": "supplies the product catalog to",
+      "src_name": "Product Catalog Service",
+      "dst_name": "Search & Filter Module"
+    },
+    {
+      "relation": "triggers actions in",
+      "src_name": "Product Display Module",
+      "dst_name": "Shopping Cart Module"
+    },
+    {
+      "relation": "notifies for UI updates",
+      "src_name": "Shopping Cart Module",
+      "dst_name": "Application Orchestrator"
+    },
+    {
+      "relation": "provides cart details to",
+      "src_name": "Shopping Cart Module",
+      "dst_name": "WhatsApp Integration Module"
+    },
+    {
+      "relation": "delivers filtered product lists to",
+      "src_name": "Search & Filter Module",
+      "dst_name": "Product Display Module"
+    },
+    {
+      "relation": "applies selected styles to",
+      "src_name": "Theme Management Module",
+      "dst_name": "Application Orchestrator"
+    }
+  ]
+}
