@@ -473,6 +473,67 @@
                 breadcrumbSchemaScript.textContent = JSON.stringify(breadcrumbSchema, null, 2);
               }
 
+              // Update dynamic meta tags for better UX (browser title, description)
+              // Note: Social media previews will still use static meta tags as they don't execute JavaScript
+              document.title = `${product.name} - Sakr Store`;
+              
+              // Update meta description
+              const metaDescription = document.querySelector('meta[name="description"]');
+              if (metaDescription) {
+                const priceText = product.discount 
+                  ? `EGP ${product.discountedPrice.toFixed(2)} (was ${product.price.toFixed(2)})` 
+                  : `EGP ${product.price.toFixed(2)}`;
+                metaDescription.setAttribute('content', 
+                  `${product.name} - ${priceText}. ${product.description ? product.description.substring(0, 100) + '...' : 'Quality electronics at Sakr Store Egypt.'}`
+                );
+              }
+              
+              // Update Open Graph title (for when JavaScript-capable crawlers visit)
+              const ogTitle = document.querySelector('meta[property="og:title"]');
+              if (ogTitle) {
+                ogTitle.setAttribute('content', `${product.name} - Sakr Store`);
+              }
+              
+              // Update Open Graph description
+              const ogDescription = document.querySelector('meta[property="og:description"]');
+              if (ogDescription) {
+                const priceText = product.discount 
+                  ? `EGP ${product.discountedPrice.toFixed(2)}` 
+                  : `EGP ${product.price.toFixed(2)}`;
+                ogDescription.setAttribute('content', 
+                  `${product.name} - ${priceText}. ${product.description ? product.description.substring(0, 80) : 'Shop quality electronics at Sakr Store.'}`
+                );
+              }
+              
+              // Update Open Graph image to product's primary image (keeps existing fallback intact)
+              const ogImage = document.querySelector('meta[property="og:image"]');
+              if (ogImage && allImages.length > 0) {
+                ogImage.setAttribute('content', `https://sakrstore.github.io/Sakr-Store/${allImages[0]}`);
+              }
+              
+              // Update Twitter card title
+              const twitterTitle = document.querySelector('meta[property="twitter:title"]');
+              if (twitterTitle) {
+                twitterTitle.setAttribute('content', `${product.name} - Sakr Store`);
+              }
+              
+              // Update Twitter card description
+              const twitterDescription = document.querySelector('meta[property="twitter:description"]');
+              if (twitterDescription) {
+                const priceText = product.discount 
+                  ? `EGP ${product.discountedPrice.toFixed(2)}` 
+                  : `EGP ${product.price.toFixed(2)}`;
+                twitterDescription.setAttribute('content', 
+                  `${product.name} - ${priceText}. Shop quality electronics at Sakr Store Egypt.`
+                );
+              }
+              
+              // Update Twitter card image to product's primary image (keeps existing fallback intact)
+              const twitterImage = document.querySelector('meta[property="twitter:image"]');
+              if (twitterImage && allImages.length > 0) {
+                twitterImage.setAttribute('content', `https://sakrstore.github.io/Sakr-Store/${allImages[0]}`);
+              }
+
               // Build thumbnails if more than one image
               const thumbsContainer = document.getElementById('product-thumbnails');
               if (thumbsContainer) {
