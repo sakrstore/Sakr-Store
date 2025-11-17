@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us - Sakr Store</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn about Sakr Store - 5+ years of technology expertise, offering quality electronics and accessories across Egypt. Our story, mission, and commitment to excellence.">
+    <meta name="keywords" content="about Sakr Store, electronics expertise Egypt, tech store history, quality electronics, authentic products">
+    <meta name="author" content="Sakr Store">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sakrstore.com/about.html">
+    <meta property="og:title" content="About Us - Sakr Store Electronics">
+    <meta property="og:description" content="Discover Sakr Store's journey - 5+ years of technology expertise serving Egypt with quality products and competitive prices.">
+    <meta property="og:image" content="https://www.sakrstore.com/images/sakr-store-favicon.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://www.sakrstore.com/about.html">
+    <meta property="twitter:title" content="About Us - Sakr Store Electronics">
+    <meta property="twitter:description" content="Learn about Sakr Store's mission to provide quality electronics across Egypt.">
+    <meta property="twitter:image" content="https://www.sakrstore.com/images/sakr-store-favicon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="images/sakr-store-favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/sakr-store-favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/sakr-store-favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/sakr-store-favicon.png">
+    <link rel="shortcut icon" href="images/Sakr store favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Tajawal:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <style>
+      /* About Page Specific Styles */
+      .about-page {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1.5rem;
+      }
+
+      .page-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem;
+        background: linear-gradient(135deg, rgba(30, 58, 138, 0.1), rgba(37, 99, 235, 0.1));
+        border-radius: var(--radius-lg);
+      }
+
+      .page-header h1 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+      }
+
+      .page-header .tagline {
+        font-size: 1.5rem;
+        color: var(--primary-color);
+        font-weight: 600;
+        font-style: italic;
+      }
+
+      .language-toggle {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 2rem 0;
+      }
+
+      .lang-btn {
+        padding: 0.75rem 2rem;
+        border: 2px solid var(--primary-color);
+        background: transparent;
+        color: var(--primary-color);
+        border-radius: var(--radius-md);
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all var(--transition-speed);
+      }
+
+      .lang-btn.active {
+        background: var(--primary-color);
+        color: white;
+      }
+
+      .lang-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .content-section {
+        background: var(--card-bg);
+        padding: 2.5rem;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-md);
+        margin-bottom: 2rem;
+      }
+
+      .content-section h2 {
+        font-size: 2rem;
+        color: var(--text-color);
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-weight: 700;
+      }
+
+      .content-section h2 i {
+        color: var(--primary-color);
+        font-size: 2.25rem;
+      }
+
+      .content-section p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--secondary-text);
+        margin-bottom: 1.25rem;
+      }
+
+      .content-section[lang="ar"] {
+        direction: rtl;
+        font-family: 'Cairo', 'Tajawal', sans-serif;
+      }
+
+      .content-section[lang="ar"] h2 {
+        flex-direction: row-reverse;
+      }
+
+      .values-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .value-card {
+        background: var(--bg-color);
+        padding: 2rem;
+        border-radius: var(--radius-lg);
+        text-align: center;
+        transition: all var(--transition-speed);
+        border: 2px solid transparent;
+      }
+
+      .value-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary-color);
+        box-shadow: var(--shadow-md);
+      }
+
+      .value-card i {
+        font-size: 3rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+        display: block;
+      }
+
+      .value-card h3 {
+        font-size: 1.5rem;
+        color: var(--text-color);
+        margin-bottom: 0.75rem;
+        font-weight: 600;
+      }
+
+      .value-card p {
+        font-size: 1rem;
+        color: var(--secondary-text);
+        line-height: 1.6;
+      }
+
+      .timeline {
+        position: relative;
+        padding: 2rem 0;
+      }
+
+      .timeline-item {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        position: relative;
+      }
+
+      .timeline-date {
+        min-width: 150px;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--primary-color);
+      }
+
+      .timeline-content {
+        flex: 1;
+        background: var(--bg-color);
+        padding: 1.5rem;
+        border-radius: var(--radius-md);
+        border-left: 4px solid var(--primary-color);
+      }
+
+      .timeline-content h3 {
+        font-size: 1.25rem;
+        color: var(--text-color);
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+      }
+
+      .cta-section {
+        background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+        color: white;
+        padding: 3rem;
+        border-radius: var(--radius-lg);
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      .cta-section h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+
+      .cta-section p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        opacity: 0.95;
+      }
+
+      .cta-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .cta-btn {
+        padding: 1rem 2rem;
+        background: white;
+        color: var(--primary-color);
+        text-decoration: none;
+        border-radius: var(--radius-md);
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: all var(--transition-speed);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .cta-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      }
+
+      .cta-btn.secondary {
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+      }
+
+      @media (max-width: 768px) {
+        .page-header h1 {
+          font-size: 2rem;
+        }
+
+        .page-header .tagline {
+          font-size: 1.25rem;
+        }
+
+        .content-section {
+          padding: 1.5rem;
+        }
+
+        .content-section h2 {
+          font-size: 1.5rem;
+        }
+
+        .timeline-item {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .cta-section {
+          padding: 2rem 1.5rem;
+        }
+
+        .cta-buttons {
+          flex-direction: column;
+        }
+
+        .cta-btn {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html" class="store-title">Sakr Store</a></h1>
+      <nav>
+        <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+          <svg id="light-icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm0 4a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm0-18a1 1 0 0 1-1-1V2a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm10 8a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1ZM4 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1Zm14.95 6.364a1 1 0 0 1-1.414 1.414l-.707-.707a1 1 0 0 1 1.414-1.414l.707.707ZM6.464 6.464A1 1 0 0 1 5.05 5.05l.707-.707A1 1 0 0 1 7.17 5.757l-.707.707Zm11.314-2.121a1 1 0 0 1 0 1.414l-.707.707A1 1 0 0 1 15.657 5.05l.707-.707a1 1 0 0 1 1.414 0ZM6.464 17.536a1 1 0 0 1-1.414 0l-.707-.707A1 1 0 1 1 5.05 14.95l.707.707a1 1 0 0 1 0 1.414Z"/>
+          </svg>
+          <svg id="dark-icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M21.64 13.64a1 1 0 0 0-1.05-.24A8 8 0 0 1 10.6 4.41a1 1 0 0 0-.24-1.05 1 1 0 0 0-1.09-.21A10 10 0 1 0 21.86 14.73a1 1 0 0 0-.22-1.09Zm-9.64 6.36a8 8 0 0 1-7.07-11.64 10 10 0 0 0 10.71 10.71A7.95 7.95 0 0 1 12 20Z"/>
+          </svg>
+        </button>
+        <a href="cart.html" class="cart-link" aria-label="View shopping cart">
+          <i class="ri-shopping-cart-2-line"></i>
+          <span class="cart-count" aria-label="Items in cart">0</span>
+        </a>
+      </nav>
+    </header>
+
+    <main class="about-page">
+      <!-- Page Header -->
+      <div class="page-header">
+        <h1>About Sakr Store</h1>
+        <p class="tagline">Powering Your Digital Life</p>
+      </div>
+
+      <!-- Language Toggle -->
+      <div class="language-toggle">
+        <button class="lang-btn active" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="ar">العربية</button>
+      </div>
+
+      <!-- English Content -->
+      <div id="content-en" class="language-content">
+        <div class="content-section" lang="en">
+          <h2><i class="ri-store-3-line"></i> Our Story</h2>
+          <p>Sakr Store was born from a deep passion for technology. Our team brings over five years of collective experience, mastering everything from complex tech repairs to retail. After an initial online venture in 2023, we dedicated ourselves to building a better experience for tech lovers.</p>
+          <p>On November 11, 2025, this vision became a reality with the official launch of Sakr Store. Our mission is clear: to source the best quality tech and accessories and offer them at the best possible price. We aren't just sellers; we are a team of tech experts dedicated to helping you find the perfect product that fits your needs, with delivery available all across Egypt.</p>
+        </div>
+
+        <div class="content-section" lang="en">
+          <h2><i class="ri-lightbulb-flash-line"></i> What Makes Us Different</h2>
+          <p>Our expertise sets us apart. With a background in technical repairs, we understand our products inside and out. This allows us to offer genuine support, ensure product quality, and provide real value through competitive prices and great weekly offers.</p>
+          <p>When you shop with Sakr Store, you're not just buying a product—you're gaining access to years of technical knowledge and a commitment to authentic, high-quality electronics.</p>
+        </div>
+
+        <!-- Timeline -->
+        <div class="content-section" lang="en">
+          <h2><i class="ri-history-line"></i> Our Journey</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2018-2023</div>
+              <div class="timeline-content">
+                <h3>Building Expertise</h3>
+                <p>Over 5 years of hands-on experience in technical repairs and electronics, developing deep product knowledge and understanding customer needs.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">2023</div>
+              <div class="timeline-content">
+                <h3>First Online Venture</h3>
+                <p>Launched our initial online presence, learning valuable lessons about e-commerce and customer service in the Egyptian market.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">Nov 11, 2025</div>
+              <div class="timeline-content">
+                <h3>Official Launch</h3>
+                <p>Sakr Store officially relaunched with a renewed commitment to quality, competitive pricing, and exceptional customer service across Egypt.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arabic Content (Hidden by default) -->
+      <div id="content-ar" class="language-content" style="display: none;">
+        <div class="content-section" lang="ar">
+          <h2><i class="ri-store-3-line"></i> قصتنا</h2>
+          <p>قصتنا في "صقر ستور" بدأت بشغف كبير بالتكنولوجيا. خبرة فريقنا بتمتد لأكتر من 5 سنين في المجال، من صيانة الأجهزة لحد البيع.</p>
+          <p>الخبرة دي هي اللي خلتنا نبدأ أول موقع لينا في 2023. وفي 11 نوفمبر 2025، الحلم ده اتحول لواقع مع الانطلاقة الرسمية لـ "صقر ستور" بشكلها الجديد.</p>
+          <p>مهمتنا واضحة: نجيب أحسن كواليتي في الإكسسوارات والتكنولوجيا، ونقدمها بأحسن سعر في السوق. إحنا مش مجرد "بياعين"، إحنا فريق خبراء هدفه نساعدك تختار أنسب حاجة لاحتياجك، ونوصلهالك في أي مكان في مصر.</p>
+        </div>
+
+        <div class="content-section" lang="ar">
+          <h2><i class="ri-lightbulb-flash-line"></i> اللي بيميزنا</h2>
+          <p>اللي بيميزنا هو خبرتنا. لإننا فاهمين في صيانة الأجهزة، إحنا فاهمين كويس المنتج اللي بنبيعه. ده بيخلينا نقدم دعم حقيقي ونضمنلك الجودة.</p>
+          <p>لما تشتري من صقر ستور، أنت مش بس بتشتري منتج—أنت بتحصل على سنين خبرة تقنية والتزام بتقديم إلكترونيات أصلية وعالية الجودة.</p>
+          <p>اختارنا عشان أسعارنا، وعروضنا الأسبوعية، وعشان تشتري وأنت مطمن من ناس خبرة.</p>
+        </div>
+
+        <!-- Timeline in Arabic -->
+        <div class="content-section" lang="ar">
+          <h2><i class="ri-history-line"></i> رحلتنا</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2018-2023</div>
+              <div class="timeline-content">
+                <h3>بناء الخبرة</h3>
+                <p>أكتر من 5 سنين خبرة عملية في الصيانة التقنية والإلكترونيات، وتطوير معرفة عميقة بالمنتجات وفهم احتياجات العملاء.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">2023</div>
+              <div class="timeline-content">
+                <h3>أول مشروع أونلاين</h3>
+                <p>إطلاق أول موقع لينا، وتعلم دروس قيمة عن التجارة الإلكترونية وخدمة العملاء في السوق المصري.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">11 نوفمبر 2025</div>
+              <div class="timeline-content">
+                <h3>الانطلاقة الرسمية</h3>
+                <p>صقر ستور انطلق رسمياً بالتزام متجدد بالجودة والأسعار التنافسية وخدمة العملاء الاستثنائية في جميع أنحاء مصر.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Core Values (Same for both languages) -->
+      <div class="content-section">
+        <h2><i class="ri-heart-3-line"></i> Core Values</h2>
+        <div class="values-grid">
+          <div class="value-card">
+            <i class="ri-shield-check-line"></i>
+            <h3>Quality</h3>
+            <p>We source only authentic, high-quality products from trusted suppliers to ensure customer satisfaction.</p>
+          </div>
+          <div class="value-card">
+            <i class="ri-tools-line"></i>
+            <h3>Expertise</h3>
+            <p>5+ years of technical experience means we know our products and can provide genuine expert advice.</p>
+          </div>
+          <div class="value-card">
+            <i class="ri-price-tag-3-line"></i>
+            <h3>Value</h3>
+            <p>Competitive pricing and weekly offers ensure you get the best deal on quality tech products.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Call to Action -->
+      <div class="cta-section">
+        <h2>Ready to Shop?</h2>
+        <p>Explore our collection of quality electronics and accessories with nationwide delivery across Egypt.</p>
+        <div class="cta-buttons">
+          <a href="index.html" class="cta-btn">
+            <i class="ri-shopping-bag-line"></i>
+            Browse Products
+          </a>
+          <a href="contact.html" class="cta-btn secondary">
+            <i class="ri-customer-service-line"></i>
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-grid">
+          
+          <!-- About Column -->
+          <div class="footer-column">
+            <h3>About Sakr Store</h3>
+            <p>Powering Your Digital Life.</p>
+            <p>We bring over 5 years of expertise in technology, offering the best quality tech and accessories at competitive prices across Egypt.</p>
+            <div class="trust-badges">
+              <span class="trust-badge"><i class="ri-shield-check-line"></i> Authentic Products</span>
+              <span class="trust-badge"><i class="ri-24-hours-line"></i> 24/7 Support</span>
+            </div>
+          </div>
+
+          <!-- Quick Links Column -->
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html"><i class="ri-home-line"></i> Home</a></li>
+              <li><a href="about.html"><i class="ri-information-line"></i> About Us</a></li>
+              <li><a href="contact.html"><i class="ri-mail-line"></i> Contact Us</a></li>
+              <li><a href="faq.html"><i class="ri-question-line"></i> FAQ</a></li>
+            </ul>
+          </div>
+
+          <!-- Policies Column -->
+          <div class="footer-column">
+            <h3>Policies</h3>
+            <ul>
+              <li><a href="return-policy.html"><i class="ri-arrow-go-back-line"></i> Return Policy</a></li>
+              <li><a href="privacy-policy.html"><i class="ri-shield-user-line"></i> Privacy Policy</a></li>
+              <li><a href="terms.html"><i class="ri-file-list-line"></i> Terms & Conditions</a></li>
+            </ul>
+            <div class="payment-methods">
+              <span class="payment-method"><i class="ri-money-dollar-circle-line"></i> Cash on Delivery</span>
+              <span class="payment-method"><i class="ri-smartphone-line"></i> Mobile Wallets</span>
+              <span class="payment-method"><i class="ri-bank-card-line"></i> InstaPay</span>
+            </div>
+          </div>
+
+          <!-- Contact Column -->
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <div class="contact-item">
+              <i class="ri-phone-line"></i>
+              <a href="tel:+201070289832">01070289832</a>
+            </div>
+            <div class="contact-item">
+              <i class="ri-whatsapp-line"></i>
+              <a href="https://wa.me/201108563748" target="_blank" rel="noopener">01108563748</a>
+            </div>
+            <div class="contact-item">
+              <i class="ri-mail-line"></i>
+              <a href="mailto:sakrstore2@gmail.com">sakrstore2@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="ri-map-pin-line"></i>
+              <span>Based in El Shorouk & Zagazig<br>Nationwide Delivery</span>
+            </div>
+            <div class="social-links">
+              <a href="https://www.facebook.com/share/1a7YHoqVak/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/sakr_store2" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="https://www.youtube.com/@SakrStore-EG" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
+                <i class="ri-youtube-line"></i>
+              </a>
+              <a href="https://www.tiktok.com/@sakr.store96" target="_blank" rel="noopener" class="social-link" aria-label="TikTok">
+                <i class="ri-tiktok-line"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>&copy; 2025 Sakr Store. All rights reserved.</p>
+          <p>Established 2023 | Relaunched November 11, 2025</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script>
+      // Language toggle functionality
+      const langButtons = document.querySelectorAll('.lang-btn');
+      const contentEn = document.getElementById('content-en');
+      const contentAr = document.getElementById('content-ar');
+
+      langButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const lang = btn.dataset.lang;
+          
+          // Update active button
+          langButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          
+          // Show/hide content
+          if (lang === 'en') {
+            contentEn.style.display = 'block';
+            contentAr.style.display = 'none';
+          } else {
+            contentEn.style.display = 'none';
+            contentAr.style.display = 'block';
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FAQ - Frequently Asked Questions - Sakr Store</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Find answers to common questions about Sakr Store. Learn about shipping, payments, returns, warranties, and more. 24/7 customer support available.">
+    <meta name="keywords" content="Sakr Store FAQ, electronics questions, shipping info, payment methods, return questions, Egypt electronics">
+    <meta name="author" content="Sakr Store">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="images/sakr-store-favicon.png">
+    <link rel="shortcut icon" href="images/Sakr store favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <style>
+      .faq-page {
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 0 1.5rem;
+      }
+
+      .faq-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem;
+        background: linear-gradient(135deg, rgba(30, 58, 138, 0.1), rgba(37, 99, 235, 0.1));
+        border-radius: var(--radius-lg);
+      }
+
+      .faq-header h1 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+      }
+
+      .faq-header h1 i {
+        color: var(--primary-color);
+      }
+
+      .faq-header p {
+        font-size: 1.1rem;
+        color: var(--secondary-text);
+      }
+
+      .faq-search {
+        max-width: 600px;
+        margin: 0 auto 2rem;
+      }
+
+      .faq-search input {
+        width: 100%;
+        padding: 1rem 1rem 1rem 3rem;
+        border: 2px solid var(--card-border);
+        border-radius: var(--radius-lg);
+        font-size: 1rem;
+        background: var(--card-bg);
+        color: var(--text-color);
+        transition: all var(--transition-speed);
+      }
+
+      .faq-search input:focus {
+        outline: none;
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+      }
+
+      .faq-search {
+        position: relative;
+      }
+
+      .faq-search i {
+        position: absolute;
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--muted-text);
+        font-size: 1.25rem;
+      }
+
+      .faq-categories {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .category-btn {
+        padding: 0.75rem 1.5rem;
+        border: 2px solid var(--card-border);
+        background: var(--card-bg);
+        color: var(--text-color);
+        border-radius: var(--radius-md);
+        font-size: 0.95rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all var(--transition-speed);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .category-btn:hover {
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+        transform: translateY(-2px);
+      }
+
+      .category-btn.active {
+        background: var(--primary-color);
+        color: white;
+        border-color: var(--primary-color);
+      }
+
+      .faq-section {
+        background: var(--card-bg);
+        padding: 2rem;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-md);
+        margin-bottom: 2rem;
+      }
+
+      .faq-section h2 {
+        font-size: 1.75rem;
+        color: var(--text-color);
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 700;
+        border-bottom: 2px solid var(--primary-color);
+        padding-bottom: 0.5rem;
+      }
+
+      .faq-section h2 i {
+        color: var(--primary-color);
+      }
+
+      .faq-item {
+        margin-bottom: 1rem;
+        border: 1px solid var(--card-border);
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        transition: all var(--transition-speed);
+      }
+
+      .faq-item:hover {
+        box-shadow: var(--shadow-sm);
+      }
+
+      .faq-question {
+        padding: 1.25rem;
+        background: var(--bg-color);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        transition: all var(--transition-speed);
+      }
+
+      .faq-question:hover {
+        background: var(--card-hover);
+      }
+
+      .faq-question h3 {
+        font-size: 1.1rem;
+        color: var(--text-color);
+        font-weight: 600;
+        margin: 0;
+        flex: 1;
+      }
+
+      .faq-question i {
+        font-size: 1.5rem;
+        color: var(--primary-color);
+        transition: transform var(--transition-speed);
+      }
+
+      .faq-item.active .faq-question i {
+        transform: rotate(180deg);
+      }
+
+      .faq-answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+      }
+
+      .faq-answer-content {
+        padding: 1.25rem;
+        color: var(--secondary-text);
+        line-height: 1.8;
+        font-size: 1.05rem;
+      }
+
+      .faq-answer-content p {
+        margin-bottom: 0.75rem;
+      }
+
+      .faq-answer-content ul {
+        margin: 0.5rem 0;
+        padding-left: 1.5rem;
+      }
+
+      .faq-answer-content li {
+        margin-bottom: 0.5rem;
+      }
+
+      .faq-answer-content strong {
+        color: var(--text-color);
+      }
+
+      .faq-answer-content a {
+        color: var(--primary-color);
+        text-decoration: underline;
+      }
+
+      .contact-cta {
+        background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+        color: white;
+        padding: 2rem;
+        border-radius: var(--radius-lg);
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      .contact-cta h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .contact-cta p {
+        margin-bottom: 1.5rem;
+        opacity: 0.95;
+      }
+
+      .contact-cta a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: rgba(255,255,255,0.2);
+        padding: 0.75rem 1.5rem;
+        border-radius: var(--radius-md);
+        margin: 0.5rem;
+        transition: all var(--transition-speed);
+      }
+
+      .contact-cta a:hover {
+        background: rgba(255,255,255,0.3);
+        transform: translateY(-2px);
+      }
+
+      @media (max-width: 768px) {
+        .faq-header h1 {
+          font-size: 2rem;
+          flex-direction: column;
+        }
+
+        .faq-section {
+          padding: 1.5rem;
+        }
+
+        .faq-section h2 {
+          font-size: 1.5rem;
+        }
+
+        .category-btn {
+          flex: 1 1 45%;
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html" class="store-title">Sakr Store</a></h1>
+      <nav>
+        <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+          <svg id="light-icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm0 4a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm0-18a1 1 0 0 1-1-1V2a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm10 8a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1ZM4 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1Zm14.95 6.364a1 1 0 0 1-1.414 1.414l-.707-.707a1 1 0 0 1 1.414-1.414l.707.707ZM6.464 6.464A1 1 0 0 1 5.05 5.05l.707-.707A1 1 0 0 1 7.17 5.757l-.707.707Zm11.314-2.121a1 1 0 0 1 0 1.414l-.707.707A1 1 0 0 1 15.657 5.05l.707-.707a1 1 0 0 1 1.414 0ZM6.464 17.536a1 1 0 0 1-1.414 0l-.707-.707A1 1 0 1 1 5.05 14.95l.707.707a1 1 0 0 1 0 1.414Z"/>
+          </svg>
+          <svg id="dark-icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M21.64 13.64a1 1 0 0 0-1.05-.24A8 8 0 0 1 10.6 4.41a1 1 0 0 0-.24-1.05 1 1 0 0 0-1.09-.21A10 10 0 1 0 21.86 14.73a1 1 0 0 0-.22-1.09Zm-9.64 6.36a8 8 0 0 1-7.07-11.64 10 10 0 0 0 10.71 10.71A7.95 7.95 0 0 1 12 20Z"/>
+          </svg>
+        </button>
+        <a href="cart.html" class="cart-link" aria-label="View shopping cart">
+          <i class="ri-shopping-cart-2-line"></i>
+          <span class="cart-count">0</span>
+        </a>
+      </nav>
+    </header>
+
+    <main class="faq-page">
+      <div class="faq-header">
+        <h1><i class="ri-question-answer-line"></i> Frequently Asked Questions</h1>
+        <p>Find quick answers to common questions about Sakr Store</p>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="faq-search">
+        <i class="ri-search-line"></i>
+        <input type="text" id="faq-search-input" placeholder="Search for answers...">
+      </div>
+
+      <!-- Category Filters -->
+      <div class="faq-categories">
+        <button class="category-btn active" data-category="all">
+          <i class="ri-layout-grid-line"></i> All
+        </button>
+        <button class="category-btn" data-category="orders">
+          <i class="ri-shopping-bag-line"></i> Orders
+        </button>
+        <button class="category-btn" data-category="shipping">
+          <i class="ri-truck-line"></i> Shipping
+        </button>
+        <button class="category-btn" data-category="payment">
+          <i class="ri-money-dollar-circle-line"></i> Payment
+        </button>
+        <button class="category-btn" data-category="returns">
+          <i class="ri-arrow-go-back-line"></i> Returns
+        </button>
+      </div>
+
+      <!-- Orders & Ordering -->
+      <div class="faq-section" data-category="orders">
+        <h2><i class="ri-shopping-bag-line"></i> Orders & Ordering</h2>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>How do I place an order?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Placing an order is simple:</p>
+              <ul>
+                <li>Browse our products and add items to your cart</li>
+                <li>Click the cart icon and review your items</li>
+                <li>Fill in your delivery details (name, address, phone)</li>
+                <li>Click "Complete Order via WhatsApp"</li>
+                <li>Confirm your order through WhatsApp with our team</li>
+              </ul>
+              <p>Our team will confirm availability, shipping costs, and delivery time via WhatsApp.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Can I modify or cancel my order?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Yes! Contact us immediately via WhatsApp at <strong>01108563748</strong> if you need to modify or cancel your order. If your order hasn't been shipped yet, we can make changes or process a cancellation.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>How can I track my order?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>We provide order updates via WhatsApp throughout the delivery process. You'll receive notifications when your order is confirmed, shipped, and out for delivery. For real-time updates, contact us on WhatsApp.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Do you have a minimum order amount?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>No, there is no minimum order amount! You can order as few or as many items as you need. Shipping costs will be confirmed via WhatsApp based on your location and order details.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shipping & Delivery -->
+      <div class="faq-section" data-category="shipping">
+        <h2><i class="ri-truck-line"></i> Shipping & Delivery</h2>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Where do you ship?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>We ship <strong>nationwide across Egypt</strong>! No matter where you are, we can deliver to your location. We're based in El Shorouk and Zagazig but serve customers all over the country.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>How long does delivery take?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Estimated delivery time is <strong>2-7 business days</strong> depending on your location. Deliveries to major cities are typically faster, while more remote areas may take the full 7 days. We'll provide a more specific estimate when you place your order.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>How much is shipping?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Shipping costs vary based on your location and order size. The exact shipping fee will be <strong>confirmed via WhatsApp</strong> when you place your order. This ensures transparent pricing with no surprises.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Do you offer express or same-day delivery?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Currently, we don't offer express or same-day delivery. However, we work hard to process and ship orders quickly. Standard delivery takes 2-7 business days nationwide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payment -->
+      <div class="faq-section" data-category="payment">
+        <h2><i class="ri-money-dollar-circle-line"></i> Payment Methods</h2>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>What payment methods do you accept?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>We accept multiple convenient payment methods:</p>
+              <ul>
+                <li><strong>Cash on Delivery (COD)</strong> - Pay when you receive your order</li>
+                <li><strong>Mobile Wallets</strong> - Vodafone Cash, Orange Money, etc.</li>
+                <li><strong>InstaPay</strong> - Quick bank transfers</li>
+              </ul>
+              <p>Payment details will be confirmed via WhatsApp after placing your order.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Is Cash on Delivery (COD) available?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Yes! <strong>Cash on Delivery is available</strong> for all orders across Egypt. Simply pay when your order arrives. This is our most popular payment option.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Are my payment details secure?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Absolutely! We prioritize your security. If paying via mobile wallet or InstaPay, transactions are processed through secure, trusted platforms. For Cash on Delivery, you pay the delivery person directly—no sensitive information is shared online.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Returns & Exchanges -->
+      <div class="faq-section" data-category="returns">
+        <h2><i class="ri-arrow-go-back-line"></i> Returns & Exchanges</h2>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>What is your return policy?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>We offer a <strong>7-day return policy</strong>. Items must be in original, unused condition with factory seals intact (if applicable). All original packaging and accessories must be included.</p>
+              <p>To initiate a return, contact us via WhatsApp at <strong>01108563748</strong> with your order details.</p>
+              <p><a href="return-policy.html">View Full Return Policy →</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Can I exchange a product?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Yes! We offer a <strong>15-day exchange policy</strong>. Products must be in original, unused condition. Contact us via WhatsApp to arrange an exchange for a product of equal or greater value.</p>
+              <p><a href="return-policy.html">View Full Exchange Policy →</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>What if I receive a defective product?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>We're sorry if that happens! Contact us <strong>immediately</strong> via WhatsApp at <strong>01108563748</strong> with photos/videos of the defect. We'll arrange a replacement or full refund at no additional cost.</p>
+              <p>All products come with a <strong>30-day store warranty</strong> against manufacturing defects.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>How long does a refund take?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Refund processing time and method will be confirmed via WhatsApp after we receive and inspect your returned item. We aim to process refunds as quickly as possible.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Products & Quality -->
+      <div class="faq-section" data-category="all">
+        <h2><i class="ri-box-3-line"></i> Products & Quality</h2>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Are your products authentic?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p><strong>Yes, 100%!</strong> We only source authentic, high-quality products from trusted suppliers. With over 5 years of experience in electronics and technical repairs, we know genuine products and stand by our quality guarantee.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Do products come with a warranty?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Yes! All products include:</p>
+              <ul>
+                <li><strong>30-day store warranty</strong> against manufacturing defects</li>
+                <li>Official manufacturer warranty (where applicable)</li>
+              </ul>
+              <p>Warranty covers manufacturing defects only—not damage from misuse or accidents.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Can I request a product not listed on your website?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Absolutely! Contact us via WhatsApp at <strong>01108563748</strong> or email <strong>sakrstore2@gmail.com</strong> with details about the product you're looking for. We'll do our best to source it for you at a competitive price.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Customer Support -->
+      <div class="faq-section" data-category="all">
+        <h2><i class="ri-customer-service-line"></i> Customer Support</h2>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>How can I contact customer support?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>We're available <strong>24/7</strong> to help you! Contact us via:</p>
+              <ul>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/201108563748">01108563748</a> (fastest response)</li>
+                <li><strong>Phone:</strong> <a href="tel:+201070289832">01070289832</a></li>
+                <li><strong>Email:</strong> <a href="mailto:sakrstore2@gmail.com">sakrstore2@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>What are your business hours?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>We're available <strong>24/7</strong>! Whether it's a weekday, weekend, or holiday, we're here to assist you with orders, questions, or support.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>How quickly will I receive a response?</h3>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>We aim to respond to all inquiries within <strong>24 hours</strong>, usually much faster! WhatsApp messages typically receive same-day responses.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Still Have Questions? -->
+      <div class="contact-cta">
+        <h3>Still Have Questions?</h3>
+        <p>Can't find the answer you're looking for? Our friendly team is here to help!</p>
+        <a href="https://wa.me/201108563748" target="_blank" rel="noopener">
+          <i class="ri-whatsapp-line"></i> Chat on WhatsApp
+        </a>
+        <a href="contact.html">
+          <i class="ri-customer-service-line"></i> Contact Us
+        </a>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h3>About Sakr Store</h3>
+            <p>Powering Your Digital Life.</p>
+            <p>We bring over 5 years of expertise in technology, offering the best quality tech and accessories at competitive prices across Egypt.</p>
+            <div class="trust-badges">
+              <span class="trust-badge"><i class="ri-shield-check-line"></i> Authentic Products</span>
+              <span class="trust-badge"><i class="ri-24-hours-line"></i> 24/7 Support</span>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html"><i class="ri-home-line"></i> Home</a></li>
+              <li><a href="about.html"><i class="ri-information-line"></i> About Us</a></li>
+              <li><a href="contact.html"><i class="ri-mail-line"></i> Contact Us</a></li>
+              <li><a href="faq.html"><i class="ri-question-line"></i> FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Policies</h3>
+            <ul>
+              <li><a href="return-policy.html"><i class="ri-arrow-go-back-line"></i> Return Policy</a></li>
+              <li><a href="privacy-policy.html"><i class="ri-shield-user-line"></i> Privacy Policy</a></li>
+              <li><a href="terms.html"><i class="ri-file-list-line"></i> Terms & Conditions</a></li>
+            </ul>
+            <div class="payment-methods">
+              <span class="payment-method"><i class="ri-money-dollar-circle-line"></i> Cash on Delivery</span>
+              <span class="payment-method"><i class="ri-smartphone-line"></i> Mobile Wallets</span>
+              <span class="payment-method"><i class="ri-bank-card-line"></i> InstaPay</span>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <div class="contact-item">
+              <i class="ri-phone-line"></i>
+              <a href="tel:+201070289832">01070289832</a>
+            </div>
+            <div class="contact-item">
+              <i class="ri-whatsapp-line"></i>
+              <a href="https://wa.me/201108563748" target="_blank" rel="noopener">01108563748</a>
+            </div>
+            <div class="contact-item">
+              <i class="ri-mail-line"></i>
+              <a href="mailto:sakrstore2@gmail.com">sakrstore2@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="ri-map-pin-line"></i>
+              <span>Based in El Shorouk & Zagazig<br>Nationwide Delivery</span>
+            </div>
+            <div class="social-links">
+              <a href="https://www.facebook.com/share/1a7YHoqVak/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/sakr_store2" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="https://www.youtube.com/@SakrStore-EG" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
+                <i class="ri-youtube-line"></i>
+              </a>
+              <a href="https://www.tiktok.com/@sakr.store96" target="_blank" rel="noopener" class="social-link" aria-label="TikTok">
+                <i class="ri-tiktok-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Sakr Store. All rights reserved.</p>
+          <p>Established 2023 | Relaunched November 11, 2025</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script>
+      // FAQ Accordion functionality
+      document.querySelectorAll('.faq-item').forEach(item => {
+        const question = item.querySelector('.faq-question');
+        const answer = item.querySelector('.faq-answer');
+        
+        question.addEventListener('click', () => {
+          const isActive = item.classList.contains('active');
+          
+          // Close all other items
+          document.querySelectorAll('.faq-item').forEach(otherItem => {
+            otherItem.classList.remove('active');
+            otherItem.querySelector('.faq-answer').style.maxHeight = null;
+          });
+          
+          // Toggle current item
+          if (!isActive) {
+            item.classList.add('active');
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+          }
+        });
+      });
+
+      // Category filter functionality
+      document.querySelectorAll('.category-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const category = btn.dataset.category;
+          
+          // Update active button
+          document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          
+          // Show/hide sections
+          document.querySelectorAll('.faq-section').forEach(section => {
+            if (category === 'all' || section.dataset.category === category) {
+              section.style.display = 'block';
+            } else {
+              section.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // Search functionality
+      const searchInput = document.getElementById('faq-search-input');
+      searchInput.addEventListener('input', (e) => {
+        const searchTerm = e.target.value.toLowerCase();
+        
+        document.querySelectorAll('.faq-item').forEach(item => {
+          const question = item.querySelector('.faq-question h3').textContent.toLowerCase();
+          const answer = item.querySelector('.faq-answer-content').textContent.toLowerCase();
+          
+          if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+            item.style.display = 'block';
+            item.closest('.faq-section').style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+
+        // Hide empty sections
+        if (searchTerm) {
+          document.querySelectorAll('.faq-section').forEach(section => {
+            const visibleItems = section.querySelectorAll('.faq-item[style="display: block;"]');
+            if (visibleItems.length === 0) {
+              section.style.display = 'none';
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

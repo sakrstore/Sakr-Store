@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Sakr Store</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Get in touch with Sakr Store. Contact us via phone, WhatsApp, or email for any questions about electronics, orders, or support. 24/7 customer service available.">
+    <meta name="keywords" content="contact Sakr Store, customer support, electronics support Egypt, WhatsApp order, call us">
+    <meta name="author" content="Sakr Store">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sakrstore.com/contact.html">
+    <meta property="og:title" content="Contact Us - Sakr Store Electronics">
+    <meta property="og:description" content="Get in touch with Sakr Store for questions, support, or orders. 24/7 customer service available.">
+    <meta property="og:image" content="https://www.sakrstore.com/images/sakr-store-favicon.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://www.sakrstore.com/contact.html">
+    <meta property="twitter:title" content="Contact Us - Sakr Store Electronics">
+    <meta property="twitter:description" content="Get in touch with Sakr Store for questions, support, or orders.">
+    <meta property="twitter:image" content="https://www.sakrstore.com/images/sakr-store-favicon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="images/sakr-store-favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/sakr-store-favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/sakr-store-favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/sakr-store-favicon.png">
+    <link rel="shortcut icon" href="images/Sakr store favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Tajawal:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <style>
+      /* Contact Page Specific Styles */
+      .contact-page {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1.5rem;
+      }
+
+      .page-header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      .page-header h1 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+
+      .page-header p {
+        font-size: 1.1rem;
+        color: var(--secondary-text);
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-bottom: 3rem;
+      }
+
+      .contact-methods {
+        background: var(--card-bg);
+        padding: 2rem;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-md);
+      }
+
+      .contact-methods h2 {
+        font-size: 1.75rem;
+        color: var(--text-color);
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .contact-methods h2 i {
+        color: var(--primary-color);
+      }
+
+      .contact-method-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1.25rem;
+        background: var(--bg-color);
+        border-radius: var(--radius-md);
+        margin-bottom: 1rem;
+        transition: all var(--transition-speed) var(--transition-ease);
+      }
+
+      .contact-method-item:hover {
+        transform: translateX(-5px);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .contact-method-item i {
+        font-size: 1.75rem;
+        color: var(--primary-color);
+        min-width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(37, 99, 235, 0.1);
+        border-radius: 50%;
+      }
+
+      .contact-method-content {
+        flex: 1;
+      }
+
+      .contact-method-content h3 {
+        font-size: 1.1rem;
+        color: var(--text-color);
+        margin-bottom: 0.25rem;
+        font-weight: 600;
+      }
+
+      .contact-method-content p {
+        font-size: 0.95rem;
+        color: var(--secondary-text);
+        margin-bottom: 0.5rem;
+      }
+
+      .contact-method-content a {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 500;
+        transition: color var(--transition-speed);
+      }
+
+      .contact-method-content a:hover {
+        color: var(--primary-hover);
+        text-decoration: underline;
+      }
+
+      .contact-form-section {
+        background: var(--card-bg);
+        padding: 2rem;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-md);
+      }
+
+      .contact-form-section h2 {
+        font-size: 1.75rem;
+        color: var(--text-color);
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .contact-form-section h2 i {
+        color: var(--primary-color);
+      }
+
+      .contact-form-section p {
+        color: var(--secondary-text);
+        margin-bottom: 1.5rem;
+      }
+
+      .form-group {
+        margin-bottom: 1.5rem;
+      }
+
+      .form-group label {
+        display: block;
+        font-weight: 600;
+        color: var(--text-color);
+        margin-bottom: 0.5rem;
+        font-size: 0.95rem;
+      }
+
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 0.875rem;
+        border: 2px solid var(--card-border);
+        border-radius: var(--radius-md);
+        font-size: 1rem;
+        font-family: inherit;
+        transition: all var(--transition-speed);
+        background: var(--bg-color);
+        color: var(--text-color);
+      }
+
+      .form-group input:focus,
+      .form-group textarea:focus {
+        outline: none;
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+      }
+
+      .form-group textarea {
+        resize: vertical;
+        min-height: 120px;
+      }
+
+      .submit-btn {
+        width: 100%;
+        padding: 1rem;
+        background: var(--button-bg);
+        color: var(--button-text);
+        border: none;
+        border-radius: var(--radius-md);
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all var(--transition-speed);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+
+      .submit-btn:hover {
+        background: var(--button-hover);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .submit-btn i {
+        font-size: 1.25rem;
+      }
+
+      .business-hours {
+        background: var(--card-bg);
+        padding: 2rem;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-md);
+        text-align: center;
+      }
+
+      .business-hours h2 {
+        font-size: 1.75rem;
+        color: var(--text-color);
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+
+      .business-hours h2 i {
+        color: var(--primary-color);
+      }
+
+      .hours-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 1rem 2rem;
+        background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+        color: white;
+        border-radius: var(--radius-lg);
+        font-size: 1.5rem;
+        font-weight: 700;
+        box-shadow: var(--shadow-md);
+      }
+
+      .hours-badge i {
+        font-size: 2rem;
+      }
+
+      @media (max-width: 768px) {
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .page-header h1 {
+          font-size: 2rem;
+        }
+
+        .contact-methods,
+        .contact-form-section,
+        .business-hours {
+          padding: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html" class="store-title">Sakr Store</a></h1>
+      <nav>
+        <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+          <svg id="light-icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm0 4a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm0-18a1 1 0 0 1-1-1V2a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm10 8a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1ZM4 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1Zm14.95 6.364a1 1 0 0 1-1.414 1.414l-.707-.707a1 1 0 0 1 1.414-1.414l.707.707ZM6.464 6.464A1 1 0 0 1 5.05 5.05l.707-.707A1 1 0 0 1 7.17 5.757l-.707.707Zm11.314-2.121a1 1 0 0 1 0 1.414l-.707.707A1 1 0 0 1 15.657 5.05l.707-.707a1 1 0 0 1 1.414 0ZM6.464 17.536a1 1 0 0 1-1.414 0l-.707-.707A1 1 0 1 1 5.05 14.95l.707.707a1 1 0 0 1 0 1.414Z"/>
+          </svg>
+          <svg id="dark-icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M21.64 13.64a1 1 0 0 0-1.05-.24A8 8 0 0 1 10.6 4.41a1 1 0 0 0-.24-1.05 1 1 0 0 0-1.09-.21A10 10 0 1 0 21.86 14.73a1 1 0 0 0-.22-1.09Zm-9.64 6.36a8 8 0 0 1-7.07-11.64 10 10 0 0 0 10.71 10.71A7.95 7.95 0 0 1 12 20Z"/>
+          </svg>
+        </button>
+        <a href="cart.html" class="cart-link" aria-label="View shopping cart">
+          <i class="ri-shopping-cart-2-line"></i>
+          <span class="cart-count" aria-label="Items in cart">0</span>
+        </a>
+      </nav>
+    </header>
+
+    <main class="contact-page">
+      <!-- Page Header -->
+      <div class="page-header">
+        <h1>Contact Us</h1>
+        <p>We're here to help! Reach out to us through any of the channels below and we'll get back to you as soon as possible.</p>
+      </div>
+
+      <!-- Contact Methods & Form Grid -->
+      <div class="contact-grid">
+        <!-- Contact Methods -->
+        <div class="contact-methods">
+          <h2><i class="ri-customer-service-2-line"></i> Get In Touch</h2>
+          
+          <div class="contact-method-item">
+            <i class="ri-phone-line"></i>
+            <div class="contact-method-content">
+              <h3>Call Us</h3>
+              <p>Speak directly with our team</p>
+              <a href="tel:+201070289832">01070289832</a>
+            </div>
+          </div>
+
+          <div class="contact-method-item">
+            <i class="ri-whatsapp-line"></i>
+            <div class="contact-method-content">
+              <h3>WhatsApp</h3>
+              <p>Quick and easy messaging</p>
+              <a href="https://wa.me/201108563748" target="_blank" rel="noopener">01108563748</a>
+            </div>
+          </div>
+
+          <div class="contact-method-item">
+            <i class="ri-mail-line"></i>
+            <div class="contact-method-content">
+              <h3>Email</h3>
+              <p>Send us a detailed message</p>
+              <a href="mailto:sakrstore2@gmail.com">sakrstore2@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-method-item">
+            <i class="ri-map-pin-line"></i>
+            <div class="contact-method-content">
+              <h3>Location</h3>
+              <p>Based in El Shorouk & Zagazig</p>
+              <p style="color: var(--primary-color); font-weight: 600;">Nationwide Delivery Across Egypt</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-section">
+          <h2><i class="ri-mail-send-line"></i> Send Us a Message</h2>
+          <p>Fill out the form below and we'll respond within 24 hours.</p>
+          
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <input type="text" id="subject" name="subject" required placeholder="What is this regarding?">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" required placeholder="Tell us how we can help you..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <i class="ri-send-plane-fill"></i>
+              Send Message via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Business Hours -->
+      <div class="business-hours">
+        <h2><i class="ri-time-line"></i> Business Hours</h2>
+        <div class="hours-badge">
+          <i class="ri-24-hours-line"></i>
+          24/7 Available
+        </div>
+        <p style="margin-top: 1rem; color: var(--secondary-text);">We're always here to help you with your tech needs!</p>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-grid">
+          
+          <!-- About Column -->
+          <div class="footer-column">
+            <h3>About Sakr Store</h3>
+            <p>Powering Your Digital Life.</p>
+            <p>We bring over 5 years of expertise in technology, offering the best quality tech and accessories at competitive prices across Egypt.</p>
+            <div class="trust-badges">
+              <span class="trust-badge"><i class="ri-shield-check-line"></i> Authentic Products</span>
+              <span class="trust-badge"><i class="ri-24-hours-line"></i> 24/7 Support</span>
+            </div>
+          </div>
+
+          <!-- Quick Links Column -->
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html"><i class="ri-home-line"></i> Home</a></li>
+              <li><a href="about.html"><i class="ri-information-line"></i> About Us</a></li>
+              <li><a href="contact.html"><i class="ri-mail-line"></i> Contact Us</a></li>
+              <li><a href="faq.html"><i class="ri-question-line"></i> FAQ</a></li>
+            </ul>
+          </div>
+
+          <!-- Policies Column -->
+          <div class="footer-column">
+            <h3>Policies</h3>
+            <ul>
+              <li><a href="return-policy.html"><i class="ri-arrow-go-back-line"></i> Return Policy</a></li>
+              <li><a href="privacy-policy.html"><i class="ri-shield-user-line"></i> Privacy Policy</a></li>
+              <li><a href="terms.html"><i class="ri-file-list-line"></i> Terms & Conditions</a></li>
+            </ul>
+            <div class="payment-methods">
+              <span class="payment-method"><i class="ri-money-dollar-circle-line"></i> Cash on Delivery</span>
+              <span class="payment-method"><i class="ri-smartphone-line"></i> Mobile Wallets</span>
+              <span class="payment-method"><i class="ri-bank-card-line"></i> InstaPay</span>
+            </div>
+          </div>
+
+          <!-- Contact Column -->
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <div class="contact-item">
+              <i class="ri-phone-line"></i>
+              <a href="tel:+201070289832">01070289832</a>
+            </div>
+            <div class="contact-item">
+              <i class="ri-whatsapp-line"></i>
+              <a href="https://wa.me/201108563748" target="_blank" rel="noopener">01108563748</a>
+            </div>
+            <div class="contact-item">
+              <i class="ri-mail-line"></i>
+              <a href="mailto:sakrstore2@gmail.com">sakrstore2@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="ri-map-pin-line"></i>
+              <span>Based in El Shorouk & Zagazig<br>Nationwide Delivery</span>
+            </div>
+            <div class="social-links">
+              <a href="https://www.facebook.com/share/1a7YHoqVak/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/sakr_store2" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="https://www.youtube.com/@SakrStore-EG" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
+                <i class="ri-youtube-line"></i>
+              </a>
+              <a href="https://www.tiktok.com/@sakr.store96" target="_blank" rel="noopener" class="social-link" aria-label="TikTok">
+                <i class="ri-tiktok-line"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>&copy; 2025 Sakr Store. All rights reserved.</p>
+          <p>Established 2023 | Relaunched November 11, 2025</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script>
+      // Handle contact form submission via WhatsApp
+      document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+        
+        // Create WhatsApp message
+        let whatsappMessage = `*New Contact Form Submission*\n\n`;
+        whatsappMessage += `*Name:* ${name}\n`;
+        whatsappMessage += `*Email:* ${email}\n`;
+        if (phone) whatsappMessage += `*Phone:* ${phone}\n`;
+        whatsappMessage += `*Subject:* ${subject}\n\n`;
+        whatsappMessage += `*Message:*\n${message}`;
+        
+        const encodedMessage = encodeURIComponent(whatsappMessage);
+        const whatsappNumber = '201108563748';
+        const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+        
+        // Open WhatsApp
+        window.open(whatsappUrl, '_blank');
+      });
+    </script>
+  </body>
+</html>
