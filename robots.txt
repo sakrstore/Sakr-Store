@@ -1,0 +1,12 @@
+# robots.txt for Sakr Store
+# This file tells search engines how to crawl our website
+
+# Allow all search engines to crawl everything
+User-agent: *
+Allow: /
+
+# Block access to logs and system files
+Disallow: /logs/
+
+# Sitemap location for search engines
+Sitemap: https://sakrstore.github.io/Sakr-Store/sitemap.xml
