@@ -710,6 +710,20 @@
               // Show notification with the product data
               showToast(productId + ' added to cart', product);
               
+              // Track add to cart in Google Analytics
+              console.log('🛒 Product page - Add to cart clicked');
+              sendGAEvent('add_to_cart', {
+                currency: 'EGP',
+                value: (product.discount ? product.discountedPrice : product.price) * quantity,
+                items: [{
+                  item_id: String(product.id),
+                  item_name: product.name,
+                  item_category: product.category || 'Uncategorized',
+                  price: product.discount ? product.discountedPrice : product.price,
+                  quantity: quantity
+                }]
+              });
+              
               // Update button state after adding
               updateProductButtonState();
             })

@@ -481,6 +481,9 @@ function addToCart(productId) {
   updateCartCounter();
   
   // Track add to cart in Google Analytics
+  console.log('🛒 Add to cart called for product ID:', productId);
+  console.log('🔍 Product found:', product);
+  
   if (product) {
     sendGAEvent('add_to_cart', {
       currency: 'EGP',
@@ -493,6 +496,9 @@ function addToCart(productId) {
         quantity: 1
       }]
     });
+  } else {
+    console.warn('⚠️ Product not found for GA tracking. Product ID:', productId);
+    console.warn('Available products:', products.length, 'items');
   }
   
   // Update button state after adding to cart
