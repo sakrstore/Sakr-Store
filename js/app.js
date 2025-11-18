@@ -446,6 +446,21 @@ function addToCart(productId) {
   showToast(productId + ' added to cart');
   updateCartCounter();
   
+  // Track add to cart in Google Analytics
+  if (typeof gtag !== 'undefined' && product) {
+    gtag('event', 'add_to_cart', {
+      currency: 'EGP',
+      value: (product.discount ? product.discountedPrice : product.price),
+      items: [{
+        item_id: String(product.id),
+        item_name: product.name,
+        item_category: product.category || 'Uncategorized',
+        price: product.discount ? product.discountedPrice : product.price,
+        quantity: 1
+      }]
+    });
+  }
+  
   // Update button state after adding to cart
   updateAddToCartButton(productId, currentQty + 1);
 }
@@ -1397,6 +1412,29 @@ async function initCheckoutForm() {
 
     const encoded = encodeURIComponent(message);
     const waUrl = `https://wa.me/${config.whatsappNumber}?text=${encoded}`;
+
+    // Track checkout initiation in Google Analytics
+    if (typeof gtag !== 'undefined') {
+      const items = [];
+      for (const [id, qty] of cart.entries()) {
+        const product = productMap.get(id);
+        if (product) {
+          items.push({
+            item_id: String(product.id),
+            item_name: product.name,
+            item_category: product.category || 'Uncategorized',
+            price: product.discount ? product.discountedPrice : product.price,
+            quantity: qty
+          });
+        }
+      }
+      
+      gtag('event', 'begin_checkout', {
+        currency: 'EGP',
+        value: total,
+        items: items
+      });
+    }
 
     // IMPORTANT UX CHANGE: Do not clear the cart automatically.
     // The user might close the WhatsApp tab without sending.

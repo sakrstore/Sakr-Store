@@ -544,6 +544,21 @@
                 twitterImage.setAttribute('content', `https://sakrstore.github.io/Sakr-Store/${allImages[0]}`);
               }
 
+              // Track product view in Google Analytics
+              if (typeof gtag !== 'undefined') {
+                gtag('event', 'view_item', {
+                  currency: 'EGP',
+                  value: product.discount ? product.discountedPrice : product.price,
+                  items: [{
+                    item_id: String(product.id),
+                    item_name: product.name,
+                    item_category: product.category || 'Uncategorized',
+                    price: product.discount ? product.discountedPrice : product.price,
+                    quantity: 1
+                  }]
+                });
+              }
+
               // Build thumbnails if more than one image
               const thumbsContainer = document.getElementById('product-thumbnails');
               if (thumbsContainer) {
