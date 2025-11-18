@@ -5,6 +5,40 @@ const config = {
   whatsappNumber: '201108563748',
 };
 
+// --- Google Analytics Helper ---
+/**
+ * Safely sends events to Google Analytics with retry logic and console logging
+ * @param {string} eventName - The GA4 event name
+ * @param {object} eventData - The event parameters
+ * @param {number} retries - Number of retry attempts (default: 3)
+ */
+function sendGAEvent(eventName, eventData, retries = 3) {
+  if (typeof gtag !== 'undefined' && typeof window.dataLayer !== 'undefined') {
+    try {
+      gtag('event', eventName, eventData);
+      console.log(`✅ GA Event Sent: ${eventName}`, eventData);
+      return true;
+    } catch (error) {
+      console.error(`❌ GA Event Error: ${eventName}`, error);
+      return false;
+    }
+  } else if (retries > 0) {
+    // gtag not ready yet, retry after 200ms
+    console.log(`⏳ Waiting for gtag... (${retries} retries left)`);
+    setTimeout(() => sendGAEvent(eventName, eventData, retries - 1), 200);
+  } else {
+    console.warn(`⚠️ GA Event Failed (gtag not loaded): ${eventName}`, eventData);
+    // Fallback: push directly to dataLayer
+    if (typeof window.dataLayer !== 'undefined') {
+      window.dataLayer.push({
+        event: eventName,
+        ...eventData
+      });
+      console.log(`📊 Pushed to dataLayer: ${eventName}`);
+    }
+  }
+}
+
 // --- Image Helper Functions ---
 /**
  * Generates responsive image HTML with WebP support
@@ -447,8 +481,8 @@ function addToCart(productId) {
   updateCartCounter();
   
   // Track add to cart in Google Analytics
-  if (typeof gtag !== 'undefined' && product) {
-    gtag('event', 'add_to_cart', {
+  if (product) {
+    sendGAEvent('add_to_cart', {
       currency: 'EGP',
       value: (product.discount ? product.discountedPrice : product.price),
       items: [{
@@ -1414,27 +1448,25 @@ async function initCheckoutForm() {
     const waUrl = `https://wa.me/${config.whatsappNumber}?text=${encoded}`;
 
     // Track checkout initiation in Google Analytics
-    if (typeof gtag !== 'undefined') {
-      const items = [];
-      for (const [id, qty] of cart.entries()) {
-        const product = productMap.get(id);
-        if (product) {
-          items.push({
-            item_id: String(product.id),
-            item_name: product.name,
-            item_category: product.category || 'Uncategorized',
-            price: product.discount ? product.discountedPrice : product.price,
-            quantity: qty
-          });
-        }
+    const items = [];
+    for (const [id, qty] of cart.entries()) {
+      const product = productMap.get(id);
+      if (product) {
+        items.push({
+          item_id: String(product.id),
+          item_name: product.name,
+          item_category: product.category || 'Uncategorized',
+          price: product.discount ? product.discountedPrice : product.price,
+          quantity: qty
+        });
       }
-      
-      gtag('event', 'begin_checkout', {
-        currency: 'EGP',
-        value: total,
-        items: items
-      });
     }
+    
+    sendGAEvent('begin_checkout', {
+      currency: 'EGP',
+      value: total,
+      items: items
+    });
 
     // IMPORTANT UX CHANGE: Do not clear the cart automatically.
     // The user might close the WhatsApp tab without sending.
