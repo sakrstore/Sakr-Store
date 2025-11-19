@@ -13,12 +13,12 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Buy Electronics & Accessories | Sakr Store Egypt</title>
+    <title>Buy Electronics & Accessories | SAKR STORE Egypt</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Shop quality electronics at Sakr Store Egypt. Fast shipping, competitive prices, and excellent customer service. Browse headphones, chargers, cables, and tech gadgets.">
-    <meta name="keywords" content="product details, electronics specs, Sakr Store, tech products, electronic gadgets, product specifications">
-    <meta name="author" content="Sakr Store">
+    <meta name="description" content="Shop quality electronics at SAKR STORE Egypt. Fast shipping, competitive prices, and excellent customer service. Browse headphones, chargers, cables, and tech gadgets.">
+    <meta name="keywords" content="product details, electronics specs, SAKR STORE, tech products, electronic gadgets, product specifications">
+    <meta name="author" content="SAKR STORE">
     <meta name="language" content="English">
     <meta name="geo.region" content="EG">
     <meta name="geo.placename" content="Egypt">
@@ -27,7 +27,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Sakr Store">
+    <meta name="apple-mobile-web-app-title" content="SAKR STORE">
     <meta name="theme-color" content="#1e3a8a">
     
     <!-- Canonical URL -->
@@ -36,18 +36,18 @@
     <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
     <meta property="og:type" content="product">
     <meta property="og:url" content="https://sakrstore.github.io/Sakr-Store/product.html">
-    <meta property="og:title" content="Buy Electronics at Sakr Store Egypt">
-    <meta property="og:description" content="Shop quality electronics with fast shipping and great prices. Browse headphones, chargers, cables, and tech gadgets at Sakr Store.">
+    <meta property="og:title" content="Buy Electronics at SAKR STORE Egypt">
+    <meta property="og:description" content="Shop quality electronics with fast shipping and great prices. Browse headphones, chargers, cables, and tech gadgets at SAKR STORE.">
     <meta property="og:image" content="https://sakrstore.github.io/Sakr-Store/images/sakr-store-social-facebook.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Sakr Store - Quality Electronics Products">
+    <meta property="og:image:alt" content="SAKR STORE - Quality Electronics Products">
     
     <!-- Twitter / X -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://sakrstore.github.io/Sakr-Store/product.html">
-    <meta property="twitter:title" content="Buy Electronics at Sakr Store Egypt">
-    <meta property="twitter:description" content="Shop quality electronics with fast shipping and great prices. Browse headphones, chargers, cables, and tech gadgets at Sakr Store.">
+    <meta property="twitter:title" content="Buy Electronics at SAKR STORE Egypt">
+    <meta property="twitter:description" content="Shop quality electronics with fast shipping and great prices. Browse headphones, chargers, cables, and tech gadgets at SAKR STORE.">
     <meta property="twitter:image" content="https://sakrstore.github.io/Sakr-Store/images/sakr-store-social-twitter.jpg">
     
     <!-- Favicon - Multiple sizes for device compatibility -->
@@ -75,7 +75,7 @@
       "description": "Product description",
       "brand": {
         "@type": "Brand",
-        "name": "Sakr Store"
+        "name": "SAKR STORE"
       },
       "offers": {
         "@type": "Offer",
@@ -85,7 +85,7 @@
         "availability": "https://schema.org/InStock",
         "seller": {
           "@type": "Organization",
-          "name": "Sakr Store"
+          "name": "SAKR STORE"
         }
       }
     }
@@ -120,7 +120,7 @@
   </head>
   <body>
     <header>
-      <h1><a href="index.html" class="store-title">Sakr Store</a></h1>
+      <h1><a href="index.html" class="store-title">SAKR STORE</a></h1>
       <nav>
         <button id="theme-toggle-btn" aria-label="Toggle dark mode">
           <!-- Modern inline SVG icons: sun (light) and moon (dark) -->
@@ -485,7 +485,7 @@
 
               // Update dynamic meta tags for better UX (browser title, description)
               // Note: Social media previews will still use static meta tags as they don't execute JavaScript
-              document.title = `${product.name} - Sakr Store`;
+              document.title = `${product.name} - SAKR STORE`;
               
               // Update meta description
               const metaDescription = document.querySelector('meta[name="description"]');
@@ -494,14 +494,14 @@
                   ? `EGP ${product.discountedPrice.toFixed(2)} (was ${product.price.toFixed(2)})` 
                   : `EGP ${product.price.toFixed(2)}`;
                 metaDescription.setAttribute('content', 
-                  `${product.name} - ${priceText}. ${product.description ? product.description.substring(0, 100) + '...' : 'Quality electronics at Sakr Store Egypt.'}`
+                  `${product.name} - ${priceText}. ${product.description ? product.description.substring(0, 100) + '...' : 'Quality electronics at SAKR STORE Egypt.'}`
                 );
               }
               
               // Update Open Graph title (for when JavaScript-capable crawlers visit)
               const ogTitle = document.querySelector('meta[property="og:title"]');
               if (ogTitle) {
-                ogTitle.setAttribute('content', `${product.name} - Sakr Store`);
+                ogTitle.setAttribute('content', `${product.name} - SAKR STORE`);
               }
               
               // Update Open Graph description
@@ -511,7 +511,7 @@
                   ? `EGP ${product.discountedPrice.toFixed(2)}` 
                   : `EGP ${product.price.toFixed(2)}`;
                 ogDescription.setAttribute('content', 
-                  `${product.name} - ${priceText}. ${product.description ? product.description.substring(0, 80) : 'Shop quality electronics at Sakr Store.'}`
+                  `${product.name} - ${priceText}. ${product.description ? product.description.substring(0, 80) : 'Shop quality electronics at SAKR STORE.'}`
                 );
               }
               
@@ -524,7 +524,7 @@
               // Update Twitter card title
               const twitterTitle = document.querySelector('meta[property="twitter:title"]');
               if (twitterTitle) {
-                twitterTitle.setAttribute('content', `${product.name} - Sakr Store`);
+                twitterTitle.setAttribute('content', `${product.name} - SAKR STORE`);
               }
               
               // Update Twitter card description
@@ -534,7 +534,7 @@
                   ? `EGP ${product.discountedPrice.toFixed(2)}` 
                   : `EGP ${product.price.toFixed(2)}`;
                 twitterDescription.setAttribute('content', 
-                  `${product.name} - ${priceText}. Shop quality electronics at Sakr Store Egypt.`
+                  `${product.name} - ${priceText}. Shop quality electronics at SAKR STORE Egypt.`
                 );
               }
               
@@ -813,7 +813,7 @@
           
           <!-- About Column -->
           <div class="footer-column">
-            <h3>About Sakr Store</h3>
+            <h3>About SAKR STORE</h3>
             <p>Powering Your Digital Life.</p>
             <p>We bring over 5 years of expertise in technology, offering the best quality tech and accessories at competitive prices across Egypt.</p>
             <div class="trust-badges">
@@ -887,7 +887,7 @@
 
         <!-- Footer Bottom -->
         <div class="footer-bottom">
-          <p>&copy; 2025 Sakr Store. All rights reserved.</p>
+          <p>&copy; 2025 SAKR STORE. All rights reserved.</p>
           <p>Established 2023 | Relaunched November 11, 2025</p>
         </div>
       </div>
