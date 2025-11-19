@@ -456,9 +456,12 @@ function saveCart(cart) {
  * Adds a product to the cart or increments its quantity.
  * @param {string | number} productId - The ID of the product to add.
  */
-function addToCart(productId) {
+async function addToCart(productId) {
+  // Ensure products are loaded first
+  const allProducts = await fetchProducts();
+  const product = allProducts.find(p => p.id === parseInt(productId));
+  
   // Check if product is in stock
-  const product = products.find(p => p.id === parseInt(productId));
   if (product && product.stock !== undefined && product.stock === 0) {
     showToast('This product is out of stock');
     return;
@@ -498,7 +501,7 @@ function addToCart(productId) {
     });
   } else {
     console.warn('⚠️ Product not found for GA tracking. Product ID:', productId);
-    console.warn('Available products:', products.length, 'items');
+    console.warn('Available products:', allProducts.length, 'items');
   }
   
   // Update button state after adding to cart
@@ -1343,11 +1346,11 @@ async function initMainPage() {
       }
     
       // Event listener for add to cart buttons
-      productListContainer.addEventListener('click', (e) => {
+      productListContainer.addEventListener('click', async (e) => {
         const btn = e.target.closest('.add-to-cart');
         if (btn) {
           const productId = btn.getAttribute('data-product-id');
-          addToCart(productId);
+          await addToCart(productId);
         }
       });
 }
