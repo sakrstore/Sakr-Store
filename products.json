@@ -15,8 +15,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 749.99,
     "stock": 10,
     "isNew": true
   },
@@ -156,7 +156,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 10,
@@ -195,9 +195,9 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0.00,
+    "discountedPrice": 449.99,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 12,
@@ -237,7 +237,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 14,
@@ -256,7 +256,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 15,
@@ -272,8 +272,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 349.99,
     "stock": 10,
     "isNew": true
   },
@@ -314,7 +314,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 18,
@@ -333,7 +333,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 19,
@@ -352,7 +352,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 20,
@@ -371,7 +371,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 21,
@@ -409,7 +409,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 23,
@@ -447,7 +447,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 25,
@@ -463,7 +463,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 26,
@@ -483,7 +483,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 27,
@@ -519,10 +519,10 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 399.99,
     "stock": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 29,
@@ -542,7 +542,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 30,
@@ -731,7 +731,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 41,
@@ -795,7 +795,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 45,
@@ -843,7 +843,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 48,
@@ -923,7 +923,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 53,
@@ -955,7 +955,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 55,
@@ -1083,7 +1083,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 63,
@@ -1147,7 +1147,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 67,
@@ -1278,7 +1278,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 75,
@@ -1294,7 +1294,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 76,
@@ -1439,10 +1439,10 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 709.99,
     "stock": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 84,
@@ -1457,10 +1457,10 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 749.99,
     "stock": 3,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 85,
@@ -1568,7 +1568,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 91,
@@ -1584,7 +1584,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 92,
@@ -1680,7 +1680,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 97,
@@ -1696,11 +1696,11 @@
         "images/product-97-gallery-2.webp"
       ]
     },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "category": "Adapter",
+    "discount": true,
+    "discountedPrice": 699.99,
     "stock": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 98,
@@ -1731,10 +1731,10 @@
       "gallery": []
     },
     "category": "Power Bank",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 1099.99,
     "stock": 4,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 100,
@@ -1752,7 +1752,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 101,
@@ -1767,10 +1767,10 @@
       ]
     },
     "category": "Power Bank",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 549.99,
     "stock": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": 102,
