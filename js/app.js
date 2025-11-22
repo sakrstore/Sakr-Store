@@ -1502,10 +1502,18 @@ function router() {
 // --- Theme Management ---
 
 /**
- * Applies the saved theme from localStorage or the user's system preference.
+ * Applies the saved theme from localStorage or detects OS preference on first visit.
  */
 function applyInitialTheme() {
-  const savedTheme = localStorage.getItem('theme') || 'light';
+  let savedTheme = localStorage.getItem('theme');
+  
+  // If no saved preference, detect OS preference
+  if (!savedTheme) {
+    savedTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    // Save the detected preference
+    localStorage.setItem('theme', savedTheme);
+  }
+  
   document.documentElement.setAttribute('data-theme', savedTheme);
 
   const toggleBtn = document.getElementById('theme-toggle-btn');
