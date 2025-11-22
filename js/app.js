@@ -1403,11 +1403,99 @@ async function initCartPage() {
 }
 
 /**
+ * Validates Egyptian phone number format
+ * @param {string} phone - Phone number to validate
+ * @returns {boolean} True if valid Egyptian mobile number
+ */
+function validateEgyptianPhone(phone) {
+  // Remove any spaces, dashes, or other formatting
+  const cleaned = phone.replace(/[\s\-\(\)]/g, '');
+  
+  // Must be exactly 11 digits and start with 01
+  // Valid prefixes: 010, 011, 012, 015
+  const regex = /^01[0125][0-9]{8}$/;
+  return regex.test(cleaned);
+}
+
+/**
+ * Initializes phone validation with real-time feedback
+ */
+function initPhoneValidation() {
+  const phoneInput = document.getElementById('customer-phone');
+  const phoneError = document.getElementById('phone-error');
+  const validationIcon = phoneInput?.parentElement?.querySelector('.validation-icon');
+  
+  if (!phoneInput) return;
+
+  phoneInput.addEventListener('input', (e) => {
+    const value = e.target.value;
+    const isValid = validateEgyptianPhone(value);
+    
+    // Update validation icon
+    if (validationIcon) {
+      if (value.length === 0) {
+        validationIcon.className = 'validation-icon';
+      } else if (isValid) {
+        validationIcon.className = 'validation-icon valid';
+      } else {
+        validationIcon.className = 'validation-icon invalid';
+      }
+    }
+    
+    // Update error message
+    if (phoneError) {
+      if (value.length > 0 && !isValid) {
+        phoneError.textContent = 'Invalid Egyptian mobile number';
+        phoneError.style.display = 'block';
+      } else {
+        phoneError.style.display = 'none';
+      }
+    }
+  });
+  
+  // Validate on blur
+  phoneInput.addEventListener('blur', (e) => {
+    const value = e.target.value;
+    if (value.length > 0 && !validateEgyptianPhone(value)) {
+      phoneInput.setCustomValidity('Please enter a valid Egyptian mobile number (11 digits starting with 01)');
+    } else {
+      phoneInput.setCustomValidity('');
+    }
+  });
+}
+
+/**
+ * Initializes character counter for notes field
+ */
+function initNotesCounter() {
+  const notesField = document.getElementById('customer-notes');
+  const counter = document.getElementById('notes-count');
+  
+  if (!notesField || !counter) return;
+  
+  notesField.addEventListener('input', (e) => {
+    const length = e.target.value.length;
+    counter.textContent = length;
+    
+    // Visual feedback when approaching limit
+    if (length >= 180) {
+      counter.style.color = 'var(--price-discount)';
+    } else {
+      counter.style.color = 'var(--secondary-text)';
+    }
+  });
+}
+
+/**
  * Initializes the checkout form.
  */
 async function initCheckoutForm() {
   const form = document.getElementById('customer-form');
   if (!form) return;
+
+  // Initialize validation helpers
+  initPhoneValidation();
+  initNotesCounter();
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
@@ -1420,8 +1508,18 @@ async function initCheckoutForm() {
 
     const formData = new FormData(form);
     const name = (formData.get('name') || '').toString().trim();
-    const address = (formData.get('address') || '').toString().trim();
     const phone = (formData.get('phone') || '').toString().trim();
+    const street = (formData.get('street') || '').toString().trim();
+    const governorate = (formData.get('governorate') || '').toString().trim();
+    const city = (formData.get('city') || '').toString().trim();
+    const notes = (formData.get('notes') || '').toString().trim();
+    const payment = (formData.get('payment') || '').toString().trim();
+
+    // Validate phone number before proceeding
+    if (!validateEgyptianPhone(phone)) {
+      alert('Please enter a valid Egyptian mobile number (11 digits starting with 01)');
+      return;
+    }
 
     const allProducts = await fetchProducts();
     const productMap = new Map(allProducts.map(p => [String(p.id), p]));
@@ -1437,26 +1535,53 @@ async function initCheckoutForm() {
       lines.push(`- ${qty}x ${product.name} - EGP ${(price * qty).toFixed(2)}`);
     }
 
-    const message = [
-      "Hello! I'd like to place an order.",
+    // Build structured WhatsApp message
+    const messageParts = [
+      'NEW ORDER - SAKR STORE',
+      '━━━━━━━━━━━━━━━━━━━━',
       '',
-      '*My Details:*',
+      'CUSTOMER INFORMATION',
       `Name: ${name}`,
-      `Address: ${address}`,
       `Phone: ${phone}`,
       '',
-      '*Order Summary:*',
-      ...lines,
-      '---------------------',
-      `*Total: EGP ${total.toFixed(2)}*`,
-      '',
-      'Thank you!'
-    ].join('\n');
+      'DELIVERY ADDRESS',
+      `Street: ${street}`,
+      `City: ${city}`,
+      `Governorate: ${governorate}`
+    ];
 
+    // Add notes if provided
+    if (notes) {
+      messageParts.push(`Notes: ${notes}`);
+    }
+
+    messageParts.push(
+      '',
+      'PAYMENT METHOD',
+      payment,
+      '',
+      'ORDER DETAILS',
+      '━━━━━━━━━━━━━━━━━━━━',
+      ...lines,
+      '━━━━━━━━━━━━━━━━━━━━',
+      '',
+      `TOTAL: EGP ${total.toFixed(2)}`,
+      '',
+      `Order Date: ${new Date().toLocaleString('en-US', { 
+        month: 'short', 
+        day: 'numeric', 
+        year: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      })}`
+    );
+
+    const message = messageParts.join('\n');
     const encoded = encodeURIComponent(message);
     const waUrl = `https://wa.me/${config.whatsappNumber}?text=${encoded}`;
 
-    // Track checkout initiation in Google Analytics
+    // Track checkout steps in Google Analytics
     const items = [];
     for (const [id, qty] of cart.entries()) {
       const product = productMap.get(id);
@@ -1471,9 +1596,26 @@ async function initCheckoutForm() {
       }
     }
     
+    // Track begin_checkout event
     sendGAEvent('begin_checkout', {
       currency: 'EGP',
       value: total,
+      items: items
+    });
+
+    // Track add_shipping_info event (governorate selected)
+    sendGAEvent('add_shipping_info', {
+      currency: 'EGP',
+      value: total,
+      shipping_tier: governorate,
+      items: items
+    });
+
+    // Track add_payment_info event
+    sendGAEvent('add_payment_info', {
+      currency: 'EGP',
+      value: total,
+      payment_type: payment,
       items: items
     });
 

@@ -147,36 +147,171 @@
               <form id="customer-form" class="customer-form">
                 <h3 class="form-title">Your Details</h3>
                 
-                <div class="form-group">
-                  <label for="customer-name">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                      <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
-                    Full Name
-                  </label>
-                  <input type="text" id="customer-name" name="name" placeholder="Enter your name" required>
+                <!-- Contact Information -->
+                <div class="form-section">
+                  <h4 class="section-title">Contact Information</h4>
+                  <div class="form-group">
+                    <label for="customer-name">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                      </svg>
+                      Full Name
+                    </label>
+                    <input type="text" id="customer-name" name="name" placeholder="Enter your name" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="customer-phone">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                      </svg>
+                      Phone Number
+                    </label>
+                    <div class="phone-input-wrapper">
+                      <input 
+                        type="tel" 
+                        id="customer-phone" 
+                        name="phone" 
+                        placeholder="01XXXXXXXXX" 
+                        maxlength="11"
+                        pattern="^01[0125][0-9]{8}$"
+                        required
+                      >
+                      <span class="validation-icon"></span>
+                    </div>
+                    <span class="field-hint">Egyptian mobile number (11 digits starting with 01)</span>
+                    <span class="field-error" id="phone-error"></span>
+                  </div>
                 </div>
 
-                <div class="form-group">
-                  <label for="customer-address">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                      <circle cx="12" cy="10" r="3"></circle>
-                    </svg>
-                    Delivery Address
-                  </label>
-                  <input type="text" id="customer-address" name="address" placeholder="Street address, city" required>
+                <!-- Delivery Address -->
+                <div class="form-section">
+                  <h4 class="section-title">Delivery Address</h4>
+                  
+                  <div class="form-group">
+                    <label for="customer-street">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                      </svg>
+                      Street Address
+                    </label>
+                    <input 
+                      type="text" 
+                      id="customer-street" 
+                      name="street" 
+                      placeholder="Building number, street name, apartment..." 
+                      required
+                    >
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="customer-governorate">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                          <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        Governorate
+                      </label>
+                      <select id="customer-governorate" name="governorate" required>
+                        <option value="">Select governorate</option>
+                        <option value="Cairo">Cairo (القاهرة)</option>
+                        <option value="Giza">Giza (الجيزة)</option>
+                        <option value="Alexandria">Alexandria (الإسكندرية)</option>
+                        <option value="Dakahlia">Dakahlia (الدقهلية)</option>
+                        <option value="Red Sea">Red Sea (البحر الأحمر)</option>
+                        <option value="Beheira">Beheira (البحيرة)</option>
+                        <option value="Fayoum">Fayoum (الفيوم)</option>
+                        <option value="Gharbia">Gharbia (الغربية)</option>
+                        <option value="Ismailia">Ismailia (الإسماعيلية)</option>
+                        <option value="Menofia">Menofia (المنوفية)</option>
+                        <option value="Minya">Minya (المنيا)</option>
+                        <option value="Qaliubiya">Qaliubiya (القليوبية)</option>
+                        <option value="New Valley">New Valley (الوادي الجديد)</option>
+                        <option value="Suez">Suez (السويس)</option>
+                        <option value="Aswan">Aswan (أسوان)</option>
+                        <option value="Assiut">Assiut (أسيوط)</option>
+                        <option value="Beni Suef">Beni Suef (بني سويف)</option>
+                        <option value="Port Said">Port Said (بورسعيد)</option>
+                        <option value="Damietta">Damietta (دمياط)</option>
+                        <option value="Sharkia">Sharkia (الشرقية)</option>
+                        <option value="South Sinai">South Sinai (جنوب سيناء)</option>
+                        <option value="Kafr El Sheikh">Kafr El Sheikh (كفر الشيخ)</option>
+                        <option value="Matrouh">Matrouh (مطروح)</option>
+                        <option value="Luxor">Luxor (الأقصر)</option>
+                        <option value="Qena">Qena (قنا)</option>
+                        <option value="North Sinai">North Sinai (شمال سيناء)</option>
+                        <option value="Sohag">Sohag (سوهاج)</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="customer-city">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                          <path d="M9 22V12h6v10"></path>
+                        </svg>
+                        City/District
+                      </label>
+                      <input 
+                        type="text" 
+                        id="customer-city" 
+                        name="city" 
+                        placeholder="Enter city or district" 
+                        required
+                      >
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="customer-notes">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                      </svg>
+                      Address & Landmarks
+                    </label>
+                    <textarea 
+                      id="customer-notes" 
+                      name="notes" 
+                      rows="3" 
+                      maxlength="200"
+                      placeholder="Near mosque, pharmacy, landmarks, delivery time preference..."
+                      required
+                    ></textarea>
+                    <div class="textarea-footer">
+                      <span class="resize-hint">Drag corner to resize</span>
+                      <span class="char-count"><span id="notes-count">0</span>/200</span>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="form-group">
-                  <label for="customer-phone">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                    </svg>
-                    Phone Number
-                  </label>
-                  <input type="tel" id="customer-phone" name="phone" placeholder="+20 XXX XXX XXXX" required>
+                <!-- Payment Method -->
+                <div class="form-section">
+                  <h4 class="section-title">Payment Method</h4>
+                  
+                  <div class="form-group">
+                    <label for="customer-payment">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                        <line x1="1" y1="10" x2="23" y2="10"></line>
+                      </svg>
+                      Preferred Payment Method
+                    </label>
+                    <select id="customer-payment" name="payment" required>
+                      <option value="">Select payment method</option>
+                      <option value="Cash on Delivery">Cash on Delivery (الدفع عند الاستلام)</option>
+                      <option value="InstaPay">InstaPay</option>
+                      <option value="Vodafone Cash">Vodafone Cash</option>
+                      <option value="Orange Cash">Orange Cash</option>
+                      <option value="Etisalat Cash">Etisalat Cash</option>
+                    </select>
+                  </div>
                 </div>
 
                 <button type="submit" class="order-btn" id="order-btn">
