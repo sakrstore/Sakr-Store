@@ -386,6 +386,9 @@ label:only-child span {
   padding: 1rem;
   border-inline-end: 1px solid var(--sidebar-border);
   border-radius: 6px;
+  max-height: calc(100vh - 120px); /* Prevent overflow on desktop */
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #category-sidebar h2 {
@@ -398,7 +401,7 @@ label:only-child span {
 #category-list {
   list-style: none;
   padding: 0;
-  margin: 0 0 1rem 0;  /* Added bottom margin */
+  margin: 0 0 2rem 0;  /* Extra bottom margin for last items */
 }
 
 /* Close button styles */
@@ -1589,10 +1592,13 @@ label:only-child span {
 
   /* Inner scrollable area so the close button stays visible */
   #category-sidebar .sidebar-inner {
-    height: 100vh;
+    height: 100%;
+    max-height: 100vh;
     overflow-y: auto;
-    padding: 3.5rem 1rem 2rem 1rem;
+    overflow-x: hidden;
+    padding: 3.5rem 1rem 6rem 1rem; /* Extra bottom padding for safe scrolling */
     box-sizing: border-box;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
   }
 
   /* Show close button only on mobile */
