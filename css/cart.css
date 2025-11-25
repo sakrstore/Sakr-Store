@@ -1130,6 +1130,157 @@
   }
 }
 
+/* ========================================
+   COUPON SECTION STYLES
+   ======================================== */
+
+.coupon-section {
+  padding: clamp(0.75rem, 2vw, 1rem) 0;
+  margin: clamp(0.5rem, 1.5vw, 0.75rem) 0;
+  border-top: 1px solid var(--card-border);
+  border-bottom: 1px solid var(--card-border);
+}
+
+.coupon-input-wrapper {
+  display: flex;
+  gap: clamp(0.5rem, 1.5vw, 0.625rem);
+  align-items: stretch;
+}
+
+.coupon-input-wrapper input {
+  flex: 1;
+  padding: clamp(0.625rem, 1.5vw, 0.75rem) clamp(0.75rem, 2vw, 1rem);
+  background: var(--bg-color);
+  color: var(--text-color);
+  border: 2px solid var(--card-border);
+  border-radius: var(--cart-radius-sm);
+  font-size: clamp(0.875rem, 1.8vw, 0.9375rem);
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.coupon-input-wrapper input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary-color) 10%, transparent);
+}
+
+.coupon-input-wrapper input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: var(--card-hover);
+}
+
+.coupon-input-wrapper input::placeholder {
+  text-transform: none;
+  font-weight: 400;
+  color: var(--muted-text);
+}
+
+.apply-coupon-btn {
+  padding: clamp(0.625rem, 1.5vw, 0.75rem) clamp(1rem, 2.5vw, 1.5rem);
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--cart-radius-sm);
+  font-size: clamp(0.875rem, 1.8vw, 0.9375rem);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.apply-coupon-btn:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--primary-color) 85%, black);
+  transform: translateY(-1px);
+}
+
+.apply-coupon-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.apply-coupon-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.coupon-message {
+  margin-top: clamp(0.5rem, 1.5vw, 0.625rem);
+  padding: clamp(0.5rem, 1.5vw, 0.625rem) clamp(0.75rem, 2vw, 1rem);
+  border-radius: var(--cart-radius-xs);
+  font-size: clamp(0.8125rem, 1.6vw, 0.875rem);
+  font-weight: 500;
+  line-height: 1.4;
+  display: none;
+}
+
+.coupon-message.success {
+  background: color-mix(in srgb, #10b981 10%, transparent);
+  color: #059669;
+  border: 1px solid color-mix(in srgb, #10b981 20%, transparent);
+}
+
+.coupon-message.error {
+  background: color-mix(in srgb, #ef4444 10%, transparent);
+  color: #dc2626;
+  border: 1px solid color-mix(in srgb, #ef4444 20%, transparent);
+}
+
+.coupon-message.info {
+  background: color-mix(in srgb, var(--primary-color) 10%, transparent);
+  color: var(--primary-color);
+  border: 1px solid color-mix(in srgb, var(--primary-color) 20%, transparent);
+}
+
+/* Discount row in order summary */
+.discount-row {
+  color: var(--price-discount);
+  font-weight: 600;
+}
+
+.discount-row span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: clamp(0.875rem, 1.8vw, 0.9375rem);
+}
+
+.discount-icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+.discount-amount {
+  color: var(--price-discount) !important;
+  font-weight: 700;
+}
+
+.remove-coupon-btn {
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  margin-left: 0.375rem;
+  cursor: pointer;
+  color: var(--muted-text);
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.remove-coupon-btn:hover {
+  color: var(--price-discount);
+  background: color-mix(in srgb, var(--price-discount) 10%, transparent);
+}
+
+.remove-coupon-btn svg {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
 /* Mobile optimizations */
 @media (max-width: 999px) {
   .form-row {
@@ -1145,5 +1296,13 @@
   
   .form-section {
     padding: clamp(0.75rem, 2vw, 1rem);
+  }
+  
+  .coupon-input-wrapper input {
+    font-size: 16px; /* Prevent iOS zoom */
+  }
+  
+  .apply-coupon-btn {
+    padding: clamp(0.625rem, 1.5vw, 0.75rem) clamp(0.875rem, 2vw, 1rem);
   }
 }

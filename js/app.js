@@ -963,6 +963,9 @@ async function renderCart(container, totalSpan) {
 
   if (totalSpan) totalSpan.textContent = total.toFixed(2);
   if (subtotalSpan) subtotalSpan.textContent = `EGP ${total.toFixed(2)}`;
+  
+  // Update coupon discount if one is applied
+  updateCartWithCoupon();
 }
 
 /**
@@ -1524,15 +1527,36 @@ async function initCheckoutForm() {
     const allProducts = await fetchProducts();
     const productMap = new Map(allProducts.map(p => [String(p.id), p]));
 
-    let total = 0;
+    let subtotal = 0;
     const lines = [];
     for (const [id, qty] of cart.entries()) {
       const product = productMap.get(id);
       if (!product) continue;
       // Use discounted price if available
       const price = product.discount ? (Number(product.discountedPrice) || 0) : (Number(product.price) || 0);
-      total += price * qty;
+      subtotal += price * qty;
       lines.push(`- ${qty}x ${product.name} - EGP ${(price * qty).toFixed(2)}`);
+    }
+
+    // Check for applied coupon
+    const appliedCoupon = getAppliedCoupon();
+    let couponDiscount = 0;
+    let total = subtotal;
+
+    if (appliedCoupon) {
+      // Get cart products for validation
+      const cartProducts = [];
+      for (const [id] of cart.entries()) {
+        const product = productMap.get(id);
+        if (product) cartProducts.push(product);
+      }
+
+      // Validate and calculate discount
+      const couponResult = validateCoupon(appliedCoupon.code, subtotal, cartProducts);
+      if (couponResult.valid) {
+        couponDiscount = couponResult.discount;
+        total = subtotal - couponDiscount;
+      }
     }
 
     // Build structured WhatsApp message
@@ -1565,6 +1589,18 @@ async function initCheckoutForm() {
       ...lines,
       '━━━━━━━━━━━━━━━━━━━━',
       '',
+      `Subtotal: EGP ${subtotal.toFixed(2)}`
+    );
+
+    // Add coupon discount if applied
+    if (appliedCoupon && couponDiscount > 0) {
+      const discountType = appliedCoupon.type === 'percentage' 
+        ? `${appliedCoupon.amount}% off` 
+        : `${appliedCoupon.amount} EGP off`;
+      messageParts.push(`Discount (${appliedCoupon.code} - ${discountType}): -EGP ${couponDiscount.toFixed(2)}`);
+    }
+
+    messageParts.push(
       `TOTAL: EGP ${total.toFixed(2)}`,
       '',
       `Order Date: ${new Date().toLocaleString('en-US', { 
@@ -1627,6 +1663,313 @@ async function initCheckoutForm() {
   });
 }
 
+// --- Coupon Management ---
+
+/**
+ * Gets the currently applied coupon from localStorage
+ */
+function getAppliedCoupon() {
+  const stored = localStorage.getItem('appliedCoupon');
+  return stored ? JSON.parse(stored) : null;
+}
+
+/**
+ * Saves the applied coupon to localStorage
+ */
+function setAppliedCoupon(coupon) {
+  if (coupon) {
+    localStorage.setItem('appliedCoupon', JSON.stringify(coupon));
+  } else {
+    localStorage.removeItem('appliedCoupon');
+  }
+}
+
+/**
+ * Validates and applies a coupon code
+ * @param {string} code - The coupon code to validate
+ * @param {number} subtotal - Current cart subtotal
+ * @param {Array} cartProducts - Array of products in cart with categories
+ * @returns {Object} - Result object with valid, message, discount, coupon
+ */
+function validateCoupon(code, subtotal, cartProducts) {
+  if (!code || !code.trim()) {
+    return { valid: false, message: 'Please enter a coupon code' };
+  }
+
+  // Load coupons from coupons.json
+  let coupons = [];
+  try {
+    coupons = window.sakrStoreCoupons || [];
+  } catch (error) {
+    console.error('Failed to load coupons:', error);
+    return { valid: false, message: 'Unable to load coupons. Please try again.' };
+  }
+
+  if (!coupons || coupons.length === 0) {
+    return { valid: false, message: 'No coupons available at this time' };
+  }
+
+  // Find matching coupon (case-insensitive)
+  const upperCode = code.trim().toUpperCase();
+  const coupon = coupons.find(c => c.code.toUpperCase() === upperCode);
+
+  if (!coupon) {
+    return { valid: false, message: 'Invalid coupon code' };
+  }
+
+  // Check if coupon is enabled
+  if (coupon.enabled === false) {
+    return { valid: false, message: 'This coupon is no longer active' };
+  }
+
+  // Check minimum spend requirement
+  if (coupon.minSpend && subtotal < coupon.minSpend) {
+    return { 
+      valid: false, 
+      message: `Minimum order of EGP ${coupon.minSpend.toFixed(2)} required` 
+    };
+  }
+
+  // Check category restriction
+  if (coupon.category && coupon.category !== 'All') {
+    const hasMatchingProduct = cartProducts.some(p => 
+      p.category && p.category.toLowerCase() === coupon.category.toLowerCase()
+    );
+    
+    if (!hasMatchingProduct) {
+      return { 
+        valid: false, 
+        message: `This coupon only works for ${coupon.category} products` 
+      };
+    }
+  }
+
+  // Calculate discount
+  let discountAmount = 0;
+  if (coupon.type === 'percentage') {
+    discountAmount = (subtotal * coupon.amount) / 100;
+  } else if (coupon.type === 'fixed') {
+    discountAmount = coupon.amount;
+  }
+
+  // Ensure discount doesn't exceed subtotal
+  discountAmount = Math.min(discountAmount, subtotal);
+
+  return {
+    valid: true,
+    message: coupon.description || `${coupon.amount}${coupon.type === 'percentage' ? '%' : ' EGP'} discount applied`,
+    discount: discountAmount,
+    coupon: coupon
+  };
+}
+
+/**
+ * Updates the cart display with coupon discount
+ */
+function updateCartWithCoupon() {
+  const appliedCoupon = getAppliedCoupon();
+  const discountRow = document.getElementById('discount-row');
+  const discountAmount = document.getElementById('discount-amount');
+  const appliedCode = document.getElementById('applied-coupon-code');
+  const subtotalSpan = document.getElementById('subtotal-price');
+  const totalSpan = document.getElementById('total-price');
+
+  if (!appliedCoupon || !discountRow) return;
+
+  const subtotalText = subtotalSpan ? subtotalSpan.textContent : 'EGP 0.00';
+  const subtotal = parseFloat(subtotalText.replace('EGP', '').trim()) || 0;
+
+  // Get cart products for validation
+  const cart = getCart();
+  const cartProducts = [];
+  
+  fetchProducts().then(allProducts => {
+    for (const [id] of cart.entries()) {
+      const product = allProducts.find(p => String(p.id) === id);
+      if (product) cartProducts.push(product);
+    }
+
+    // Re-validate coupon with current cart
+    const result = validateCoupon(appliedCoupon.code, subtotal, cartProducts);
+    
+    if (result.valid) {
+      // Show discount row
+      discountRow.style.display = 'flex';
+      if (appliedCode) appliedCode.textContent = appliedCoupon.code;
+      if (discountAmount) discountAmount.textContent = `-EGP ${result.discount.toFixed(2)}`;
+      
+      // Update total
+      const newTotal = subtotal - result.discount;
+      if (totalSpan) totalSpan.textContent = newTotal.toFixed(2);
+    } else {
+      // Coupon no longer valid, remove it
+      setAppliedCoupon(null);
+      discountRow.style.display = 'none';
+      if (totalSpan) totalSpan.textContent = subtotal.toFixed(2);
+    }
+  });
+}
+
+/**
+ * Loads coupons from coupons.json
+ */
+async function loadCoupons() {
+  try {
+    const response = await fetch('coupons.json');
+    if (!response.ok) {
+      throw new Error('Failed to fetch coupons');
+    }
+    window.sakrStoreCoupons = await response.json();
+  } catch (error) {
+    console.error('Error loading coupons:', error);
+    window.sakrStoreCoupons = [];
+  }
+}
+
+/**
+ * Initializes coupon functionality on cart page
+ */
+async function initCouponSystem() {
+  // Load coupons first
+  await loadCoupons();
+  
+  const couponInput = document.getElementById('coupon-input');
+  const applyBtn = document.getElementById('apply-coupon-btn');
+  const removeBtn = document.getElementById('remove-coupon-btn');
+  const couponMessage = document.getElementById('coupon-message');
+  const discountRow = document.getElementById('discount-row');
+
+  if (!couponInput || !applyBtn) return;
+
+  // Check for existing applied coupon on page load
+  const existingCoupon = getAppliedCoupon();
+  if (existingCoupon) {
+    couponInput.value = existingCoupon.code;
+    updateCartWithCoupon();
+  }
+
+  // Apply coupon button
+  applyBtn.addEventListener('click', async () => {
+    const code = couponInput.value.trim();
+    const subtotalSpan = document.getElementById('subtotal-price');
+    const totalSpan = document.getElementById('total-price');
+    
+    if (!code) {
+      showCouponMessage('Please enter a coupon code', 'error');
+      return;
+    }
+
+    // Check if a coupon is already applied
+    const existingCoupon = getAppliedCoupon();
+    if (existingCoupon) {
+      showCouponMessage('Please remove the current coupon first', 'error');
+      return;
+    }
+
+    // Get subtotal
+    const subtotalText = subtotalSpan ? subtotalSpan.textContent : 'EGP 0.00';
+    const subtotal = parseFloat(subtotalText.replace('EGP', '').trim()) || 0;
+
+    if (subtotal === 0) {
+      showCouponMessage('Your cart is empty', 'error');
+      return;
+    }
+
+    // Get cart products
+    const cart = getCart();
+    const cartProducts = [];
+    const allProducts = await fetchProducts();
+    
+    for (const [id] of cart.entries()) {
+      const product = allProducts.find(p => String(p.id) === id);
+      if (product) cartProducts.push(product);
+    }
+
+    // Validate coupon
+    applyBtn.disabled = true;
+    applyBtn.innerHTML = '<span>Applying...</span>';
+
+    setTimeout(() => {
+      const result = validateCoupon(code, subtotal, cartProducts);
+      
+      if (result.valid) {
+        // Save applied coupon
+        setAppliedCoupon(result.coupon);
+        
+        // Show discount
+        const discountAmount = document.getElementById('discount-amount');
+        const appliedCode = document.getElementById('applied-coupon-code');
+        
+        if (discountRow) discountRow.style.display = 'flex';
+        if (appliedCode) appliedCode.textContent = result.coupon.code;
+        if (discountAmount) discountAmount.textContent = `-EGP ${result.discount.toFixed(2)}`;
+        
+        // Update total
+        const newTotal = subtotal - result.discount;
+        if (totalSpan) totalSpan.textContent = newTotal.toFixed(2);
+        
+        showCouponMessage(result.message, 'success');
+        couponInput.value = result.coupon.code;
+        couponInput.disabled = true;
+      } else {
+        showCouponMessage(result.message, 'error');
+      }
+      
+      applyBtn.disabled = false;
+      applyBtn.innerHTML = '<span>Apply</span>';
+    }, 300);
+  });
+
+  // Remove coupon button
+  if (removeBtn) {
+    removeBtn.addEventListener('click', () => {
+      setAppliedCoupon(null);
+      
+      // Hide discount row
+      if (discountRow) discountRow.style.display = 'none';
+      
+      // Reset total to subtotal
+      const subtotalSpan = document.getElementById('subtotal-price');
+      const totalSpan = document.getElementById('total-price');
+      if (subtotalSpan && totalSpan) {
+        const subtotalText = subtotalSpan.textContent.replace('EGP', '').trim();
+        const subtotal = parseFloat(subtotalText) || 0;
+        totalSpan.textContent = subtotal.toFixed(2);
+      }
+      
+      // Clear input and enable it
+      couponInput.value = '';
+      couponInput.disabled = false;
+      
+      showCouponMessage('Coupon removed', 'info');
+    });
+  }
+
+  // Allow Enter key to apply coupon
+  couponInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      applyBtn.click();
+    }
+  });
+
+  // Helper function to show messages
+  function showCouponMessage(message, type) {
+    if (!couponMessage) return;
+    
+    couponMessage.textContent = message;
+    couponMessage.className = `coupon-message ${type}`;
+    couponMessage.style.display = 'block';
+    
+    // Auto-hide success messages
+    if (type === 'success' || type === 'info') {
+      setTimeout(() => {
+        couponMessage.style.display = 'none';
+      }, 4000);
+    }
+  }
+}
+
 /**
  * Simple router to initialize the correct page logic.
  */
@@ -1638,6 +1981,7 @@ function router() {
   } else if (path.endsWith('/cart.html')) {
     initCartPage();
     initCheckoutForm(); // Assuming checkout is on the cart page
+    initCouponSystem(); // Initialize coupon functionality
   }
 }
 

@@ -132,6 +132,42 @@
                   <span>Subtotal</span>
                   <span class="summary-value" id="subtotal-price">EGP 0.00</span>
                 </div>
+                
+                <!-- Coupon Section -->
+                <div class="coupon-section">
+                  <div class="coupon-input-wrapper">
+                    <input 
+                      type="text" 
+                      id="coupon-input" 
+                      placeholder="Enter coupon code" 
+                      maxlength="20"
+                      autocomplete="off"
+                    >
+                    <button type="button" id="apply-coupon-btn" class="apply-coupon-btn">
+                      <span>Apply</span>
+                    </button>
+                  </div>
+                  <div id="coupon-message" class="coupon-message"></div>
+                </div>
+                
+                <!-- Discount Row (hidden by default) -->
+                <div class="summary-row discount-row" id="discount-row" style="display: none;">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="discount-icon">
+                      <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                      <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                    </svg>
+                    Discount (<span id="applied-coupon-code"></span>)
+                    <button type="button" id="remove-coupon-btn" class="remove-coupon-btn" aria-label="Remove coupon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                      </svg>
+                    </button>
+                  </span>
+                  <span class="summary-value discount-amount" id="discount-amount">-EGP 0.00</span>
+                </div>
+                
                 <div class="summary-row shipping-row">
                   <span>Shipping</span>
                   <span class="summary-value shipping-note">Confirmed via WhatsApp</span>
