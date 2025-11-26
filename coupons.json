@@ -7,7 +7,7 @@
     "minSpend": 500.00,
     "category": "All",
     "description": "10% off orders over 500 EGP",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 2,
