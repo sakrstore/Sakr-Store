@@ -28,5 +28,15 @@
     "category": "All",
     "description": "Get 10% off on your order!",
     "enabled": true
+  },
+  {
+    "id": 4,
+    "code": "HALAWA10",
+    "type": "percentage",
+    "amount": 10.00,
+    "minSpend": 0.00,
+    "category": "All",
+    "description": "Get 10% off on your order!",
+    "enabled": true
   }
 ]
