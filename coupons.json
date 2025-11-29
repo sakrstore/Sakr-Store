@@ -1,6 +1,6 @@
 [
   {
-    "enabled": false,
+    "enabled": true,
     "description": "Get 15% off on your order when you spend 400 EGP or more!",
     "category": "All",
     "minSpend": 400.00,
@@ -10,7 +10,7 @@
     "id": 1
   },
   {
-    "enabled": false,
+    "enabled": true,
     "description": "Get 25% off on Power Bank products!",
     "category": "Power Bank",
     "minSpend": 0.00,
