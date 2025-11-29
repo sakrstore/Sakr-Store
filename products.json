@@ -15,8 +15,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 749.99,
     "stock": 10,
     "isNew": true
   },
@@ -272,8 +272,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 349.99,
     "stock": 10,
     "isNew": true
   },
@@ -519,8 +519,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 399.99,
     "stock": 5,
     "isNew": true
   },
@@ -1439,8 +1439,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 709.99,
     "stock": 5,
     "isNew": true
   },
@@ -1457,8 +1457,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 749.99,
     "stock": 3,
     "isNew": true
   },
@@ -1697,9 +1697,9 @@
       ]
     },
     "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 5,
+    "discount": true,
+    "discountedPrice": 699.99,
+    "stock": 4,
     "isNew": true
   },
   {
@@ -1731,8 +1731,8 @@
       "gallery": []
     },
     "category": "Power Bank",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 1099.99,
     "stock": 4,
     "isNew": true
   },
@@ -1767,8 +1767,8 @@
       ]
     },
     "category": "Power Bank",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 549.99,
     "stock": 5,
     "isNew": true
   },
