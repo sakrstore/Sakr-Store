@@ -1789,5 +1789,25 @@
     "discountedPrice": 0.00,
     "stock": 2,
     "isNew": true
+  },
+  {
+    "id": 103,
+    "name": "Oraimo FreePods 3C OEB-E104DC",
+    "price": 850.00,
+    "description": "Brand Name\tOraimo\nColor\tBlack\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t16 Ohm\nNoise Control\tPassive Noise Cancellation\nFrequency Response\t22 KHz\nSensitivity\t100 dB\nHeadphones Jack\tNo Jack\nModel Name\tFreePods 3\n【36-hour Long Battery Time，Let the Vibe Plays Day and Night】",
+    "image": "images/product-103-primary.webp",
+    "images": {
+      "primary": "images/product-103-primary.webp",
+      "gallery": [
+        "images/product-103-gallery-0.webp",
+        "images/product-103-gallery-1.webp",
+        "images/product-103-gallery-2.webp"
+      ]
+    },
+    "category": "Airpods",
+    "discount": true,
+    "discountedPrice": 600.00,
+    "stock": 10,
+    "isNew": true
   }
 ]
