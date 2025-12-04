@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sakrstore.app",
+      "sha256_cert_fingerprints": [
+        "BD:14:A7:C8:BD:85:7E:33:93:86:B0:93:52:6C:25:23:DC:94:9D:07:FB:85:C7:91:7E:3A:93:46:5C:DC:D8:85"
+      ]
+    }
+  }
+]

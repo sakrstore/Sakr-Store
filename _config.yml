@@ -1,0 +1,5 @@
+# GitHub Pages configuration for Sakr Store
+# This enables serving of .well-known directory for Android App Links verification
+
+include:
+  - .well-known
