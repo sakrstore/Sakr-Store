@@ -18,5 +18,35 @@
     "amount": 25.00,
     "code": "POWER25",
     "id": 2
+  },
+  {
+    "id": 3,
+    "code": "NAJER10",
+    "type": "percentage",
+    "amount": 10.00,
+    "minSpend": 0.00,
+    "category": "All",
+    "description": "Get 10% off on your order!",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "code": "HALAWA10",
+    "type": "percentage",
+    "amount": 10.00,
+    "minSpend": 0.00,
+    "category": "All",
+    "description": "Get 10% off on your order!",
+    "enabled": true
+  },
+  {
+    "enabled": true,
+    "description": "Get 15% off on your order!",
+    "category": "All",
+    "minSpend": 0.00,
+    "type": "percentage",
+    "amount": 15.00,
+    "code": "DRHEBA15",
+    "id": 5
   }
 ]
