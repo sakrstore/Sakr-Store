@@ -1828,5 +1828,186 @@
     "discountedPrice": 300.00,
     "stock": 5,
     "isNew": true
+  },
+  {
+    "id": 105,
+    "name": "Blue Spectrum pure sound Headphones D42 - white, Wired",
+    "price": 69.99,
+    "description": "\nBrand Name\tBlue Spectrum\nColor\twhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation\nSensitivity\t94 dB\nHeadphones Jack\t3.5 mm Jack\nModel Name\tBlue Spectrum pure sound Headphones\nConnectivity Technology\tWired\nIncluded Components\tBattery",
+    "image": "images/product-105-primary.webp",
+    "images": {
+      "primary": "images/product-105-primary.webp",
+      "gallery": [
+        "images/product-105-gallery-0.webp"
+      ]
+    },
+    "category": "Earphone",
+    "discount": false,
+    "discountedPrice": 69.99,
+    "stock": 20,
+    "isNew": true
+  },
+  {
+    "id": 106,
+    "name": "Wireless Speaker Portable",
+    "price": 599.99,
+    "description": "Wireless Speaker Portable Bluetooth RGB LED Support USB Stereo Music, Micro SD, Rechargable Battery Designed like Car, delivers high Quality Pure Sound charging by Type-C\n\nBrand Name\tGeneric\nSpeaker Maximum Output Power\t140 Watts\nFrequency Response\t1300 THz\nConnectivity Technology\tBluetooth\nAudio Output Mode\tSurround\nMounting Type\tTabletop\nMaterial\tPlastic\nModel Name\tGN-12\nSpeaker Type\tMultimedia\nCompatible Devices\tGaming Console, Laptop, MP3 Player, Smartphone, Tablet, Television",
+    "image": "images/product-106-primary.webp",
+    "images": {
+      "primary": "images/product-106-primary.webp",
+      "gallery": [
+        "images/product-106-gallery-0.webp",
+        "images/product-106-gallery-1.webp"
+      ]
+    },
+    "category": "Speaker",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 107,
+    "name": "Mini Wireless Speaker with Bluetooth",
+    "price": 199.99,
+    "description": "Brand Name\tGeneric\nSpeaker Maximum Output Power\t3 Watts\nFrequency Response\t20 KHz\nConnectivity Technology\twireless\nAudio Output Mode\tStereo\nMounting Type\tWall Mount\nMaterial\tAluminium\nModel Name\tBM3D\nSpeaker Type\tPortable\nSpecial Features\tBluetooth, Wireless",
+    "image": "images/product-107-primary.webp",
+    "images": {
+      "primary": "images/product-107-primary.webp",
+      "gallery": []
+    },
+    "category": "Speaker",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 108,
+    "name": "Singflo Portable Speaker with Microphone SING",
+    "price": 399.99,
+    "description": "Model: ZQS1498\nSpeaker Size: 4 inches\nBattery Capacity: 1200 mAh\nFeatures: Includes a wired microphone, carry handle, and LED lights\nConnectivity: Supports Bluetooth, USB, and potentially other inputs like MicroSD or AUX",
+    "image": "images/product-108-primary.webp",
+    "images": {
+      "primary": "images/product-108-primary.webp",
+      "gallery": []
+    },
+    "category": "Speaker",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 109,
+    "name": "JL-4488 portable Bluetooth speaker. ",
+    "price": 799.99,
+    "description": "t features vibrant LED light strips with color-changing effects. \nConnectivity options include Bluetooth 5.2, USB, and a micro SD card slot. \nThe speaker has a compact, cylindrical design and provides up to 3 hours of continuous playback. ",
+    "image": "images/product-109-primary.webp",
+    "images": {
+      "primary": "images/product-109-primary.webp",
+      "gallery": []
+    },
+    "category": "Speaker",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 9,
+    "isNew": true
+  },
+  {
+    "id": 110,
+    "name": " Voltix USB Super Fast Charge wall charger and a USB-A to Micro-USB cable set. ",
+    "price": 150.00,
+    "description": "Brand: Voltix\nModel: VI-112\nFeatures: The cable is engineered for durability and fast charging, providing a stable output with minimal heat.\nContents: The package includes a white wall adapter and a white USB-A to Micro-USB cable.\nAvailability: Similar Voltix products are available from online retailers in the Middle East.",
+    "image": "images/product-110-primary.webp",
+    "images": {
+      "primary": "images/product-110-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 111,
+    "name": " Samsung 25W PD (Power Delivery) USB-C Adapter. ",
+    "price": 199.99,
+    "description": "This wall charger provides Super Fast Charging with USB-C PD 3.0 PPS at up to a maximum of 25W for compatible devices. \nIt is compact and portable, making it convenient for travel. \nThe charger is available in both black and white colors. \nIt is designed to work with official Samsung Type-C to Type-C charging cables for optimal results. ",
+    "image": "images/product-111-primary.webp",
+    "images": {
+      "primary": "images/product-111-primary.webp",
+      "gallery": []
+    },
+    "category": "Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 112,
+    "name": "Samsung 45W PD (Power Delivery) adapter ",
+    "price": 399.99,
+    "description": "This wall charger provides Super Fast Charging 2.0 with USB-C PD 3.0 PPS at up to a maximum of 45W for compatible devices. \nIt is designed to charge a wide range of devices, from earbuds to tablets, at optimal speeds. \nThe charger provides protection against hazards such as overcurrent, short circuits, and temperature fluctuations. ",
+    "image": "images/product-112-primary.webp",
+    "images": {
+      "primary": "images/product-112-primary.webp",
+      "gallery": []
+    },
+    "category": "Adapter",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 113,
+    "name": "Samsung 45W PD Chargers",
+    "price": 449.99,
+    "description": "Key Features: Delivers up to 45W output using Power Delivery (PD) 3.0 technology. \nCompatibility: Features a USB-C port and is designed to charge a wide range of Samsung Galaxy devices, from earbuds to tablets, at optimal speeds. \nCable: Includes an extra-long 1.8m Type-C to Type-C cable that supports a high current of 5A. \nSafety: Built with advanced safety protections against hazards like overcurrent, short circuits, and temperature fluctuations. ",
+    "image": "images/product-113-primary.webp",
+    "images": {
+      "primary": "images/product-113-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 114,
+    "name": "Samsung 25W PD Chargers with a USB-C to USB-C cable",
+    "price": 349.99,
+    "description": "his wall charger provides Super Fast Charging with USB-C PD 3.0 PPS at up to a maximum of 25W for compatible devices. \nIt is designed to charge any Power Delivery (PD) device up to 25W, with other USB-C devices charging at speeds they can handle. \nThe product is available in both black and white color options. \nFor optimal results, it is recommended to use the charger with an official Samsung Type-C to Type-C charging cable. ",
+    "image": "images/product-114-primary.webp",
+    "images": {
+      "primary": "images/product-114-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 115,
+    "name": "Voltix 4-in-1 data cable",
+    "price": 99.99,
+    "description": "It is a 4-in-1 convertible design with multiple connectors, including USB-A to C, USB-C to C, USB-C to Lightning, and USB-A to Lightning, making it compatible with a wide range of devices. \nThe cable supports up to 65W power delivery for efficient charging of smartphones, tablets, and laptops. \nIt features a durable, nylon-braided material that enhances longevity and resists fraying. ",
+    "image": "images/product-115-primary.webp",
+    "images": {
+      "primary": "images/product-115-primary.webp",
+      "gallery": []
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
   }
 ]
