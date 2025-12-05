@@ -2009,5 +2009,117 @@
     "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
+  },
+  {
+    "id": 116,
+    "name": "Dolphin S61V USB to Micro",
+    "price": 39.99,
+    "description": "The cable supports fast charging up to 2.4A. \nIt is designed for durability and fast data synchronization. \nThe cable length is 1.0 meter. \nIt is compatible with all devices that have a Micro-USB port, such as smartphones, tablets, and more. \n",
+    "image": "images/product-116-primary.webp",
+    "images": {
+      "primary": "images/product-116-primary.webp",
+      "gallery": []
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 30,
+    "isNew": true
+  },
+  {
+    "id": 117,
+    "name": "Sky Dolphin S61T USB-A to Type-C cable",
+    "price": 44.99,
+    "description": "Connector Type: USB-A to USB Type-C.\nLength: 1.0 meter.\nCurrent/Power: Supports 2.4A current for fast charging.\nFeatures: Designed for high-speed charging and data transfer with durable construction.",
+    "image": "images/product-117-primary.webp",
+    "images": {
+      "primary": "images/product-117-primary.webp",
+      "gallery": []
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 20,
+    "isNew": true
+  },
+  {
+    "id": 118,
+    "name": " SKY DOLPHIN S63E 3-in-1 Charging Cable.",
+    "price": 99.99,
+    "description": "Model: S63E\nConnectors: Micro USB, iOS (Lightning), and Type C\nCharging: Supports 2.4A fast charging\nLength: Typically 1.2 meters long\nMaterial: Features a durable nylon braided exterior",
+    "image": "images/product-118-primary.webp",
+    "images": {
+      "primary": "images/product-118-primary.webp",
+      "gallery": []
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 15,
+    "isNew": true
+  },
+  {
+    "id": 119,
+    "name": " Everest Nylon Braided USB to Type-C Fast Data Cable.",
+    "price": 139.99,
+    "description": "The cable is designed for fast charging and data transfer. \nIt features a durable nylon braided exterior to resist wear and tear and prevent tangling. \nThe product code is EV-18. \nIt is compatible with various USB-C devices, including smartphones, tablets, and power banks. ",
+    "image": "images/product-119-primary.webp",
+    "images": {
+      "primary": "images/product-119-primary.webp",
+      "gallery": []
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 120,
+    "name": " Everest Fast Charging Data Cable. ",
+    "price": 79.99,
+    "description": "It is a Micro-USB type cable.\nThe cable is 1 meter (1M) long.\nIt supports fast charging and data transfer capabilities.\nThe cable features a braided design for enhanced durability.",
+    "image": "images/product-120-primary.webp",
+    "images": {
+      "primary": "images/product-120-primary.webp",
+      "gallery": []
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 6,
+    "isNew": true
+  },
+  {
+    "id": 121,
+    "name": "Mani MA-05 fast charging data cable. ",
+    "price": 99.99,
+    "description": "It is a USB-A to USB-C cable.\nThe cable is designed for fast charging and data transfer.\nIt features a braided design for durability.\nThe product is available from \"Sakr Store\"",
+    "image": "images/product-121-primary.webp",
+    "images": {
+      "primary": "images/product-121-primary.webp",
+      "gallery": []
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 122,
+    "name": " Everest Data CableMicro-USB type",
+    "price": 89.99,
+    "description": "Brand: Everest\nModel: EV-12\nFeatures: Supports 3.5A Super Charge and data transfer.\nDesign: The cables appear to be braided for durability and to prevent tangling.\nConnector Types: One package shows a Lightning connector (for Apple devices) and the other a Micro-USB connector (for various Android devices).",
+    "image": "images/product-122-primary.webp",
+    "images": {
+      "primary": "images/product-122-primary.webp",
+      "gallery": []
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 15,
+    "isNew": true
   }
 ]
