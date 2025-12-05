@@ -23,7 +23,7 @@
   {
     "id": 2,
     "name": "R50i Semi Original",
-    "price": 599.99,
+    "price": 600.00,
     "description": "ROVSKI New A.n.k.e.r Soundcore R50i True Wireless Earbuds, 10mm Driver, AI-Enhanced Calls via 2 Built-In Microphone, 22 Presets EQS, 10H Playtime, Customize Controls, IPX5 Waterproof, ",
     "image": "images/product-2-primary.webp",
     "images": {
@@ -34,8 +34,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 449.99,
     "stock": 10,
     "isNew": true
   },
@@ -261,7 +261,7 @@
   {
     "id": 15,
     "name": "Ai Pods 4 Semi Original",
-    "price": 489.99,
+    "price": 490.00,
     "description": "Color: White\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nModel Name\tMulti\nConnectivity Technology\tBluetooth, Wireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tCable, User Manual, Wireless Charging Case\nSpecific Uses For Product\tMusic, Phone Calling, Exercising, Commuting",
     "image": "images/product-15-primary.webp",
     "images": {
@@ -272,8 +272,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 367.99,
     "stock": 10,
     "isNew": true
   },
@@ -319,7 +319,7 @@
   {
     "id": 18,
     "name": "sodo 1006 Bluetooth Headphone",
-    "price": 499.99,
+    "price": 500.00,
     "description": "\nBrand Name\tsodo\nColor\tgrey\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tOver Ear\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\t3.5 mm Jack\nModel Name\tsodo 1006 Bluetooth Headphone\nConnectivity Technology\tWired, Wireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tEar Cushions, Headband",
     "image": "images/product-18-primary.webp",
     "images": {
@@ -330,8 +330,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 374.99,
     "stock": 10,
     "isNew": false
   },
@@ -488,7 +488,7 @@
   {
     "id": 27,
     "name": "Air pods A9 Pro Touch Screen ",
-    "price": 579.99,
+    "price": 580.00,
     "description": "\nBrand Name\tANC/ENC\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t42 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nFrequency Response\t20.2 Hz\nSensitivity\t88 dB\nHeadphones Jack\t3.5 mm Jack\nModel Name\tA9 Pro",
     "image": "images/product-27-primary.webp",
     "images": {
@@ -500,15 +500,15 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 434.99,
     "stock": 10,
     "isNew": false
   },
   {
     "id": 28,
     "name": "Langsdom Wireless Earbuds",
-    "price": 559.99,
+    "price": 560.00,
     "description": "\nBrand\tLangsdom\nColour\tWhite\nForm factor\tIn Ear\nImpedance\t16 Ohm\nHeadphone jack\tUSB\nModel name\tDelta\nConnectivity technology\tWireless\nWireless communication technologies\tBluetooth\nIncluded components\tCable, Protective Charging Case\nAge range (description)\tAdult",
     "image": "images/product-28-primary.webp",
     "images": {
@@ -519,8 +519,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 419.99,
     "stock": 5,
     "isNew": true
   },
@@ -848,7 +848,7 @@
   {
     "id": 48,
     "name": "Samsung 25W PD (Power Delivery) USB-C adapter",
-    "price": 349.99,
+    "price": 350.00,
     "description": "This wall charger provides Super Fast Charging at up to 25W for compatible devices. \nIt is designed to be used with a USB-C to USB-C charging cable. \nThe charger is available in both black and white. \nIt is designed to be safe from overcurrent, short circuits, and high temperatures",
     "image": "images/product-48-primary.webp",
     "images": {
@@ -856,15 +856,15 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 262.99,
     "stock": 5,
     "isNew": false
   },
   {
     "id": 49,
     "name": "35W USB-C Power Adapter.",
-    "price": 449.99,
+    "price": 450.00,
     "description": "It is a dual USB-C port compact power adapter that allows you to charge two devices at the same time. \nThe adapter is compatible with any USB-C-enabled device, including iPhone, iPad, Apple Watch, AirPods, and MacBook Air. \nThe compact size and folding pins make it easy to pack and store. ",
     "image": "images/product-49-primary.webp",
     "images": {
@@ -872,8 +872,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 337.99,
     "stock": 5,
     "isNew": false
   },
@@ -896,7 +896,7 @@
   {
     "id": 51,
     "name": " Apple 20W USB-C Power Adapter.",
-    "price": 939.99,
+    "price": 940.00,
     "description": "It is a wall charger that provides fast and efficient charging for compatible devices. \nIt is compatible with any USB-C enabled device, but Apple recommends pairing it with the 11-inch iPad Pro and 12.9-inch iPad Pro (3rd generation) for optimal charging performance. \nIt can charge an iPhone 8 or later up to 50% in about 35 minutes. \nThe adapter is available in white. \nThe charging cable is sold separately",
     "image": "images/product-51-primary.webp",
     "images": {
@@ -904,8 +904,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 704.99,
     "stock": 2,
     "isNew": false
   },
@@ -1072,7 +1072,7 @@
   {
     "id": 62,
     "name": "EV-300 Super VOOC Charger. ",
-    "price": 239.99,
+    "price": 240.00,
     "description": "t is a wall charger with a Type-C port.\nThe package mentions مwhich translates to \"High-quality product\" in Arabic.\nIt supports fast charging technologies like Power Delivery (PD) and Quick Charge (QC).\nThe charger has dual ports, allowing you to charge two devices at once.\nIt is a compact and portable charger, making it suitable for travel.",
     "image": "images/product-62-primary.webp",
     "images": {
@@ -1080,8 +1080,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 179.99,
     "stock": 3,
     "isNew": true
   },
@@ -1331,7 +1331,7 @@
   {
     "id": 78,
     "name": "HK10 Pro+ multi-functional smartwatch.",
-    "price": 899.99,
+    "price": 900.00,
     "description": "Display: It features an AMOLED display with a 410 x 494 resolution. \nFeatures: The smartwatch includes a real compass, NFC access, AI ChatGPT integration, music playback, and an e-book reader. It also supports health tracking for heart rate, blood pressure, and sleep. \nConnectivity: The watch supports Bluetooth calling and can connect to TWS earbuds. \nDesign: It has a sporty design and is rated IP68 for water resistance. ",
     "image": "images/product-78-primary.webp",
     "images": {
@@ -1342,8 +1342,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 674.99,
     "stock": 3,
     "isNew": false
   },
@@ -1428,7 +1428,7 @@
   {
     "id": 83,
     "name": "JSYES M70 Max Ultra 2 smartwatch.",
-    "price": 949.99,
+    "price": 950.00,
     "description": "It is a smartwatch that supports calls, Chat GPT, and NFC. \nIt comes with seven interchangeable straps. \nThe watch has a large, clear touchscreen display. \nIt includes advanced health and fitness tracking features like heart rate monitoring, blood pressure, and sleep tracking. \nThe smartwatch is designed to be compatible with both iPhone and Android devices. ",
     "image": "images/product-83-primary.webp",
     "images": {
@@ -1439,8 +1439,8 @@
       ]
     },
     "category": "Smart Watch",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 712.99,
     "stock": 5,
     "isNew": true
   },
@@ -1589,7 +1589,7 @@
   {
     "id": 92,
     "name": " PB-21 fast-charging power bank with a 30,000mAh capacity. ",
-    "price": 1299.99,
+    "price": 1300.00,
     "description": "It is a fast-charging power bank with a 30,000 mAh capacity. \nThe power bank has a 2.4A output. \nIt is equipped with multiple ports, including USB, Type-C, and Micro USB. \nThe device has a built-in li-polymer battery. ",
     "image": "images/product-92-primary.webp",
     "images": {
@@ -1599,8 +1599,8 @@
       ]
     },
     "category": "Power Bank",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 974.99,
     "stock": 3,
     "isNew": false
   },
@@ -1665,7 +1665,7 @@
   {
     "id": 96,
     "name": " ESR HaloLock Mini Kickstand Wireless Power Bank",
-    "price": 999.99,
+    "price": 1000.00,
     "description": "Capacity: Typically available in 6,000 mAh or 10,000 mAh versions.\nCompatibility: Features HaloLock technology for secure, automatic magnetic alignment with MagSafe-compatible iPhones (iPhone 12 series and later).\nCharging Speeds: Offers up to 7.5 W wireless charging and supports 15W USB-C input and 12W USB-C output for wired charging.\nDesign: Includes a built-in, foldable kickstand that allows the phone to be propped up vertically or horizontally while charging.\nPortability: Designed to be compact and lightweight for easy carrying.",
     "image": "images/product-96-primary.webp",
     "images": {
@@ -1677,8 +1677,8 @@
       ]
     },
     "category": "Power Bank",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 749.99,
     "stock": 5,
     "isNew": true
   },
@@ -1723,7 +1723,7 @@
   {
     "id": 99,
     "name": "ES-30 power banks manufactured by Estart.",
-    "price": 1699.99,
+    "price": 1700.00,
     "description": "Capacity: 30000 mAh\nFast Charging: Supports 22.5W fast charging, compatible with various fast charging protocols like PD and QC3.0.\nPorts: Includes both USB-C and USB-A output ports, as well as a micro-USB input/output port.\nDisplay: Features a smart digital display for real-time power monitoring.",
     "image": "images/product-99-primary.webp",
     "images": {
@@ -1731,8 +1731,8 @@
       "gallery": []
     },
     "category": "Power Bank",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 1274.99,
     "stock": 4,
     "isNew": true
   },
@@ -1793,7 +1793,7 @@
   {
     "id": 103,
     "name": "Oraimo FreePods 3C OEB-E104DC",
-    "price": 850.00,
+    "price": 849.99,
     "description": "Brand Name\tOraimo\nColor\tBlack\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t16 Ohm\nNoise Control\tPassive Noise Cancellation\nFrequency Response\t22 KHz\nSensitivity\t100 dB\nHeadphones Jack\tNo Jack\nModel Name\tFreePods 3\n【36-hour Long Battery Time，Let the Vibe Plays Day and Night】",
     "image": "images/product-103-primary.webp",
     "images": {
@@ -1813,7 +1813,7 @@
   {
     "id": 104,
     "name": "Pzx باور بانك PzxC146 بسعة 10400 مللي أمبير للأجهزة كافة - أبيض",
-    "price": 300.00,
+    "price": 299.99,
     "description": "مميزات باور بانك PzxC146\nسعة 10400 مللي أمبير: يوفر طاقة كافية لشحن عدة أجهزة.\nخروج 1.1 أمبير: لضمان شحن سريع وفعال.\nنموذج: PZX-C146: تصميم مخصص للأداء العالي.\nبطارية ليثيوم أيون قابلة لإعادة الشحن: تضمن لك عمرًا طويلًا.\nمؤشر LED: لتوضيح حالة الشحن.\nتوافق مع أجهزة USB: مثل الهواتف الذكية، والأجهزة اللوحية، والكاميرات الرقمية.\nدرجة حرارة التشغيل: 10-40 درجة مئوية.\nلماذا تختار باور بانك PzxC146؟\nهذا الباور بانك هو الخيار الأمثل للأشخاص الذين يحتاجون إلى طاقة موثوقة أثناء التنقل. مع سعة 10400 مللي أمبير، يمكنك الاعتماد عليه لإبقاء أجهزتك مشحونة طوال اليوم.\n\n",
     "image": "images/product-104-primary.webp",
     "images": {
@@ -1917,7 +1917,7 @@
   {
     "id": 110,
     "name": " Voltix USB Super Fast Charge wall charger and a USB-A to Micro-USB cable set. ",
-    "price": 150.00,
+    "price": 149.99,
     "description": "Brand: Voltix\nModel: VI-112\nFeatures: The cable is engineered for durability and fast charging, providing a stable output with minimal heat.\nContents: The package includes a white wall adapter and a white USB-A to Micro-USB cable.\nAvailability: Similar Voltix products are available from online retailers in the Middle East.",
     "image": "images/product-110-primary.webp",
     "images": {
@@ -1933,7 +1933,7 @@
   {
     "id": 111,
     "name": " Samsung 25W PD (Power Delivery) USB-C Adapter. ",
-    "price": 199.99,
+    "price": 200.00,
     "description": "This wall charger provides Super Fast Charging with USB-C PD 3.0 PPS at up to a maximum of 25W for compatible devices. \nIt is compact and portable, making it convenient for travel. \nThe charger is available in both black and white colors. \nIt is designed to work with official Samsung Type-C to Type-C charging cables for optimal results. ",
     "image": "images/product-111-primary.webp",
     "images": {
@@ -1941,8 +1941,8 @@
       "gallery": []
     },
     "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 149.99,
     "stock": 10,
     "isNew": true
   },
@@ -1981,7 +1981,7 @@
   {
     "id": 114,
     "name": "Samsung 25W PD Chargers with a USB-C to USB-C cable",
-    "price": 349.99,
+    "price": 350.00,
     "description": "his wall charger provides Super Fast Charging with USB-C PD 3.0 PPS at up to a maximum of 25W for compatible devices. \nIt is designed to charge any Power Delivery (PD) device up to 25W, with other USB-C devices charging at speeds they can handle. \nThe product is available in both black and white color options. \nFor optimal results, it is recommended to use the charger with an official Samsung Type-C to Type-C charging cable. ",
     "image": "images/product-114-primary.webp",
     "images": {
@@ -1989,8 +1989,8 @@
       "gallery": []
     },
     "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 262.99,
     "stock": 10,
     "isNew": true
   },
@@ -2045,7 +2045,7 @@
   {
     "id": 118,
     "name": " SKY DOLPHIN S63E 3-in-1 Charging Cable.",
-    "price": 99.99,
+    "price": 100.00,
     "description": "Model: S63E\nConnectors: Micro USB, iOS (Lightning), and Type C\nCharging: Supports 2.4A fast charging\nLength: Typically 1.2 meters long\nMaterial: Features a durable nylon braided exterior",
     "image": "images/product-118-primary.webp",
     "images": {
@@ -2053,15 +2053,15 @@
       "gallery": []
     },
     "category": "Cables",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 74.99,
     "stock": 15,
     "isNew": true
   },
   {
     "id": 119,
     "name": " Everest Nylon Braided USB to Type-C Fast Data Cable.",
-    "price": 139.99,
+    "price": 140.00,
     "description": "The cable is designed for fast charging and data transfer. \nIt features a durable nylon braided exterior to resist wear and tear and prevent tangling. \nThe product code is EV-18. \nIt is compatible with various USB-C devices, including smartphones, tablets, and power banks. ",
     "image": "images/product-119-primary.webp",
     "images": {
@@ -2069,8 +2069,8 @@
       "gallery": []
     },
     "category": "Cables",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 104.99,
     "stock": 10,
     "isNew": true
   },
@@ -2093,7 +2093,7 @@
   {
     "id": 121,
     "name": "Mani MA-05 fast charging data cable. ",
-    "price": 99.99,
+    "price": 100.00,
     "description": "It is a USB-A to USB-C cable.\nThe cable is designed for fast charging and data transfer.\nIt features a braided design for durability.\nThe product is available from \"Sakr Store\"",
     "image": "images/product-121-primary.webp",
     "images": {
@@ -2101,15 +2101,15 @@
       "gallery": []
     },
     "category": "Cables",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 74.99,
     "stock": 10,
     "isNew": true
   },
   {
     "id": 122,
     "name": " Everest Data CableMicro-USB type",
-    "price": 89.99,
+    "price": 90.00,
     "description": "Brand: Everest\nModel: EV-12\nFeatures: Supports 3.5A Super Charge and data transfer.\nDesign: The cables appear to be braided for durability and to prevent tangling.\nConnector Types: One package shows a Lightning connector (for Apple devices) and the other a Micro-USB connector (for various Android devices).",
     "image": "images/product-122-primary.webp",
     "images": {
@@ -2117,8 +2117,8 @@
       "gallery": []
     },
     "category": "Cables",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 67.99,
     "stock": 15,
     "isNew": true
   }
