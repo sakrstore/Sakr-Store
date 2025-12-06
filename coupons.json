@@ -53,5 +53,25 @@
     "maxDiscount": 100.00,
     "code": "DRHEBA15",
     "id": 5
+  },
+  {
+    "id": 6,
+    "code": "JANA10",
+    "type": "percentage",
+    "amount": 10.00,
+    "minSpend": 0.00,
+    "category": "All",
+    "description": "Get 10% off on your order!",
+    "enabled": true
+  },
+  {
+    "id": 7,
+    "code": "3ABDO",
+    "type": "percentage",
+    "amount": 10.00,
+    "minSpend": 0.00,
+    "category": "All",
+    "description": "Get 10% off on your order!",
+    "enabled": true
   }
 ]
