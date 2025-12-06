@@ -139,12 +139,24 @@ git push origin main
   code: string;           // Coupon code (uppercase recommended)
   type: 'percentage' | 'fixed';  // Discount type
   amount: number;         // 10 (%) or 50 (EGP)
+  maxDiscount?: number;   // Maximum discount cap for percentage coupons (optional)
   minSpend: number;       // Minimum cart total (0 = no minimum)
   category: string;       // "All" or specific category name
   description: string;    // User-friendly description
   enabled: boolean;       // Toggle without deleting
 }
 ```
+
+### Maximum Discount Cap (maxDiscount)
+
+For percentage-based coupons, you can set an upper limit on how much discount a customer can receive. This prevents unexpectedly large discounts on high-value orders.
+
+**Example:** A coupon with 15% off and a maxDiscount of 100 EGP means:
+- Order of 500 EGP → 75 EGP discount (15% applies normally)
+- Order of 1000 EGP → 100 EGP discount (capped at maximum)
+- Order of 2000 EGP → 100 EGP discount (capped at maximum)
+
+This field is optional. If not specified, the percentage discount has no upper limit.
 
 ---
 

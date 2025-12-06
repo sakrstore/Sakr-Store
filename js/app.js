@@ -1748,6 +1748,10 @@ function validateCoupon(code, subtotal, cartProducts) {
   let discountAmount = 0;
   if (coupon.type === 'percentage') {
     discountAmount = (subtotal * coupon.amount) / 100;
+    // Apply maximum discount cap if defined
+    if (coupon.maxDiscount && discountAmount > coupon.maxDiscount) {
+      discountAmount = coupon.maxDiscount;
+    }
   } else if (coupon.type === 'fixed') {
     discountAmount = coupon.amount;
   }
@@ -1755,9 +1759,22 @@ function validateCoupon(code, subtotal, cartProducts) {
   // Ensure discount doesn't exceed subtotal
   discountAmount = Math.min(discountAmount, subtotal);
 
+  // Build success message
+  let successMessage = coupon.description;
+  if (!successMessage) {
+    if (coupon.type === 'percentage') {
+      successMessage = `${coupon.amount}% discount applied`;
+      if (coupon.maxDiscount) {
+        successMessage += ` (max EGP ${coupon.maxDiscount.toFixed(2)})`;
+      }
+    } else {
+      successMessage = `${coupon.amount} EGP discount applied`;
+    }
+  }
+
   return {
     valid: true,
-    message: coupon.description || `${coupon.amount}${coupon.type === 'percentage' ? '%' : ' EGP'} discount applied`,
+    message: successMessage,
     discount: discountAmount,
     coupon: coupon
   };

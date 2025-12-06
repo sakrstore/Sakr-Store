@@ -1,21 +1,23 @@
 [
   {
     "enabled": true,
-    "description": "Get 15% off on your order when you spend 400 EGP or more!",
+    "description": "Get 15% off on your order when you spend 400 EGP or more! (max 100 EGP)",
     "category": "All",
     "minSpend": 400.00,
     "type": "percentage",
     "amount": 15.00,
+    "maxDiscount": 100.00,
     "code": "WEEKEND",
     "id": 1
   },
   {
     "enabled": true,
-    "description": "Get 25% off on Power Bank products!",
+    "description": "Get 25% off on Power Bank products! (max 150 EGP)",
     "category": "Power Bank",
     "minSpend": 0.00,
     "type": "percentage",
     "amount": 25.00,
+    "maxDiscount": 150.00,
     "code": "POWER25",
     "id": 2
   },
@@ -24,9 +26,10 @@
     "code": "NAJER10",
     "type": "percentage",
     "amount": 10.00,
+    "maxDiscount": 75.00,
     "minSpend": 0.00,
     "category": "All",
-    "description": "Get 10% off on your order!",
+    "description": "Get 10% off on your order! (max 75 EGP)",
     "enabled": true
   },
   {
@@ -34,18 +37,20 @@
     "code": "HALAWA10",
     "type": "percentage",
     "amount": 10.00,
+    "maxDiscount": 75.00,
     "minSpend": 0.00,
     "category": "All",
-    "description": "Get 10% off on your order!",
+    "description": "Get 10% off on your order! (max 75 EGP)",
     "enabled": true
   },
   {
     "enabled": true,
-    "description": "Get 15% off on your order!",
+    "description": "Get 15% off on your order! (max 100 EGP)",
     "category": "All",
     "minSpend": 0.00,
     "type": "percentage",
     "amount": 15.00,
+    "maxDiscount": 100.00,
     "code": "DRHEBA15",
     "id": 5
   }
