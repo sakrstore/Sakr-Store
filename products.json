@@ -15,8 +15,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 719.99,
     "stock": 10,
     "isNew": true
   },
@@ -34,8 +34,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 480.00,
     "stock": 10,
     "isNew": true
   },
@@ -54,8 +54,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 479.99,
     "stock": 10,
     "isNew": false
   },
@@ -73,8 +73,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 579.99,
     "stock": 10,
     "isNew": false
   },
@@ -92,8 +92,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 519.99,
     "stock": 10,
     "isNew": false
   },
@@ -112,8 +112,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 239.99,
     "stock": 10,
     "isNew": false
   },
@@ -132,8 +132,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 239.99,
     "stock": 10,
     "isNew": false
   },
@@ -153,8 +153,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 279.99,
     "stock": 10,
     "isNew": false
   },
@@ -174,8 +174,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 319.99,
     "stock": 10,
     "isNew": false
   },
@@ -194,8 +194,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 449.99,
+    "discount": true,
+    "discountedPrice": 359.99,
     "stock": 10,
     "isNew": false
   },
@@ -215,8 +215,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 199.99,
     "stock": 10,
     "isNew": false
   },
@@ -234,8 +234,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 519.99,
     "stock": 10,
     "isNew": false
   },
@@ -253,8 +253,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 599.99,
     "stock": 10,
     "isNew": false
   },
@@ -272,8 +272,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 392.00,
     "stock": 10,
     "isNew": true
   },
@@ -292,8 +292,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 183.99,
     "stock": 10,
     "isNew": false
   },
@@ -311,8 +311,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 183.99,
     "stock": 10,
     "isNew": false
   },
@@ -330,8 +330,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 400.00,
     "stock": 10,
     "isNew": false
   },
@@ -349,8 +349,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 379.99,
     "stock": 10,
     "isNew": false
   },
@@ -368,8 +368,8 @@
       ]
     },
     "category": "Headphones",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 339.99,
     "stock": 10,
     "isNew": false
   },
@@ -500,9 +500,9 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 10,
+    "discount": true,
+    "discountedPrice": 464.00,
+    "stock": 4,
     "isNew": false
   },
   {
@@ -519,8 +519,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 448.00,
     "stock": 5,
     "isNew": true
   },
@@ -539,8 +539,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 679.99,
     "stock": 5,
     "isNew": true
   },
@@ -1825,7 +1825,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 300.00,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1843,7 +1843,7 @@
     },
     "category": "Earphone",
     "discount": false,
-    "discountedPrice": 69.99,
+    "discountedPrice": 0.00,
     "stock": 20,
     "isNew": true
   },
@@ -2137,8 +2137,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 207.99,
     "stock": 5,
     "isNew": true
   },
