@@ -2141,5 +2141,23 @@
     "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
+  },
+  {
+    "id": 124,
+    "name": "fast-charging data cable set. ",
+    "price": 149.99,
+    "description": "Multifunctional: Includes various adapters (USB-C, Micro USB, etc.) for compatibility with a wide range of devices. \nFast Charging: Supports 60W power delivery for quick charging of smartphones, tablets, and laptops. \nData Transfer: Enables data transfer between devices at speeds up to 480Mbps. \nPortable: Comes in a compact storage box, ideal for travel and daily use. ",
+    "image": "images/product-124-primary.webp",
+    "images": {
+      "primary": "images/product-124-primary.webp",
+      "gallery": [
+        "images/product-124-gallery-0.webp"
+      ]
+    },
+    "category": "Cables",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
   }
 ]
