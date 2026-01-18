@@ -2121,5 +2121,25 @@
     "discountedPrice": 0.00,
     "stock": 15,
     "isNew": true
+  },
+  {
+    "id": 123,
+    "name": "Guggu Ultrapods Max TWS Wireless Earbuds",
+    "price": 259.99,
+    "description": "Features a clear, digital LED display to monitor battery levels.\nUtilizes Bluetooth 5.3 technology for seamless wireless connectivity.\nOffers high-fidelity audio for deep bass and clear treble.\nEquipped with intuitive touch controls for managing music and calls.",
+    "image": "images/product-123-primary.webp",
+    "images": {
+      "primary": "images/product-123-primary.webp",
+      "gallery": [
+        "images/product-123-gallery-0.webp",
+        "images/product-123-gallery-1.webp",
+        "images/product-123-gallery-2.webp"
+      ]
+    },
+    "category": "Airpods",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
   }
 ]
