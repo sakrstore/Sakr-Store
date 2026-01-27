@@ -139,7 +139,7 @@
   },
   {
     "id": 9,
-    "name": "Air Pods Air 3 Semi original",
+    "name": "Air Pods 3 Semi original",
     "price": 349.99,
     "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tTrue Wireless\nImpedance\t32 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nFrequency Response\t20 Hz\nSensitivity\t98 dB\nModel Name\tAir Puds 3\nConnectivity Technology\tBluetooth 5.0, Wireless",
     "image": "images/product-9-primary.webp",
@@ -153,9 +153,9 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 10,
+    "discount": true,
+    "discountedPrice": 244.99,
+    "stock": 5,
     "isNew": false
   },
   {
@@ -174,9 +174,9 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 10,
+    "discount": true,
+    "discountedPrice": 279.99,
+    "stock": 5,
     "isNew": false
   },
   {
@@ -194,9 +194,9 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 10,
+    "discount": true,
+    "discountedPrice": 314.99,
+    "stock": 5,
     "isNew": false
   },
   {
@@ -272,9 +272,9 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 10,
+    "discount": true,
+    "discountedPrice": 318.50,
+    "stock": 5,
     "isNew": true
   },
   {
@@ -539,8 +539,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 594.99,
     "stock": 5,
     "isNew": true
   },
@@ -2137,8 +2137,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 181.99,
     "stock": 5,
     "isNew": true
   },
