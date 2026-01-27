@@ -148,8 +148,7 @@
       "gallery": [
         "images/product-9-gallery-0.webp",
         "images/product-9-gallery-1.webp",
-        "images/product-9-gallery-2.webp",
-        "images/product-9-gallery-3.webp"
+        "images/product-9-gallery-2.webp"
       ]
     },
     "category": "Airpods",
@@ -160,7 +159,7 @@
   },
   {
     "id": 10,
-    "name": "AirPods Pro 3 Wireless Semi Original",
+    "name": "AirPods Pro  Wireless Semi Original",
     "price": 400.00,
     "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t140 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tAirpods Wireless Earbuds PRO 2nd ge\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-10-primary.webp",
