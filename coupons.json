@@ -6,7 +6,7 @@
     "minSpend": 400.00,
     "type": "percentage",
     "amount": 15.00,
-    "maxDiscount": 100.00,
+    "maxDiscount": 100,
     "code": "WEEKEND",
     "id": 1
   },
@@ -17,7 +17,7 @@
     "minSpend": 0.00,
     "type": "percentage",
     "amount": 25.00,
-    "maxDiscount": 150.00,
+    "maxDiscount": 150,
     "code": "POWER25",
     "id": 2
   },
@@ -26,7 +26,7 @@
     "code": "NAJER10",
     "type": "percentage",
     "amount": 10.00,
-    "maxDiscount": 75.00,
+    "maxDiscount": 75,
     "minSpend": 0.00,
     "category": "All",
     "description": "Get 10% off on your order! (max 75 EGP)",
@@ -37,7 +37,7 @@
     "code": "HALAWA10",
     "type": "percentage",
     "amount": 10.00,
-    "maxDiscount": 75.00,
+    "maxDiscount": 75,
     "minSpend": 0.00,
     "category": "All",
     "description": "Get 10% off on your order! (max 75 EGP)",
@@ -50,7 +50,7 @@
     "minSpend": 0.00,
     "type": "percentage",
     "amount": 15.00,
-    "maxDiscount": 100.00,
+    "maxDiscount": 100,
     "code": "DRHEBA15",
     "id": 5
   },
@@ -73,5 +73,15 @@
     "category": "All",
     "description": "Get 10% off on your order!",
     "enabled": true
+  },
+  {
+    "enabled": true,
+    "description": "Get 15% off on your order!",
+    "category": "All",
+    "minSpend": 0.00,
+    "type": "percentage",
+    "amount": 15.00,
+    "code": "ABOAYMAN",
+    "id": 8
   }
 ]
