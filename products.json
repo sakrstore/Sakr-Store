@@ -749,22 +749,6 @@
     "isNew": true
   },
   {
-    "id": 42,
-    "name": "X-FAST 35W USB-C Power Adapter.",
-    "price": 249.99,
-    "description": "The adapter is compatible with the iPhone .\nIt features a 35W output and a USB-C port. \nThe adapter is designed for fast charging and includes a USB-C to Lightning cable. \nIt is described as a compact and portable charger suitable for travel, home, or office use. \nSome versions of 35W USB-C adapters have built-in safety features to protect against over-voltage, overheating, and short circuits. ",
-    "image": "images/product-42-primary.webp",
-    "images": {
-      "primary": "images/product-42-primary.webp",
-      "gallery": []
-    },
-    "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 5,
-    "isNew": true
-  },
-  {
     "id": 43,
     "name": "Anker USB-C to Lightning Cable. ",
     "price": 69.99,
