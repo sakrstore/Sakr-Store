@@ -98,67 +98,6 @@
     "isNew": true
   },
   {
-    "id": 9,
-    "name": "Air Pods 3 Semi original",
-    "price": 350.00,
-    "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tTrue Wireless\nImpedance\t32 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nFrequency Response\t20 Hz\nSensitivity\t98 dB\nModel Name\tAir Puds 3\nConnectivity Technology\tBluetooth 5.0, Wireless",
-    "image": "images/product-9-primary.webp",
-    "images": {
-      "primary": "images/product-9-primary.webp",
-      "gallery": [
-        "images/product-9-gallery-0.webp",
-        "images/product-9-gallery-1.webp",
-        "images/product-9-gallery-2.webp"
-      ]
-    },
-    "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 240.00,
-    "stock": 5,
-    "isNew": true
-  },
-  {
-    "id": 10,
-    "name": "AirPods Pro  Wireless Semi Original",
-    "price": 400.00,
-    "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t140 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tAirpods Wireless Earbuds PRO 2nd ge\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
-    "image": "images/product-10-primary.webp",
-    "images": {
-      "primary": "images/product-10-primary.webp",
-      "gallery": [
-        "images/product-10-gallery-0.webp",
-        "images/product-10-gallery-1.webp",
-        "images/product-10-gallery-2.webp",
-        "images/product-10-gallery-3.webp"
-      ]
-    },
-    "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 240.00,
-    "stock": 5,
-    "isNew": true
-  },
-  {
-    "id": 11,
-    "name": "Airpods pro 2 Semi Original",
-    "price": 450.00,
-    "description": "\nBrand Name\tGeneric\nColor\tBlack or White\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tEarbuds 2nd Pro\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth\nAge Range Description\tAdult",
-    "image": "images/product-11-primary.webp",
-    "images": {
-      "primary": "images/product-11-primary.webp",
-      "gallery": [
-        "images/product-11-gallery-0.webp",
-        "images/product-11-gallery-1.webp",
-        "images/product-11-gallery-2.webp"
-      ]
-    },
-    "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 299.99,
-    "stock": 5,
-    "isNew": true
-  },
-  {
     "id": 12,
     "name": "M10 TWS Bluetooth 5.1 Earphone",
     "price": 249.99,
@@ -215,25 +154,6 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
-  },
-  {
-    "id": 15,
-    "name": "Ai Pods 4 Semi Original",
-    "price": 490.00,
-    "description": "Color: White\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nModel Name\tMulti\nConnectivity Technology\tBluetooth, Wireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tCable, User Manual, Wireless Charging Case\nSpecific Uses For Product\tMusic, Phone Calling, Exercising, Commuting",
-    "image": "images/product-15-primary.webp",
-    "images": {
-      "primary": "images/product-15-primary.webp",
-      "gallery": [
-        "images/product-15-gallery-0.webp",
-        "images/product-15-gallery-1.webp"
-      ]
-    },
-    "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 299.99,
-    "stock": 5,
     "isNew": true
   },
   {
@@ -2181,6 +2101,70 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 146,
+    "name": "Air Pods 3 Semi original",
+    "price": 350.00,
+    "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tTrue Wireless\nImpedance\t32 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nFrequency Response\t20 Hz\nSensitivity\t98 dB\nModel Name\tAir Puds 3\nConnectivity Technology\tBluetooth 5.0, Wireless",
+    "image": "images/product-146-primary.webp",
+    "images": {
+      "primary": "images/product-146-primary.webp",
+      "gallery": []
+    },
+    "category": "Airpods",
+    "discount": true,
+    "discountedPrice": 240.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 147,
+    "name": "AirPods Pro  Wireless Semi Original",
+    "price": 400.00,
+    "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t140 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tAirpods Wireless Earbuds PRO 2nd ge\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
+    "image": "images/product-147-primary.webp",
+    "images": {
+      "primary": "images/product-147-primary.webp",
+      "gallery": []
+    },
+    "category": "Airpods",
+    "discount": true,
+    "discountedPrice": 240.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 148,
+    "name": "Airpods pro 2 Semi Original",
+    "price": 450.00,
+    "description": "\nBrand Name\tGeneric\nColor\tBlack or White\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tEarbuds 2nd Pro\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth\nAge Range Description\tAdult",
+    "image": "images/product-148-primary.webp",
+    "images": {
+      "primary": "images/product-148-primary.webp",
+      "gallery": []
+    },
+    "category": "Airpods",
+    "discount": true,
+    "discountedPrice": 299.99,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 149,
+    "name": "Ai Pods 4 Semi Original",
+    "price": 490.00,
+    "description": "Color: White\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nModel Name\tMulti\nConnectivity Technology\tBluetooth, Wireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tCable, User Manual, Wireless Charging Case\nSpecific Uses For Product\tMusic, Phone Calling, Exercising, Commuting",
+    "image": "images/product-149-primary.webp",
+    "images": {
+      "primary": "images/product-149-primary.webp",
+      "gallery": []
+    },
+    "category": "Airpods",
+    "discount": true,
+    "discountedPrice": 299.99,
+    "stock": 5,
     "isNew": true
   }
 ]
