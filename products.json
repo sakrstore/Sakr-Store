@@ -2110,5 +2110,85 @@
     "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
+  },
+  {
+    "id": 139,
+    "name": " XFASTT 20W \"Super Charger\" wall adapters and USB-C cables. ",
+    "price": 160.00,
+    "description": "The chargers feature a 20W power output, designed for fast charging of mobile devices.\nThey are compatible with Quick Charge 3.0 and Power Delivery technologies.\nThe packaging indicates multiple built-in safety features to prevent issues like overheating and overcharging.\nEach package includes a black wall adapter with an EU-style two-pin plug and a black USB-C to USB-C cable.",
+    "image": "images/product-139-primary.webp",
+    "images": {
+      "primary": "images/product-139-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 1,
+    "isNew": true
+  },
+  {
+    "id": 140,
+    "name": "Samsung 67W PD",
+    "price": 350.00,
+    "description": "It is a travel adapter featuring a USB-C port. \nIt supports Power Delivery (PD) for efficient charging. \nThe adapter is designed for super fast charging of compatible devices. \nIt comes packaged with a USB Type-C to Type-C cable. ",
+    "image": "images/product-140-primary.webp",
+    "images": {
+      "primary": "images/product-140-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 141,
+    "name": " Foxbox 45W Smart Wall Charger.",
+    "price": 280.00,
+    "description": "Wattage: 45W\nFeature: Smart charging technology\nInclusions: Comes with a charging cable (USB-C to USB-C based on packaging icons)",
+    "image": "images/product-141-primary.webp",
+    "images": {
+      "primary": "images/product-141-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 142,
+    "name": "OPPO 65W Super Flash Charge ",
+    "price": 160.00,
+    "description": "Charging Technology: 65W SuperVOOC 2.0 Flash Charge technology. \nCompatibility: Designed for OPPO Reno Ace2 and compatible with various OPPO Find X and Reno series phones. \nPort Type: The charger has a USB-A port and comes with a Type-C cable. \nColor: White. \nFeatures: Uses GaN technology for efficient charging. ",
+    "image": "images/product-142-primary.webp",
+    "images": {
+      "primary": "images/product-142-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 143,
+    "name": "Jeyroom JR-074 Super Fast",
+    "price": 80.00,
+    "description": "Brand: Jeyroom\nModel: JR-074\nOutput: 2.1A\nDesigned with multiple security protections\nEnsures high speed connectivity",
+    "image": "images/product-143-primary.webp",
+    "images": {
+      "primary": "images/product-143-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
+    "isNew": true
   }
 ]
