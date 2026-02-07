@@ -404,26 +404,6 @@
     "isNew": true
   },
   {
-    "id": 29,
-    "name": "Oraimo FreePods Lite OEB-E106DC",
-    "price": 850.00,
-    "description": "Clear stereo sound with high quality.\n\nStylish design in black.\n\nComfortable fit with secure wear.\n\nPerfect for music and calls in daily use.\n\nGood battery life for longer use without frequent charging.\nSKU: OR944CA3ANA2PNAFAMZ\nModel: FreePods Lite OEB-E106DC\nColor: Black",
-    "image": "images/product-29-primary.webp",
-    "images": {
-      "primary": "images/product-29-primary.webp",
-      "gallery": [
-        "images/product-29-gallery-0.webp",
-        "images/product-29-gallery-1.webp",
-        "images/product-29-gallery-2.webp"
-      ]
-    },
-    "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 599.99,
-    "stock": 5,
-    "isNew": true
-  },
-  {
     "id": 30,
     "name": "Micro SD T17 Card Reader",
     "price": 24.99,
@@ -1730,26 +1710,6 @@
     "isNew": true
   },
   {
-    "id": 123,
-    "name": "Guggu Ultrapods Max TWS Wireless Earbuds",
-    "price": 260.00,
-    "description": "Features a clear, digital LED display to monitor battery levels.\nUtilizes Bluetooth 5.3 technology for seamless wireless connectivity.\nOffers high-fidelity audio for deep bass and clear treble.\nEquipped with intuitive touch controls for managing music and calls.",
-    "image": "images/product-123-primary.webp",
-    "images": {
-      "primary": "images/product-123-primary.webp",
-      "gallery": [
-        "images/product-123-gallery-0.webp",
-        "images/product-123-gallery-1.webp",
-        "images/product-123-gallery-2.webp"
-      ]
-    },
-    "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 179.99,
-    "stock": 5,
-    "isNew": true
-  },
-  {
     "id": 124,
     "name": "fast-charging data cable set. ",
     "price": 149.99,
@@ -2164,6 +2124,46 @@
     "category": "Airpods",
     "discount": true,
     "discountedPrice": 299.99,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 150,
+    "name": "Guggu Ultrapods Max TWS Wireless Earbuds",
+    "price": 260.00,
+    "description": "Features a clear, digital LED display to monitor battery levels.\nUtilizes Bluetooth 5.3 technology for seamless wireless connectivity.\nOffers high-fidelity audio for deep bass and clear treble.\nEquipped with intuitive touch controls for managing music and calls.",
+    "image": "images/product-150-primary.webp",
+    "images": {
+      "primary": "images/product-150-primary.webp",
+      "gallery": [
+        "images/product-123-gallery-0.webp",
+        "images/product-123-gallery-1.webp",
+        "images/product-123-gallery-2.webp"
+      ]
+    },
+    "category": "Airpods",
+    "discount": true,
+    "discountedPrice": 179.99,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 151,
+    "name": "Oraimo FreePods Lite OEB-E106DC",
+    "price": 850.00,
+    "description": "Clear stereo sound with high quality.\n\nStylish design in black.\n\nComfortable fit with secure wear.\n\nPerfect for music and calls in daily use.\n\nGood battery life for longer use without frequent charging.\nSKU: OR944CA3ANA2PNAFAMZ\nModel: FreePods Lite OEB-E106DC\nColor: Black",
+    "image": "images/product-151-primary.webp",
+    "images": {
+      "primary": "images/product-151-primary.webp",
+      "gallery": [
+        "images/product-29-gallery-0.webp",
+        "images/product-29-gallery-1.webp",
+        "images/product-29-gallery-2.webp"
+      ]
+    },
+    "category": "Airpods",
+    "discount": true,
+    "discountedPrice": 599.99,
     "stock": 5,
     "isNew": true
   }
