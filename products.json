@@ -16,7 +16,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -35,7 +35,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -55,7 +55,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -74,7 +74,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -93,7 +93,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -113,7 +113,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -133,14 +133,14 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
   {
     "id": 9,
     "name": "Air Pods 3 Semi original",
-    "price": 350,
+    "price": 350.00,
     "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tTrue Wireless\nImpedance\t32 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nFrequency Response\t20 Hz\nSensitivity\t98 dB\nModel Name\tAir Puds 3\nConnectivity Technology\tBluetooth 5.0, Wireless",
     "image": "images/product-9-primary.webp",
     "images": {
@@ -153,14 +153,14 @@
     },
     "category": "Airpods",
     "discount": true,
-    "discountedPrice": 240,
+    "discountedPrice": 240.00,
     "stock": 5,
     "isNew": true
   },
   {
     "id": 10,
     "name": "AirPods Pro  Wireless Semi Original",
-    "price": 400,
+    "price": 400.00,
     "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t140 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tAirpods Wireless Earbuds PRO 2nd ge\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-10-primary.webp",
     "images": {
@@ -174,14 +174,14 @@
     },
     "category": "Airpods",
     "discount": true,
-    "discountedPrice": 240,
+    "discountedPrice": 240.00,
     "stock": 5,
     "isNew": true
   },
   {
     "id": 11,
     "name": "Airpods pro 2 Semi Original",
-    "price": 450,
+    "price": 450.00,
     "description": "\nBrand Name\tGeneric\nColor\tBlack or White\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tEarbuds 2nd Pro\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth\nAge Range Description\tAdult",
     "image": "images/product-11-primary.webp",
     "images": {
@@ -215,7 +215,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -234,7 +234,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -253,14 +253,14 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
   {
     "id": 15,
     "name": "Ai Pods 4 Semi Original",
-    "price": 490,
+    "price": 490.00,
     "description": "Color: White\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nModel Name\tMulti\nConnectivity Technology\tBluetooth, Wireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tCable, User Manual, Wireless Charging Case\nSpecific Uses For Product\tMusic, Phone Calling, Exercising, Commuting",
     "image": "images/product-15-primary.webp",
     "images": {
@@ -292,7 +292,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -311,7 +311,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -330,7 +330,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -349,7 +349,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -368,7 +368,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -388,7 +388,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -406,7 +406,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -424,7 +424,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -444,7 +444,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -460,7 +460,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -480,7 +480,7 @@
     },
     "category": "Headphones",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -500,7 +500,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 4,
     "isNew": true
   },
@@ -519,14 +519,14 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
   {
     "id": 29,
     "name": "Oraimo FreePods Lite OEB-E106DC",
-    "price": 850,
+    "price": 850.00,
     "description": "Clear stereo sound with high quality.\n\nStylish design in black.\n\nComfortable fit with secure wear.\n\nPerfect for music and calls in daily use.\n\nGood battery life for longer use without frequent charging.\nSKU: OR944CA3ANA2PNAFAMZ\nModel: FreePods Lite OEB-E106DC\nColor: Black",
     "image": "images/product-29-primary.webp",
     "images": {
@@ -558,7 +558,7 @@
     },
     "category": "Card Reader",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 6,
     "isNew": true
   },
@@ -576,7 +576,7 @@
     },
     "category": "OTG",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -594,7 +594,7 @@
     },
     "category": "OTG",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -613,7 +613,7 @@
     },
     "category": "Card Reader",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -632,7 +632,7 @@
     },
     "category": "Dongle",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -648,7 +648,7 @@
     },
     "category": "Flash",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -664,7 +664,7 @@
     },
     "category": "Flash",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -680,7 +680,7 @@
     },
     "category": "Flash",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -696,7 +696,7 @@
     },
     "category": "Flash",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -712,7 +712,7 @@
     },
     "category": "Flash",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -728,7 +728,7 @@
     },
     "category": "Flash",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -744,7 +744,7 @@
     },
     "category": "Flash",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -760,7 +760,7 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -776,7 +776,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -792,7 +792,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -808,7 +808,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -824,7 +824,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -840,7 +840,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -856,7 +856,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": true
   },
@@ -872,7 +872,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -888,7 +888,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": true
   },
@@ -904,7 +904,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -919,7 +919,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true,
     "id": 64
@@ -935,7 +935,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": true,
     "id": 65
@@ -952,7 +952,7 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -968,7 +968,7 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -984,7 +984,7 @@
     },
     "category": "Earphone",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1000,7 +1000,7 @@
     },
     "category": "Earphone",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": true
   },
@@ -1016,7 +1016,7 @@
     },
     "category": "Earphone",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1035,7 +1035,7 @@
     },
     "category": "Earphone",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1051,7 +1051,7 @@
     },
     "category": "Earphone",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1067,7 +1067,7 @@
     },
     "category": "Earphone",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1083,7 +1083,7 @@
     },
     "category": "Earphone",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1102,7 +1102,7 @@
     },
     "category": "Smart Watch",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1122,7 +1122,7 @@
     },
     "category": "Smart Watch",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1141,7 +1141,7 @@
     },
     "category": "Smart Watch",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1161,7 +1161,7 @@
     },
     "category": "Smart Watch",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1180,7 +1180,7 @@
     },
     "category": "Smart Watch",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1199,7 +1199,7 @@
     },
     "category": "Smart Watch",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1217,7 +1217,7 @@
     },
     "category": "Smart Watch",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1237,7 +1237,7 @@
     },
     "category": "Camera Accessories",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1255,7 +1255,7 @@
     },
     "category": "Camera Accessories",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1274,7 +1274,7 @@
     },
     "category": "Camera Accessories",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1290,7 +1290,7 @@
     },
     "category": "Camera Accessories",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1309,7 +1309,7 @@
     },
     "category": "Camera Accessories",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1325,7 +1325,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 0,
     "isNew": true
   },
@@ -1341,7 +1341,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1359,7 +1359,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
   },
@@ -1377,7 +1377,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 0,
     "isNew": true
   },
@@ -1397,7 +1397,7 @@
     },
     "category": "Camera Accessories",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1417,7 +1417,7 @@
     },
     "category": "Camera Accessories",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1437,7 +1437,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 0,
     "isNew": true
   },
@@ -1457,7 +1457,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 4,
     "isNew": true
   },
@@ -1475,7 +1475,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1491,7 +1491,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 4,
     "isNew": true
   },
@@ -1509,7 +1509,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1527,7 +1527,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1545,7 +1545,7 @@
     },
     "category": "Camera Accessories",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 2,
     "isNew": true
   },
@@ -1565,7 +1565,7 @@
     },
     "category": "Airpods",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 0,
     "isNew": true
   },
@@ -1584,7 +1584,7 @@
     },
     "category": "Power Bank",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1602,7 +1602,7 @@
     },
     "category": "Earphone",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 20,
     "isNew": true
   },
@@ -1621,7 +1621,7 @@
     },
     "category": "Speaker",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -1637,7 +1637,7 @@
     },
     "category": "Speaker",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -1653,7 +1653,7 @@
     },
     "category": "Speaker",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -1669,7 +1669,7 @@
     },
     "category": "Speaker",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 9,
     "isNew": true
   },
@@ -1685,7 +1685,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -1701,7 +1701,7 @@
     },
     "category": "Adapter",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -1717,23 +1717,7 @@
     },
     "category": "Chargers",
     "discount": false,
-    "discountedPrice": 0,
-    "stock": 10,
-    "isNew": true
-  },
-  {
-    "id": 114,
-    "name": "Samsung 25W PD Chargers with a USB-C to USB-C cable",
-    "price": 349.99,
-    "description": "his wall charger provides Super Fast Charging with USB-C PD 3.0 PPS at up to a maximum of 25W for compatible devices. \nIt is designed to charge any Power Delivery (PD) device up to 25W, with other USB-C devices charging at speeds they can handle. \nThe product is available in both black and white color options. \nFor optimal results, it is recommended to use the charger with an official Samsung Type-C to Type-C charging cable. ",
-    "image": "images/product-114-primary.webp",
-    "images": {
-      "primary": "images/product-114-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -1749,7 +1733,7 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -1765,7 +1749,7 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 30,
     "isNew": true
   },
@@ -1781,7 +1765,7 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 20,
     "isNew": true
   },
@@ -1797,7 +1781,7 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 15,
     "isNew": true
   },
@@ -1813,7 +1797,7 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -1829,7 +1813,7 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 6,
     "isNew": true
   },
@@ -1845,7 +1829,7 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
@@ -1861,14 +1845,14 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 15,
     "isNew": true
   },
   {
     "id": 123,
     "name": "Guggu Ultrapods Max TWS Wireless Earbuds",
-    "price": 260,
+    "price": 260.00,
     "description": "Features a clear, digital LED display to monitor battery levels.\nUtilizes Bluetooth 5.3 technology for seamless wireless connectivity.\nOffers high-fidelity audio for deep bass and clear treble.\nEquipped with intuitive touch controls for managing music and calls.",
     "image": "images/product-123-primary.webp",
     "images": {
@@ -1899,264 +1883,8 @@
     },
     "category": "Cables",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
-  },
-  {
-    "id": 125,
-    "name": "Quick Charge rotary plug charger",
-    "price": 130,
-    "description": "Model: 234A\nOutput: 2.4A (MAX)\nFeature: Rotary plug design\nFunction: Supports fast charging and data transfer\nTranslation\nCharger 234A\nType-C",
-    "image": "images/product-125-primary.webp",
-    "images": {
-      "primary": "images/product-125-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 130,
-    "stock": 5,
-    "isNew": true
-  },
-  {
-    "id": 45,
-    "name": "Kingdom Golden\" brand fast charger, model Ki-13, with a 25W",
-    "price": 299.99,
-    "description": "It is a dual-port charger with a USB and a Type-C port. \nThe charger is marketed as \"FASTER AND SMALLER\". \nIt has a power output of 25W. \nIt features protection against over-voltage, short circuits, and high temperatures. ",
-    "image": "images/product-45-primary.webp",
-    "images": {
-      "primary": "images/product-45-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 2,
-    "isNew": true
-  },
-  {
-    "id": 47,
-    "name": "Everest Fast Three Port Charger (Model EV-078)",
-    "price": 549.99,
-    "description": "Product Name: Everest Fast Three Port Charger (Model EV-078)\nPorts: USB-A, USB-C, and USB-L (Lightning)\nFeatures: Fast charging, safety certification, and a portable design\nCompatibility: Supports various USB charging digital devices.",
-    "image": "images/product-47-primary.webp",
-    "images": {
-      "primary": "images/product-47-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 54,
-    "name": "Everest CH-17 PD Charger.",
-    "price": 229.99,
-    "description": "The product is a \"SUPER FAST\" PD (Power Delivery) charger.\nIt has a power output of 25W.\nThe charger is designed to be a wall adapter.\nIt is labeled with \"QUALITY PRODUCT\".",
-    "image": "images/product-54-primary.webp",
-    "images": {
-      "primary": "images/product-54-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 55,
-    "name": "Everest EV-072 Super Fast Charger with a 35W power adapter",
-    "price": 269.99,
-    "description": "The product shown is an Everest Super Fast Charger, Model EV-072. It is a 35W power adapter with Qualcomm Quick Charge 3.0 technology. \nProduct: Everest Super Fast Charger\nModel: EV-072\nFeatures: Super Fast Charger, Qualcomm Quick Charge 3.0, 35W Power Adapter\nType: Wall charger\nCompatibility: Multi-device compatible (based on similar products)",
-    "image": "images/product-55-primary.webp",
-    "images": {
-      "primary": "images/product-55-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 56,
-    "name": "Everest Super Fast Charger",
-    "price": 199.99,
-    "description": "Brand: Everest\nModel: EV-071\nType: Wall Charger\nFeatures: Super Fast Charger, 25W, Adaptive Fast Charging\nPotential availability: The charger and other Everest products are available from various online retailers.",
-    "image": "images/product-56-primary.webp",
-    "images": {
-      "primary": "images/product-56-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 2,
-    "isNew": true
-  },
-  {
-    "id": 57,
-    "name": "Everest SuperVOOC fast charger",
-    "price": 239.99,
-    "description": "It is a wall charger with a European plug. \nThe charger supports SuperVOOC, Fast-Charge, and Turbo-Charge technologies for fast charging. \nIt is designed for use with mobile phones and tablets. \nThe charger has a built-in intelligent control chip that protects against overvoltage, overcurrent, and overheating. \n",
-    "image": "images/product-57-primary.webp",
-    "images": {
-      "primary": "images/product-57-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 1,
-    "isNew": true
-  },
-  {
-    "id": 59,
-    "name": "Samsung 25W PD Adapter with a USB-C to USB-C cable",
-    "price": 219.99,
-    "description": "The charger provides Super Fast Charging with USB-C PD 3.0 PPS at up to a maximum of 25W for compatible devices. \nIt is available in black and white. \nThe adapter uses Power Delivery (PD) to provide an efficient charge and can charge any PD device up to 25W. \nThe charger is designed to be safe from overcurrent, short circuits, and high temperatures. ",
-    "image": "images/product-59-primary.webp",
-    "images": {
-      "primary": "images/product-59-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 60,
-    "name": " EV-500. It is a super charger",
-    "price": 299.99,
-    "description": "The charger comes with a 1-meter cable.\nThe product is a wall charger compatible with mobile phones and tablets.\nThe charger has a USB-A port",
-    "image": "images/product-60-primary.webp",
-    "images": {
-      "primary": "images/product-60-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 61,
-    "name": "Everest High-Speed Charger (model EV-400).",
-    "price": 249.99,
-    "description": "It is a QC3.0 Super Charger with a Type-C cable.\nThe cable length is 1000mm.\nThe charger is capable of 100% Super VOOC fast charging.\nIt features advanced protection for safe charging.",
-    "image": "images/product-61-primary.webp",
-    "images": {
-      "primary": "images/product-61-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 62,
-    "name": "EV-300 Super VOOC Charger. ",
-    "price": 239.99,
-    "description": "t is a wall charger with a Type-C port.\nThe package mentions مwhich translates to \"High-quality product\" in Arabic.\nIt supports fast charging technologies like Power Delivery (PD) and Quick Charge (QC).\nThe charger has dual ports, allowing you to charge two devices at once.\nIt is a compact and portable charger, making it suitable for travel.",
-    "image": "images/product-62-primary.webp",
-    "images": {
-      "primary": "images/product-62-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 63,
-    "name": "V-600 Dual USB Charger with a micro USB cable. ",
-    "price": 159.99,
-    "description": "Product Name: Everest EV-600 Dual USB Charger\nFeatures: Dotted design, dual USB ports, includes a micro-USB cable.\nFunctionality: Wall charger for charging two devices simultaneously.",
-    "image": "images/product-63-primary.webp",
-    "images": {
-      "primary": "images/product-63-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 68,
-    "name": " Hi-Class VOOC Super Fast Charger",
-    "price": 219.99,
-    "description": "OOC (Voltage Open Loop Multi-step Constant-Current Charging) is a fast-charging technology developed by OPPO. \nIt is compatible with various smartphones, including OPPO, Realme, and OnePlus. \nThe charger has a 30W output and supports fast-charging protocols like Super VOOC, SuperDart, Warp Charge, and Dash Charge. ",
-    "image": "images/product-68-primary.webp",
-    "images": {
-      "primary": "images/product-68-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 69,
-    "name": " Hi-Class brand wall charger with a Type-C cable. ",
-    "price": 179.99,
-    "description": "Brand: Hi-Class\nProduct Type: Wall Charger with Type-C cable\nFeatures: The packaging indicates \"Multiple Protection\" and \"3.1A\" output, suggesting it is a fast charger.\nAvailability: Similar Hi-Class products are available from various online retailers",
-    "image": "images/product-69-primary.webp",
-    "images": {
-      "primary": "images/product-69-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 70,
-    "name": "Hi-Class Dual USB Charger.",
-    "price": 119.99,
-    "description": "It is a wall charger with two USB ports.\nThe charger has an output of 2.1A.\nThe package includes a 1000mm (1-meter) Type-C charging cable.\nThe model number is Hi-201.",
-    "image": "images/product-70-primary.webp",
-    "images": {
-      "primary": "images/product-70-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 3,
-    "isNew": true
-  },
-  {
-    "id": 110,
-    "name": " Voltix USB Super Fast Charge wall charger and a USB-A to Micro-USB cable set. ",
-    "price": 149.99,
-    "description": "Brand: Voltix\nModel: VI-112\nFeatures: The cable is engineered for durability and fast charging, providing a stable output with minimal heat.\nContents: The package includes a white wall adapter and a white USB-A to Micro-USB cable.\nAvailability: Similar Voltix products are available from online retailers in the Middle East.",
-    "image": "images/product-110-primary.webp",
-    "images": {
-      "primary": "images/product-110-primary.webp",
-      "gallery": []
-    },
-    "category": "Chargers",
-    "discount": false,
-    "discountedPrice": 0,
-    "stock": 10,
     "isNew": true
   }
 ]
