@@ -2030,5 +2030,69 @@
     "discountedPrice": 0.00,
     "stock": 3,
     "isNew": true
+  },
+  {
+    "id": 134,
+    "name": "X-FAST dual port travel chargers",
+    "price": 150.00,
+    "description": "Model: X-056\nOutput: 2.4A\nFeatures: Dual port travel charger\nMaterial (cable): TPE",
+    "image": "images/product-134-primary.webp",
+    "images": {
+      "primary": "images/product-134-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 4,
+    "isNew": true
+  },
+  {
+    "id": 135,
+    "name": "X-Fast by NFD fast chargers and data cables.",
+    "price": 150.00,
+    "description": "They feature Quick Charge 3.0 (QC3.0) technology, capable of delivering up to 50% charge in approximately 30 minutes for compatible devices. \nThe chargers have a 5.1A output. \nBoth Micro-USB and Type-C data cables are available. \nThe wholesale prices listed are 80 EGP for the Micro-USB cable set and 85 EGP for the Type-C cable set.\n",
+    "image": "images/product-135-primary.webp",
+    "images": {
+      "primary": "images/product-135-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 136,
+    "name": " X-Fast dual-USB travel chargers by NFD, available in Micro-USB and Type-C cable variants. ",
+    "price": 150.00,
+    "description": "Model: X-054\nOutput: 2.4A\nPorts: 2 USB ports\nPrice: 70 EGP for Micro-USB, 75 EGP for Type-C\nCompatibility: The chargers are marketed alongside the OnePlus brand, which is known for its fast-charging technology",
+    "image": "images/product-136-primary.webp",
+    "images": {
+      "primary": "images/product-136-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 137,
+    "name": "X-Fast 20W chargers and cables by NFD, available in micro-USB and Type-C variants. ",
+    "price": 170.00,
+    "description": "Brand: X-Fast by NFD\nPower Output: 20W, with QC 3.0 Quick Charge technology.\nCable Types: Micro-USB and Type-C.",
+    "image": "images/product-137-primary.webp",
+    "images": {
+      "primary": "images/product-137-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
   }
 ]
