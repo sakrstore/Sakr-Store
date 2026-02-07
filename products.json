@@ -1,24 +1,5 @@
 [
   {
-    "id": 2,
-    "name": "R50i Semi Original",
-    "price": 599.99,
-    "description": "ROVSKI New A.n.k.e.r Soundcore R50i True Wireless Earbuds, 10mm Driver, AI-Enhanced Calls via 2 Built-In Microphone, 22 Presets EQS, 10H Playtime, Customize Controls, IPX5 Waterproof, ",
-    "image": "images/product-2-primary.webp",
-    "images": {
-      "primary": "images/product-2-primary.webp",
-      "gallery": [
-        "images/product-2-gallery-0.webp",
-        "images/product-2-gallery-1.webp"
-      ]
-    },
-    "category": "Airpods",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 10,
-    "isNew": true
-  },
-  {
     "id": 3,
     "name": "START TWS01F ",
     "price": 599.99,
@@ -2178,6 +2159,22 @@
     "image": "images/product-144-primary.webp",
     "images": {
       "primary": "images/product-144-primary.webp",
+      "gallery": []
+    },
+    "category": "Airpods",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 145,
+    "name": "R50i Semi Original",
+    "price": 599.99,
+    "description": "ROVSKI New A.n.k.e.r Soundcore R50i True Wireless Earbuds, 10mm Driver, AI-Enhanced Calls via 2 Built-In Microphone, 22 Presets EQS, 10H Playtime, Customize Controls, IPX5 Waterproof, ",
+    "image": "images/product-145-primary.webp",
+    "images": {
+      "primary": "images/product-145-primary.webp",
       "gallery": []
     },
     "category": "Airpods",
