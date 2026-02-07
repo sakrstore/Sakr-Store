@@ -2094,5 +2094,21 @@
     "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
+  },
+  {
+    "id": 138,
+    "name": "START\" brand wall chargers. Key features include",
+    "price": 140.00,
+    "description": "Brand: START and One Plus \nPower Output: 12W and 30W models are shown \nFeatures: Intelligent indicator light, fast charging capabilities, and built-in safety protections \nConnectivity: Available in Micro-USB and Type-C variants",
+    "image": "images/product-138-primary.webp",
+    "images": {
+      "primary": "images/product-138-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
   }
 ]
