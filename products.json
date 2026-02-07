@@ -1708,7 +1708,7 @@
   {
     "id": 113,
     "name": "Samsung 45W PD Chargers",
-    "price": 449.99,
+    "price": 280.00,
     "description": "Key Features: Delivers up to 45W output using Power Delivery (PD) 3.0 technology. \nCompatibility: Features a USB-C port and is designed to charge a wide range of Samsung Galaxy devices, from earbuds to tablets, at optimal speeds. \nCable: Includes an extra-long 1.8m Type-C to Type-C cable that supports a high current of 5A. \nSafety: Built with advanced safety protections against hazards like overcurrent, short circuits, and temperature fluctuations. ",
     "image": "images/product-113-primary.webp",
     "images": {
@@ -1885,6 +1885,150 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 125,
+    "name": "X-FAST 33W/35W Mi Turbo Chargers",
+    "price": 200.00,
+    "description": "The chargers are advertised as \"X-FAST\" and \"MI TURBO CHARGER\" on the packaging.\nThe power output is specified as 33W or 35W.\nThey feature quick charge technology for fast charging.\nThe product is a wall charger adapter designed to work with Mi (Xiaomi) devices.",
+    "image": "images/product-125-primary.webp",
+    "images": {
+      "primary": "images/product-125-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 126,
+    "name": "START' Dual output port Chargers",
+    "price": 200.00,
+    "description": "Technology: SUPER VOOC, supporting 99% of devices.\nOutput: 3A current output.\nPorts: Dual output ports.\nBrand: SakrStore 'START' brand.",
+    "image": "images/product-126-primary.webp",
+    "images": {
+      "primary": "images/product-126-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 127,
+    "name": "Oppo 80W SuperVOOC power",
+    "price": 200.00,
+    "description": "\nIt provides up to 80W charging power.\nIt utilizes Gallium Nitride (GaN) technology for efficient charging.\nIt is specifically designed for Oppo devices and is also compatible with OnePlus devices.\nIt supports SuperVOOC fast charging technology",
+    "image": "images/product-127-primary.webp",
+    "images": {
+      "primary": "images/product-127-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 128,
+    "name": "Y-74 fast charger. ",
+    "price": 50.00,
+    "description": "It is an \"Original\" product.\nIt features a 2A output.\nIt has an EU standard plug.\nIt includes a USB-A port and a charging cable.\nIt is designed for charging smartphones and tablets.",
+    "image": "images/product-128-primary.webp",
+    "images": {
+      "primary": "images/product-128-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 129,
+    "name": "Vizo Type-C data cable",
+    "price": 120.00,
+    "description": "Supports Vooc 4 Quick Charge technology.\nFeatures a rotary plug design.\nOutput is rated at 3.4A.\nDesigned for both charging and data transfer.",
+    "image": "images/product-129-primary.webp",
+    "images": {
+      "primary": "images/product-129-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 130,
+    "name": " Samsung 25W USB-C Power ",
+    "price": 180.00,
+    "description": "Provides up to 25W of efficient, Super Fast Charging for compatible devices.\nUtilizes Power Delivery (PD) technology for optimal charging.\nFeatures a USB-C port.\nInput power range of 100-240V.",
+    "image": "images/product-130-primary.webp",
+    "images": {
+      "primary": "images/product-130-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 131,
+    "name": " original Oppo 65W SuperVOOC chargers",
+    "price": 180.00,
+    "description": "The charger provides ultra-fast charging speeds of 65W. \nIt uses Oppo's proprietary VOOC flash charging technology, designed for fast charging without overheating. \nThe technology is compatible with VOOC-supported phones and includes temperature control and safety features. \nEach package includes a wall adapter and a Type-C cable. ",
+    "image": "images/product-131-primary.webp",
+    "images": {
+      "primary": "images/product-131-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 132,
+    "name": "Oppo 80W SuperVOOC charger. ",
+    "price": 200.00,
+    "description": "It provides up to 80W charging power.\nIt features GaN (Gallium Nitride) technology, which allows for a smaller, more efficient charger design.\nIt is compatible with devices that support SuperVOOC fast charging.",
+    "image": "images/product-132-primary.webp",
+    "images": {
+      "primary": "images/product-132-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 5,
+    "isNew": true
+  },
+  {
+    "id": 133,
+    "name": " 45W X-Fast wall charger by NFD, featuring both USB-C and USB-A ports. ",
+    "price": 260.00,
+    "description": "It supports Power Delivery (PD), Qualcomm Quick Charge 3.0 (QC3.0), and Super VOOC fast charging technologies. \nThe charger has a maximum power output of 45W. \nIt is a dual-port adapter, allowing for simultaneous charging of two devices. \nThe product is compatible with a wide range of smartphones and USB-powered devices. \n",
+    "image": "images/product-133-primary.webp",
+    "images": {
+      "primary": "images/product-133-primary.webp",
+      "gallery": []
+    },
+    "category": "Chargers",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 3,
     "isNew": true
   }
 ]
