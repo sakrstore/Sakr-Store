@@ -625,70 +625,6 @@
     "isNew": false
   },
   {
-    "id": 44,
-    "name": "X-FAST USB-C to C 35W Power Adapter",
-    "price": 169.99,
-    "description": "Model: X-003\nPower: 35W\nPorts: It has a USB-C port and is designed for fast charging. \nCompatibility: The adapter is compatible with a wide range of devices, including iPhones, iPads, and other USB-powered devices",
-    "image": "images/product-44-primary.webp",
-    "images": {
-      "primary": "images/product-44-primary.webp",
-      "gallery": []
-    },
-    "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 5,
-    "isNew": false
-  },
-  {
-    "id": 46,
-    "name": "STEEL 65W fast charger adapter",
-    "price": 199.99,
-    "description": "Power: It has a maximum output of 65W.\nTechnology: It utilizes GaN technology, which allows for a smaller, more efficient charger. \nCompatibility: It is compatible with various devices, including laptops, smartphones, and tablets from brands like Apple, Samsung, and others. ",
-    "image": "images/product-46-primary.webp",
-    "images": {
-      "primary": "images/product-46-primary.webp",
-      "gallery": []
-    },
-    "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 5,
-    "isNew": false
-  },
-  {
-    "id": 48,
-    "name": "Samsung 25W PD (Power Delivery) USB-C adapter",
-    "price": 349.99,
-    "description": "This wall charger provides Super Fast Charging at up to 25W for compatible devices. \nIt is designed to be used with a USB-C to USB-C charging cable. \nThe charger is available in both black and white. \nIt is designed to be safe from overcurrent, short circuits, and high temperatures",
-    "image": "images/product-48-primary.webp",
-    "images": {
-      "primary": "images/product-48-primary.webp",
-      "gallery": []
-    },
-    "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 5,
-    "isNew": false
-  },
-  {
-    "id": 49,
-    "name": "35W USB-C Power Adapter.",
-    "price": 449.99,
-    "description": "It is a dual USB-C port compact power adapter that allows you to charge two devices at the same time. \nThe adapter is compatible with any USB-C-enabled device, including iPhone, iPad, Apple Watch, AirPods, and MacBook Air. \nThe compact size and folding pins make it easy to pack and store. ",
-    "image": "images/product-49-primary.webp",
-    "images": {
-      "primary": "images/product-49-primary.webp",
-      "gallery": []
-    },
-    "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 5,
-    "isNew": false
-  },
-  {
     "id": 50,
     "name": "35W USB-C Power Adapter, which is marketed for use with the iPhone",
     "price": 474.99,
@@ -701,7 +637,7 @@
     "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 5,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -717,23 +653,7 @@
     "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 2,
-    "isNew": false
-  },
-  {
-    "id": 52,
-    "name": " Everest PD 20W Bright Fast Charger, model EV-200",
-    "price": 399.99,
-    "description": "The product is an Everest PD 20W Bright Fast Charger, model EV-200. \nModel: EV-200\nCharging technology: PD (Power Delivery) 20W fast charging.\nPort type: USB-C.\nManufacturer: Everest.",
-    "image": "images/product-52-primary.webp",
-    "images": {
-      "primary": "images/product-52-primary.webp",
-      "gallery": []
-    },
-    "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 3,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -749,7 +669,7 @@
     "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 2,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -765,24 +685,8 @@
     "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 3,
+    "stock": 0,
     "isNew": false
-  },
-  {
-    "name": "STEEL 65W fast charger adapter (Copy)",
-    "price": 199.99,
-    "description": "Power: It has a maximum output of 65W.\nTechnology: It utilizes GaN technology, which allows for a smaller, more efficient charger. \nCompatibility: It is compatible with various devices, including laptops, smartphones, and tablets from brands like Apple, Samsung, and others. ",
-    "image": "images/product-46-primary.webp",
-    "images": {
-      "primary": "images/product-46-primary.webp",
-      "gallery": []
-    },
-    "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 5,
-    "isNew": false,
-    "id": 64
   },
   {
     "name": " Everest brand Adapter with a power output of 45W.  (Copy)",
@@ -796,7 +700,7 @@
     "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 2,
+    "stock": 0,
     "isNew": false,
     "id": 65
   },
@@ -1318,7 +1222,7 @@
     "category": "Adapter",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 4,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -1531,38 +1435,6 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 9,
-    "isNew": false
-  },
-  {
-    "id": 111,
-    "name": " Samsung 25W PD (Power Delivery) USB-C Adapter. ",
-    "price": 199.99,
-    "description": "This wall charger provides Super Fast Charging with USB-C PD 3.0 PPS at up to a maximum of 25W for compatible devices. \nIt is compact and portable, making it convenient for travel. \nThe charger is available in both black and white colors. \nIt is designed to work with official Samsung Type-C to Type-C charging cables for optimal results. ",
-    "image": "images/product-111-primary.webp",
-    "images": {
-      "primary": "images/product-111-primary.webp",
-      "gallery": []
-    },
-    "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 10,
-    "isNew": false
-  },
-  {
-    "id": 112,
-    "name": "Samsung 45W PD (Power Delivery) adapter ",
-    "price": 399.99,
-    "description": "This wall charger provides Super Fast Charging 2.0 with USB-C PD 3.0 PPS at up to a maximum of 45W for compatible devices. \nIt is designed to charge a wide range of devices, from earbuds to tablets, at optimal speeds. \nThe charger provides protection against hazards such as overcurrent, short circuits, and temperature fluctuations. ",
-    "image": "images/product-112-primary.webp",
-    "images": {
-      "primary": "images/product-112-primary.webp",
-      "gallery": []
-    },
-    "category": "Adapter",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 10,
     "isNew": false
   },
   {
