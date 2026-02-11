@@ -17,7 +17,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 4,
@@ -36,7 +36,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 5,
@@ -55,7 +55,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 12,
@@ -116,7 +116,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 13,
@@ -135,7 +135,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 14,
@@ -154,7 +154,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 16,
@@ -174,7 +174,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 17,
@@ -193,7 +193,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 18,
@@ -212,7 +212,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 19,
@@ -231,7 +231,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 20,
@@ -250,7 +250,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 21,
@@ -270,7 +270,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 22,
@@ -288,7 +288,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 23,
@@ -306,7 +306,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 24,
@@ -326,7 +326,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 25,
@@ -342,7 +342,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 26,
@@ -362,7 +362,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 27,
@@ -382,7 +382,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 4,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 28,
@@ -401,7 +401,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 30,
@@ -420,7 +420,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 6,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 31,
@@ -438,7 +438,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 32,
@@ -456,7 +456,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 33,
@@ -475,7 +475,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 34,
@@ -494,7 +494,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 35,
@@ -510,7 +510,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 36,
@@ -526,7 +526,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 37,
@@ -542,7 +542,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 38,
@@ -558,7 +558,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 39,
@@ -574,7 +574,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 40,
@@ -590,7 +590,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 41,
@@ -606,7 +606,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 43,
@@ -622,7 +622,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 44,
@@ -638,7 +638,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 46,
@@ -654,7 +654,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 48,
@@ -670,7 +670,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 49,
@@ -686,7 +686,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 50,
@@ -702,7 +702,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 51,
@@ -718,7 +718,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 52,
@@ -734,7 +734,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 53,
@@ -750,7 +750,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 58,
@@ -766,7 +766,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "STEEL 65W fast charger adapter (Copy)",
@@ -781,7 +781,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true,
+    "isNew": false,
     "id": 64
   },
   {
@@ -797,7 +797,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 2,
-    "isNew": true,
+    "isNew": false,
     "id": 65
   },
   {
@@ -814,7 +814,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 67,
@@ -830,7 +830,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 71,
@@ -846,7 +846,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 72,
@@ -862,7 +862,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 73,
@@ -878,7 +878,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 74,
@@ -897,7 +897,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 75,
@@ -913,7 +913,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 76,
@@ -929,7 +929,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 77,
@@ -945,7 +945,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 78,
@@ -964,7 +964,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 79,
@@ -984,7 +984,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 80,
@@ -1003,7 +1003,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 81,
@@ -1023,7 +1023,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 82,
@@ -1042,7 +1042,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 83,
@@ -1061,7 +1061,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 84,
@@ -1079,7 +1079,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 85,
@@ -1099,7 +1099,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 86,
@@ -1117,7 +1117,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 87,
@@ -1136,7 +1136,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 88,
@@ -1152,7 +1152,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 89,
@@ -1171,7 +1171,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 90,
@@ -1187,7 +1187,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 0,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 91,
@@ -1203,7 +1203,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 92,
@@ -1221,7 +1221,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 93,
@@ -1239,7 +1239,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 0,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 94,
@@ -1259,7 +1259,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 95,
@@ -1279,7 +1279,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 96,
@@ -1299,7 +1299,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 0,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 97,
@@ -1319,7 +1319,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 4,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 98,
@@ -1337,7 +1337,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 99,
@@ -1353,7 +1353,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 4,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 100,
@@ -1371,7 +1371,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 101,
@@ -1389,7 +1389,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 102,
@@ -1407,7 +1407,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 103,
@@ -1427,7 +1427,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 0,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 104,
@@ -1446,7 +1446,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 105,
@@ -1464,7 +1464,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 20,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 106,
@@ -1483,7 +1483,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 107,
@@ -1499,7 +1499,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 108,
@@ -1515,7 +1515,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 109,
@@ -1531,7 +1531,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 9,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 111,
@@ -1547,7 +1547,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 112,
@@ -1563,7 +1563,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 113,
@@ -1579,7 +1579,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 115,
@@ -1595,7 +1595,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 116,
@@ -1611,7 +1611,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 30,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 117,
@@ -1627,7 +1627,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 20,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 118,
@@ -1643,7 +1643,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 15,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 119,
@@ -1659,7 +1659,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 120,
@@ -1675,7 +1675,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 6,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 121,
@@ -1691,7 +1691,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 122,
@@ -1707,7 +1707,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 15,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 124,
@@ -1725,7 +1725,7 @@
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": 125,
