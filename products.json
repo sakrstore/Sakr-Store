@@ -60,7 +60,7 @@
   {
     "id": 6,
     "name": "Oraimo Airpods OR6",
-    "price": 299.99,
+    "price": 250.00,
     "description": "Color: black\nBrand Name\tGeneric\nColor\tblack\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t10 Ohm\nNoise Control\tNone\nHeadphones Jack\tUSB\nModel Name\tEarbuds OR6\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-6-primary.webp",
     "images": {
@@ -387,7 +387,7 @@
   {
     "id": 28,
     "name": "Langsdom Wireless Earbuds",
-    "price": 559.99,
+    "price": 500.00,
     "description": "\nBrand\tLangsdom\nColour\tWhite\nForm factor\tIn Ear\nImpedance\t16 Ohm\nHeadphone jack\tUSB\nModel name\tDelta\nConnectivity technology\tWireless\nWireless communication technologies\tBluetooth\nIncluded components\tCable, Protective Charging Case\nAge range (description)\tAdult",
     "image": "images/product-28-primary.webp",
     "images": {
@@ -1946,8 +1946,8 @@
       "gallery": []
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1962,8 +1962,8 @@
       "gallery": []
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 239.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1978,8 +1978,8 @@
       "gallery": []
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 299.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -1994,8 +1994,8 @@
       "gallery": []
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 299.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -2014,8 +2014,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 179.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
@@ -2034,8 +2034,8 @@
       ]
     },
     "category": "Airpods",
-    "discount": true,
-    "discountedPrice": 599.99,
+    "discount": false,
+    "discountedPrice": 0.00,
     "stock": 5,
     "isNew": true
   },
