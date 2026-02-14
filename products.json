@@ -16,7 +16,7 @@
     "category": "Airpods",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 10,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -35,7 +35,7 @@
     "category": "Airpods",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 10,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -54,13 +54,13 @@
     "category": "Airpods",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 10,
+    "stock": 0,
     "isNew": false
   },
   {
     "id": 6,
     "name": "Oraimo Airpods OR6",
-    "price": 250.00,
+    "price": 249.99,
     "description": "Color: black\nBrand Name\tGeneric\nColor\tblack\nHeadphones Ear Placement\tOver Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t10 Ohm\nNoise Control\tNone\nHeadphones Jack\tUSB\nModel Name\tEarbuds OR6\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-6-primary.webp",
     "images": {
@@ -74,7 +74,7 @@
     "category": "Airpods",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 10,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -94,7 +94,7 @@
     "category": "Airpods",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 10,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -115,7 +115,7 @@
     "category": "Airpods",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 10,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -134,7 +134,7 @@
     "category": "Airpods",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 10,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -153,7 +153,7 @@
     "category": "Airpods",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 10,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -387,7 +387,7 @@
   {
     "id": 28,
     "name": "Langsdom Wireless Earbuds",
-    "price": 500.00,
+    "price": 499.99,
     "description": "\nBrand\tLangsdom\nColour\tWhite\nForm factor\tIn Ear\nImpedance\t16 Ohm\nHeadphone jack\tUSB\nModel name\tDelta\nConnectivity technology\tWireless\nWireless communication technologies\tBluetooth\nIncluded components\tCable, Protective Charging Case\nAge range (description)\tAdult",
     "image": "images/product-28-primary.webp",
     "images": {
@@ -400,7 +400,7 @@
     "category": "Airpods",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 5,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -1922,7 +1922,7 @@
   {
     "id": 145,
     "name": "R50i Semi Original",
-    "price": 599.99,
+    "price": 379.99,
     "description": "ROVSKI New A.n.k.e.r Soundcore R50i True Wireless Earbuds, 10mm Driver, AI-Enhanced Calls via 2 Built-In Microphone, 22 Presets EQS, 10H Playtime, Customize Controls, IPX5 Waterproof, ",
     "image": "images/product-145-primary.webp",
     "images": {
@@ -1938,7 +1938,7 @@
   {
     "id": 146,
     "name": "Air Pods 3 Semi original",
-    "price": 350.00,
+    "price": 299.99,
     "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tTrue Wireless\nImpedance\t32 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nFrequency Response\t20 Hz\nSensitivity\t98 dB\nModel Name\tAir Puds 3\nConnectivity Technology\tBluetooth 5.0, Wireless",
     "image": "images/product-146-primary.webp",
     "images": {
@@ -1954,7 +1954,7 @@
   {
     "id": 147,
     "name": "AirPods Pro  Wireless Semi Original",
-    "price": 400.00,
+    "price": 299.99,
     "description": "\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nImpedance\t140 Ohm\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tAirpods Wireless Earbuds PRO 2nd ge\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth",
     "image": "images/product-147-primary.webp",
     "images": {
@@ -1970,7 +1970,7 @@
   {
     "id": 148,
     "name": "Airpods pro 2 Semi Original",
-    "price": 450.00,
+    "price": 349.99,
     "description": "\nBrand Name\tGeneric\nColor\tBlack or White\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nHeadphones Jack\tNo Jack\nModel Name\tEarbuds 2nd Pro\nConnectivity Technology\tWireless\nWireless Communication Technology\tBluetooth\nAge Range Description\tAdult",
     "image": "images/product-148-primary.webp",
     "images": {
@@ -1986,7 +1986,7 @@
   {
     "id": 149,
     "name": "Ai Pods 4 Semi Original",
-    "price": 490.00,
+    "price": 399.99,
     "description": "Color: White\nBrand Name\tGeneric\nColor\tWhite\nHeadphones Ear Placement\tIn Ear\nHeadphones Form Factor\tIn Ear\nNoise Control\tActive Noise Cancellation (ANC)\nModel Name\tMulti\nConnectivity Technology\tBluetooth, Wireless\nWireless Communication Technology\tBluetooth\nIncluded Components\tCable, User Manual, Wireless Charging Case\nSpecific Uses For Product\tMusic, Phone Calling, Exercising, Commuting",
     "image": "images/product-149-primary.webp",
     "images": {
@@ -2002,7 +2002,7 @@
   {
     "id": 150,
     "name": "Guggu Ultrapods Max TWS Wireless Earbuds",
-    "price": 260.00,
+    "price": 189.99,
     "description": "Features a clear, digital LED display to monitor battery levels.\nUtilizes Bluetooth 5.3 technology for seamless wireless connectivity.\nOffers high-fidelity audio for deep bass and clear treble.\nEquipped with intuitive touch controls for managing music and calls.",
     "image": "images/product-150-primary.webp",
     "images": {
@@ -2022,7 +2022,7 @@
   {
     "id": 151,
     "name": "Oraimo FreePods Lite OEB-E106DC",
-    "price": 850.00,
+    "price": 649.99,
     "description": "Clear stereo sound with high quality.\n\nStylish design in black.\n\nComfortable fit with secure wear.\n\nPerfect for music and calls in daily use.\n\nGood battery life for longer use without frequent charging.\nSKU: OR944CA3ANA2PNAFAMZ\nModel: FreePods Lite OEB-E106DC\nColor: Black",
     "image": "images/product-151-primary.webp",
     "images": {
@@ -2042,7 +2042,7 @@
   {
     "id": 152,
     "name": "Samsung 25W USB-C Power Delivery (PD)",
-    "price": 150.00,
+    "price": 149.99,
     "description": "Fast Charging: Delivers up to 25W of super-fast charging for compatible devices.\nTechnology: Uses USB Power Delivery (PD) technology for efficient charging.\nCompatibility: Designed for Samsung Galaxy devices, but can charge any PD-compatible device up to 25W.\nDesign: Features a compact design with a reversible USB-C connector",
     "image": "images/product-152-primary.webp",
     "images": {
@@ -2058,7 +2058,7 @@
   {
     "id": 153,
     "name": "25W USB-C power adapter ",
-    "price": 110.00,
+    "price": 109.99,
     "description": "Type: Dual USB-C Port Charger (Wall Adapter).\nPower Output: 25 Watts.",
     "image": "images/product-153-primary.webp",
     "images": {
@@ -2074,7 +2074,7 @@
   {
     "id": 154,
     "name": "Samsung 45W Power Delivery (PD) USB-C Adapter",
-    "price": 170.00,
+    "price": 169.99,
     "description": "Charging Capability: Supports Super Fast Charging 2.0 up to 45W. \nCompatibility: Designed for Samsung Galaxy devices and other USB-C compatible devices like tablets and earphones. \nIncluded Accessory: Often comes with a 1.8-meter USB-C to USB-C cable. ",
     "image": "images/product-154-primary.webp",
     "images": {
@@ -2090,7 +2090,7 @@
   {
     "id": 155,
     "name": "START ST-106 25W PD ",
-    "price": 225.00,
+    "price": 224.99,
     "description": "Features a Type-C input for fast charging.\nProvides 25W power delivery for efficient charging speeds.\nDesigned to be compact for easy portability.",
     "image": "images/product-155-primary.webp",
     "images": {
@@ -2106,7 +2106,7 @@
   {
     "id": 156,
     "name": "Start brand super fast",
-    "price": 190.00,
+    "price": 189.99,
     "description": "The product supports high-speed SuperVOOC charging technology. \nSome models provide 45W Power Delivery (PD) through Type-C ports. \nThese chargers are designed to be heat-resistant and feature a built-in LED indicator. ",
     "image": "images/product-156-primary.webp",
     "images": {
@@ -2122,7 +2122,7 @@
   {
     "id": 157,
     "name": "DADU 20W GaN PD fast ",
-    "price": 450.00,
+    "price": 449.99,
     "description": "Technology: Features USB-C Power Delivery (PD) and Gallium Nitride (GaN) technology for efficient, fast charging. \nSpecifications: Offers a maximum output power of 20 watts. \nSafety: Includes protection against overcharge and overheating. ",
     "image": "images/product-157-primary.webp",
     "images": {
@@ -2138,7 +2138,7 @@
   {
     "id": 158,
     "name": " Dadu PD Mini 20W",
-    "price": 375.00,
+    "price": 374.99,
     "description": "Power Output: 20 Watts.\nTechnology: GaN (Gallium Nitride) for efficient, compact charging.\nCompatibility: Designed for Type-C connections",
     "image": "images/product-158-primary.webp",
     "images": {
@@ -2154,7 +2154,7 @@
   {
     "id": 159,
     "name": "35W Dual USB-C Port Power Adapter. ",
-    "price": 250.00,
+    "price": 249.99,
     "description": "Specifications: 35W total power output with two USB-C ports for charging multiple devices simultaneously. \nFeatures: Enables rapid charging compared to standard chargers. \nCompatibility: Suitable for charging various devices, including iPhones, iPads, and MacBooks. \nSafety: Designed to meet safety standards for reliable charging. ",
     "image": "images/product-159-primary.webp",
     "images": {
@@ -2170,7 +2170,7 @@
   {
     "id": 160,
     "name": "20W USB-C wall charger adapter",
-    "price": 120.00,
+    "price": 119.99,
     "description": "Type: Mobile charger with a Type-C port.\nPower: Supports 20W fast charging",
     "image": "images/product-160-primary.webp",
     "images": {
@@ -2186,7 +2186,7 @@
   {
     "id": 161,
     "name": "Apple 20W USB-C Power Adapter",
-    "price": 140.00,
+    "price": 139.99,
     "description": "Safety: Equipped with built-in safety features including temperature control and current regulation to protect connected devices. ",
     "image": "images/product-161-primary.webp",
     "images": {
@@ -2202,7 +2202,7 @@
   {
     "id": 162,
     "name": "25W USB-C power adapter",
-    "price": 100.00,
+    "price": 99.99,
     "description": "Brand/Type: USB-C Power Adapter, 25W.\n",
     "image": "images/product-162-primary.webp",
     "images": {
@@ -2218,7 +2218,7 @@
   {
     "id": 163,
     "name": "oyroom L-QP303 30W Mini Intelligent Dual-Port Fast",
-    "price": 550.00,
+    "price": 549.99,
     "description": "echnology: Supports Power Delivery (PD) and Quick Charge 3.0 (QC 3.0) protocols.\nPower Output: Maximum combined output of 30 watts.\nDesign: Compact \"mini\" size with dual ports for simultaneous charging.\nSafety: Equipped with intelligent chips to protect against over-voltage, over-current, and overheating.\n",
     "image": "images/product-163-primary.webp",
     "images": {
@@ -2234,7 +2234,7 @@
   {
     "id": 164,
     "name": "Apple 20W USB-C Power Adapter. ",
-    "price": 185.00,
+    "price": 184.99,
     "description": "It provides fast, efficient charging for mobiles and tablets. \nThe adapter supports 20-watt power output. \nIt features safety mechanisms like temperature control and current regulation. \nThe compact design makes it suitable for use at home or in the office",
     "image": "images/product-164-primary.webp",
     "images": {
@@ -2250,7 +2250,7 @@
   {
     "id": 165,
     "name": "65W Super Fast VOOC Charger branded by Steel.",
-    "price": 355.00,
+    "price": 354.99,
     "description": "t supports Super Fast VOOC technology for rapid charging.\nThe package includes a wall adapter and a cable.\nThe product is marketed with a unique warranty policy offering two replacements for any defective part.",
     "image": "images/product-165-primary.webp",
     "images": {
@@ -2266,7 +2266,7 @@
   {
     "id": 166,
     "name": " 20-watt power adapter designed for charging iPhones. ",
-    "price": 95.00,
+    "price": 94.99,
     "description": "Specifications: 20W power output for fast charging.\nCompatibility: Suitable for USB-C enabled devices, specifically iPhones and iPads.\nTechnology: Features USB-C Power Delivery (PD) for efficient charging.",
     "image": "images/product-166-primary.webp",
     "images": {
