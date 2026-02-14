@@ -1002,7 +1002,7 @@
     "category": "Camera Accessories",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 5,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -1020,7 +1020,7 @@
     "category": "Camera Accessories",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 5,
+    "stock": 0,
     "isNew": false
   },
   {
@@ -1168,7 +1168,7 @@
   {
     "id": 95,
     "name": "13-inch LED Ring Light, model M-330. ",
-    "price": 349.99,
+    "price": 159.99,
     "description": "Provides soft, even, and shadow-free illumination, ideal for selfies, live streaming, and makeup tutorials. \nFeatures three color temperatures (cool, warm, and natural) and adjustable brightness levels. \nDesigned to enhance facial features, soften skin, and minimize imperfections. \nOften comes with a tripod stand and a flexible phone holder for versatile use. \nThe price can be around LKR 3,990.00 in some markets. ",
     "image": "images/product-95-primary.webp",
     "images": {
@@ -1246,7 +1246,7 @@
   {
     "id": 99,
     "name": "ES-30 power banks manufactured by Estart.",
-    "price": 1699.99,
+    "price": 1199.99,
     "description": "Capacity: 30000 mAh\nFast Charging: Supports 22.5W fast charging, compatible with various fast charging protocols like PD and QC3.0.\nPorts: Includes both USB-C and USB-A output ports, as well as a micro-USB input/output port.\nDisplay: Features a smart digital display for real-time power monitoring.",
     "image": "images/product-99-primary.webp",
     "images": {
@@ -1434,7 +1434,7 @@
     "category": "Speaker",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 9,
+    "stock": 0,
     "isNew": false
   },
   {
